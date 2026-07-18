@@ -4,7 +4,7 @@
 HID_USAGE_BUTTON_ID
 --file
 shared-hidusage.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

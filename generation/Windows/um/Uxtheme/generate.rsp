@@ -6,7 +6,7 @@ SetWindowThemeNonClientAttributes
 THEMEAPI_
 --file
 um-Uxtheme.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -22,7 +22,7 @@ GetThemeAnimationTransform=SupportedOSPlatform("windows6.2")
 GetThemeTimingFunction=SupportedOSPlatform("windows6.2")
 OpenThemeDataForDpi=SupportedOSPlatform("windows10.0.15063.0")
 TA_TRANSFORM_FLAG=Flags
---with-librarypath
+--with-library-path
 BeginBufferedAnimation=uxtheme
 BeginBufferedPaint=uxtheme
 BeginPanningFeedback=uxtheme

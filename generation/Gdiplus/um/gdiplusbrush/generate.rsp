@@ -12,7 +12,7 @@ operator delete
 operator delete[]
 --file
 um-gdiplusbrush.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

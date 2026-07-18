@@ -6,7 +6,7 @@ PID_DICTIONARY
 PID_SECURITY
 --file
 um-MsiDefs.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

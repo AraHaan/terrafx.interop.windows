@@ -6,7 +6,7 @@ __MIDL___MIDL_itf_mfreadwrite_0000_0001_0002
 __MIDL___MIDL_itf_mfreadwrite_0000_0005_0001
 --file
 um-mfreadwrite.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -22,7 +22,7 @@ IMFSinkWriterEx=SupportedOSPlatform("windows6.2")
 IMFSourceReaderEx=SupportedOSPlatform("windows6.2")
 MF_SOURCE_READER_CONTROL_FLAG=Flags
 MF_SOURCE_READER_FLAG=Flags
---with-librarypath
+--with-library-path
 MFCreateSinkWriterFromMediaSink=mfreadwrite
 MFCreateSinkWriterFromURL=mfreadwrite
 MFCreateSourceReaderFromByteStream=mfreadwrite

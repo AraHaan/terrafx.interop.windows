@@ -9,7 +9,7 @@ ScreenSaverProc
 ScreenSaverProcW
 --file
 um-ScrnSave.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

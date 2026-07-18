@@ -28,7 +28,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.storage.fileproperties.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -6,7 +6,7 @@ IID_IXmlWriter
 IID_IXmlResolver
 --file
 um-xmllite.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -16,5 +16,5 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/xmllite
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/xmllite.h
---with-librarypath
+--with-library-path
 *=xmllite

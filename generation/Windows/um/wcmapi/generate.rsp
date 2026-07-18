@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-wcmapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -31,7 +31,7 @@ WCM_PROFILE_INFO_LIST=SupportedOSPlatform("windows6.2")
 WCM_PROPERTY=SupportedOSPlatform("windows6.2")
 WCM_TIME_INTERVAL=SupportedOSPlatform("windows6.2")
 WCM_USAGE_DATA=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 WcmFreeMemory=wcmapi
 WcmGetProfileList=wcmapi
 WcmQueryProperty=wcmapi

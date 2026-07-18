@@ -83,7 +83,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SECURITY_ENTERPRISEDATA_ENTERPRISEDATACONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.datatransfer.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

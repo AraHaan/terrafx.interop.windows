@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-windows.ai.machinelearning.native.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

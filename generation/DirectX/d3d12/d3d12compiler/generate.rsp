@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 d3d12-d3d12compiler.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -14,6 +14,6 @@ TerraFX.Interop.DirectX
 ../../../include/d3d12/d3d12compiler.h
 --with-attribute
 D3D12_COMPILER_VALUE_TYPE_FLAGS=Flags
---with-librarypath
+--with-library-path
 D3D12CompilerCreateFactory=d3d12stateobjectcompiler
 D3D12CompilerSerializeVersionedRootSignature=d3d12stateobjectcompiler

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-mssip.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -16,7 +16,7 @@ C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/mssip.h
 CryptSIPGetCaps=SupportedOSPlatform("windows6.2")
 pCryptSIPGetCaps=SupportedOSPlatform("windows6.2")
 SIP_CAP_SET=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 CryptSIPAddProvider=crypt32
 CryptSIPCreateIndirectData=crypt32
 CryptSIPGetCaps=crypt32

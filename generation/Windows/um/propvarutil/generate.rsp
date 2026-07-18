@@ -44,7 +44,7 @@ VariantToInt32
 VariantToUInt32
 --file
 um-propvarutil.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -59,7 +59,7 @@ DRAWPROGRESSFLAGS=Flags
 tagPROPVAR_CHANGE_FLAGS=Flags
 tagPROPVAR_COMPARE_FLAGS=Flags
 tagPSTIME_FLAGS=Flags
---with-librarypath
+--with-library-path
 ClearPropVariantArray=propsys
 ClearVariantArray=propsys
 InitPropVariantFromBooleanVector=propsys

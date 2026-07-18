@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-SyncMgr.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

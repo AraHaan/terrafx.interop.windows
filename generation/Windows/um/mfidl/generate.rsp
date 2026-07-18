@@ -19,7 +19,7 @@ __MIDL___MIDL_itf_mfidl_0000_0029_0001
 __MIDL___MIDL_itf_mfidl_0000_0029_0002
 --file
 um-mfidl.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -123,7 +123,7 @@ MF_VIDEO_PROCESSOR_ALGORITHM_TYPE=SupportedOSPlatform("windows6.3")
 MF_VIDEO_PROCESSOR_MIRROR=SupportedOSPlatform("windows6.2")
 MF_VIDEO_PROCESSOR_ROTATION=SupportedOSPlatform("windows6.2")
 SENSORPROFILEID=SupportedOSPlatform("windows10.0.16299.0")
---with-librarypath
+--with-library-path
 CreateNamedPropertyStore=mf
 MFCreate3GPMediaSink=mf
 MFCreateAC3MediaSink=mf
@@ -172,10 +172,10 @@ MFLoadSignedLibrary=mf
 MFRequireProtectedEnvironment=mf
 MFShutdownObject=mf
 MFTranscodeGetAudioOutputAvailableTypes=mf
---with-librarypath
+--with-library-path
 MFCreateExtendedCameraIntrinsics=mfcore
 MFCreateExtendedCameraIntrinsicModel=mfcore
---with-librarypath
+--with-library-path
 CreatePropertyStore=mfplat
 MFCreateContentDecryptorContext=mfplat
 MFCreateContentProtectionDevice=mfplat
@@ -194,9 +194,9 @@ MFDeserializePresentationDescriptor=mfplat
 MFGetSystemTime=mfplat
 MFIsContentProtectionDeviceSupported=mfplat
 MFSerializePresentationDescriptor=mfplat
---with-librarypath
+--with-library-path
 MFCreateAVIMediaSink=mfsrcsnk
---with-librarypath
+--with-library-path
 MFCreateCameraControlMonitor=mfsensorgroup
 MFCreateCameraOcclusionStateMonitor=mfsensorgroup
 MFCreateRelativePanelWatcher=mfsensorgroup

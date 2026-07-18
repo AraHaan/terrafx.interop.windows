@@ -71,7 +71,7 @@ STATUS_WAIT_0
 __NTSTATUS_FROM_WIN32
 --file
 shared-ntstatus.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

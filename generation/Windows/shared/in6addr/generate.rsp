@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 shared-in6addr.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

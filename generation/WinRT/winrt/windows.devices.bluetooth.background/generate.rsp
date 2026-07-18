@@ -30,7 +30,7 @@ WINDOWS_NETWORKING_SOCKETS_CONTROLCHANNELTRIGGERCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.bluetooth.background.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

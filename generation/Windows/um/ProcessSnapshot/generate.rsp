@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-ProcessSnapshot.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -49,7 +49,7 @@ PSS_VA_CLONE_INFORMATION=SupportedOSPlatform("windows6.3")
 PSS_VA_SPACE_ENTRY=SupportedOSPlatform("windows6.3")
 PSS_VA_SPACE_INFORMATION=SupportedOSPlatform("windows6.3")
 PSS_WALK_INFORMATION_CLASS=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 PssCaptureSnapshot=kernel32
 PssDuplicateSnapshot=kernel32
 PssFreeSnapshot=kernel32

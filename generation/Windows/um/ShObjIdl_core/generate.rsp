@@ -80,7 +80,7 @@ SHRemoveFolderPathFromLibrary
 SHSaveLibraryInFolderPath
 --file
 um-ShObjIdl_core.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -161,7 +161,7 @@ THUMBBUTTONFLAGS=Flags
 THUMBBUTTONMASK=Flags
 TRANSFER_ADVISE_STATE=Flags
 TRANSFER_SOURCE_FLAGS=Flags
---with-librarypath
+--with-library-path
 GetCurrentProcessExplicitAppUserModelID=shell32
 SetCurrentProcessExplicitAppUserModelID=shell32
 SHAssocEnumHandlers=shell32

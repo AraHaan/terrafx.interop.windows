@@ -15,7 +15,7 @@ operator=
 operator==
 --file
 um-gdiplustypes.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

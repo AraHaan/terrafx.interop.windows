@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-d2d1effectauthor_1.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

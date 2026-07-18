@@ -5,7 +5,7 @@ Ro.detail._Locator<Fn>
 Ro.Locator<Fn>(const Fn &):Ro.detail._Locator<Fn>
 --file
 winrt-roparameterizediid.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -15,10 +15,10 @@ TerraFX.Interop.WinRT
 ../../../../tests/Interop/Windows/WinRT/winrt/roparameterizediid
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/winrt/roparameterizediid.h
---with-librarypath
+--with-library-path
 RoFreeParameterizedTypeExtra=combase
 RoParameterizedTypeExtraGetTypeSignature=combase
---with-librarypath
+--with-library-path
 RoGetParameterizedTypeInstanceIID=api-ms-win-core-winrt-roparameterizediid-l1-1-0
 --with-attribute
 RoFreeParameterizedTypeExtra=SupportedOSPlatform("windows6.2")

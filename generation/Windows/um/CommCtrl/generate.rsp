@@ -437,7 +437,7 @@ TVI_ROOT
 TVI_SORT
 --file
 um-CommCtrl.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -465,7 +465,7 @@ Edit_SetCaretIndex=SupportedOSPlatform("windows10.0.17763.0")
 Edit_SetEndOfLine=SupportedOSPlatform("windows10.0.17763.0")
 Edit_SetExtendedStyle=SupportedOSPlatform("windows10.0.17763.0")
 Edit_SetZoom=SupportedOSPlatform("windows10.0.17763.0")
---with-librarypath
+--with-library-path
 CreateMappedBitmap=comctl32
 CreateStatusWindow=comctl32
 CreateStatusWindowA=comctl32

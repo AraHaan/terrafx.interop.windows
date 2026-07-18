@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-gdiplusimagecodec.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

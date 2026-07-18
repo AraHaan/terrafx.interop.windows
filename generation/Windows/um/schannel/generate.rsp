@@ -5,7 +5,7 @@ SslGenerateKeyPair(PSSL_CREDENTIAL_CERTIFICATE, PSTR, PSTR, DWORD):BOOL
 SslGetDefaultIssuers(PBYTE, DWORD *):BOOL
 --file
 um-schannel.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -33,7 +33,7 @@ SecPkgContext_KeyingMaterialW=SupportedOSPlatform("windows10.0")
 SslDeserializeCertificateStore=SupportedOSPlatform("windows10.0.22621.0")
 SslGetServerIdentity=SupportedOSPlatform("windows6.2")
 TLS_PARAMETERS=SupportedOSPlatform("windows10.0.17763.0")
---with-librarypath
+--with-library-path
 SslCrackCertificate=schannel
 SslDeserializeCertificateStore=schannel
 SslEmptyCache=schannel

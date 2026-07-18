@@ -38,7 +38,7 @@ operator==(const D3D11_RECT &, const D3D11_RECT &):bool
 operator==(const D3D11_VIEWPORT &, const D3D11_VIEWPORT &):bool
 --file
 um-d3d11.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -169,7 +169,7 @@ ID3D11VideoProcessor=SupportedOSPlatform("windows6.2")
 ID3D11VideoProcessorEnumerator=SupportedOSPlatform("windows6.2")
 ID3D11VideoProcessorInputView=SupportedOSPlatform("windows6.2")
 ID3D11VideoProcessorOutputView=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 D3D11CalcSubresource=d3d11
 D3D11CreateDevice=d3d11
 D3D11CreateDeviceAndSwapChain=d3d11

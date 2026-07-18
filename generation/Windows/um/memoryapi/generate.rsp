@@ -8,7 +8,7 @@ GetNumaNodeMemoryWriteBandwidth
 GetNumaNodeMemoryWriteLatency
 --file
 um-memoryapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -44,7 +44,7 @@ VirtualAllocFromApp=SupportedOSPlatform("windows10.0")
 VirtualProtectFromApp=SupportedOSPlatform("windows10.0")
 WIN32_MEMORY_RANGE_ENTRY=SupportedOSPlatform("windows6.2")
 WIN32_MEMORY_REGION_INFORMATION=SupportedOSPlatform("windows10.0.14393.0")
---with-librarypath
+--with-library-path
 AllocateUserPhysicalPages=kernel32
 AllocateUserPhysicalPagesNuma=kernel32
 CreateFileMappingFromApp=kernel32
@@ -97,11 +97,11 @@ VirtualQuery=kernel32
 VirtualQueryEx=kernel32
 VirtualUnlock=kernel32
 WriteProcessMemory=kernel32
---with-librarypath
+--with-library-path
 MapViewOfFileNuma2=api-ms-win-core-memory-l1-1-5
---with-librarypath
+--with-library-path
 QueryVirtualMemoryInformation=api-ms-win-core-memory-l1-1-4
---with-librarypath
+--with-library-path
 AllocateUserPhysicalPages2=kernelbase
 CreateFileMapping2=kernelbase
 GetMemoryNumaClosestInitiatorNode=kernelbase

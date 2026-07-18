@@ -11,7 +11,7 @@ PIDLIST_ABSOLUTE_UserUnmarshal
 PIDLIST_ABSOLUTE_UserUnmarshal64
 --file
 um-tlogstg.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

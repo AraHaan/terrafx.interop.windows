@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-wslapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/wslapi.h
 --with-attribute
 WSL_DISTRIBUTION_FLAGS=Flags
---with-librarypath
+--with-library-path
 WslConfigureDistribution=api-ms-win-wsl-api-l1-1-0
 WslGetDistributionConfiguration=api-ms-win-wsl-api-l1-1-0
 WslIsDistributionRegistered=api-ms-win-wsl-api-l1-1-0

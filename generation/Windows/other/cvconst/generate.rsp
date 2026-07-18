@@ -4,7 +4,7 @@
 other-cvconst.h
 --include-directory
 C:/Program Files/Microsoft Visual Studio/2022/Preview/DIA SDK/include/
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

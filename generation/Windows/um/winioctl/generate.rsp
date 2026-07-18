@@ -45,7 +45,7 @@ STORAGE_MINIPORT_DESCRIPTOR_V1_SIZE
 SupportsDeviceSharing
 --file
 um-winioctl.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

@@ -4,7 +4,7 @@
 __unaligned
 --file
 um-shtypes.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

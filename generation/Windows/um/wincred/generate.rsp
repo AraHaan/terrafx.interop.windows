@@ -27,7 +27,7 @@ STATUS_PASSWORD_MUST_CHANGE
 STATUS_WRONG_PASSWORD
 --file
 um-wincred.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -37,7 +37,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/wincred
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/wincred.h
---with-librarypath
+--with-library-path
 CredDelete=advapi32
 CredDeleteA=advapi32
 CredDeleteW=advapi32
@@ -85,7 +85,7 @@ CredWriteW=advapi32
 CredWriteDomainCredentials=advapi32
 CredWriteDomainCredentialsA=advapi32
 CredWriteDomainCredentialsW=advapi32
---with-librarypath
+--with-library-path
 CredPackAuthenticationBuffer=credui
 CredPackAuthenticationBufferA=credui
 CredPackAuthenticationBufferW=credui
@@ -109,7 +109,7 @@ CredUIStoreSSOCredW=credui
 CredUnPackAuthenticationBuffer=credui
 CredUnPackAuthenticationBufferA=credui
 CredUnPackAuthenticationBufferW=credui
---with-librarypath
+--with-library-path
 CredProtectEx=sechost
 CredUnprotectEx=sechost
 --with-setlasterror

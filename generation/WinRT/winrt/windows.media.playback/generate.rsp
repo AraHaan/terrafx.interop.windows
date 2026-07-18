@@ -121,7 +121,7 @@ WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 WINDOWS_MEDIA_PROTECTION_PROTECTIONRENEWALCONTRACT_VERSION
 --file
 winrt-windows.media.playback.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

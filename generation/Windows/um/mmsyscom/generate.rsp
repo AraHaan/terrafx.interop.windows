@@ -6,7 +6,7 @@ MAKEFOURCC
 PDRVCALLBACK
 --file
 um-mmsyscom.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

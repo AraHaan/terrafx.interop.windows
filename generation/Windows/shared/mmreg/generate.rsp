@@ -25,7 +25,7 @@ WMAUDIO2_WFX_EXTRA_BYTES
 WMAUDIO3_WFX_EXTRA_BYTES
 --file
 shared-mmreg.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

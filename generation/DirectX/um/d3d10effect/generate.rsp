@@ -4,7 +4,7 @@
 D3D10_BYTES_FROM_BITS
 --file
 um-d3d10effect.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -18,7 +18,7 @@ C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/d3d10effect.h
 ID3D10Effect=51B0CA8B-EC0B-4519-870D-8EE1CB5017C7
 ID3D10EffectPool=9537AB04-3250-412E-8213-FCD2F8677933
 ID3D10StateBlock=0803425A-57F5-4dd6-9465-A87570834A08
---with-librarypath
+--with-library-path
 D3D10CompileEffectFromMemory=d3d10
 D3D10CreateEffectFromMemory=d3d10
 D3D10CreateEffectPoolFromMemory=d3d10

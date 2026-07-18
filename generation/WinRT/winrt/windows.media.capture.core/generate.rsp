@@ -17,7 +17,7 @@ WINDOWS_MEDIA_CAPTURE_CAMERACAPTUREUICONTRACT_VERSION
 WINDOWS_MEDIA_CAPTURE_GAMEBARCONTRACT_VERSION
 --file
 winrt-windows.media.capture.core.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

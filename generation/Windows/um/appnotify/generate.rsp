@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-appnotify.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/appnotify.h
 --with-attribute
 PAPPSTATE_CHANGE_ROUTINE=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 RegisterAppConstrainedChangeNotification=twinapi.appcore.dll
 RegisterAppStateChangeNotification=twinapi.appcore.dll
 UnregisterAppConstrainedChangeNotification=twinapi.appcore.dll

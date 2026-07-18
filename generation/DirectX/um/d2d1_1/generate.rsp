@@ -18,7 +18,7 @@ ID2D1Properties.SetValue<U>(U, const BYTE *, UINT32):HRESULT
 ID2D1Properties.SetValueByName<T>(PCWSTR, const T &):HRESULT
 --file
 um-d2d1_1.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -36,7 +36,7 @@ D2D1_MAP_OPTIONS=Flags
 ID2D1Factory1=SupportedOSPlatform("windows6.2")
 ID2D1GdiMetafile=SupportedOSPlatform("windows6.2")
 ID2D1GdiMetafileSink=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 D2D1ConvertColorSpace=d2d1
 D2D1CreateDevice=d2d1
 D2D1CreateDeviceContext=d2d1

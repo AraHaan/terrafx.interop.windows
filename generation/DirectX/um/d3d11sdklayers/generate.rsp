@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-d3d11sdklayers.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

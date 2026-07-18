@@ -4,7 +4,7 @@
 AccProvInit
 --file
 um-aclapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/aclapi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/aclapi.h
---with-librarypath
+--with-library-path
 SetEntriesInAclA=advapi32
 SetEntriesInAclW=advapi32
 GetExplicitEntriesFromAclA=advapi32

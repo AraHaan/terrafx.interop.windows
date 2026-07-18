@@ -5,7 +5,7 @@ E_NOTFOUND
 InitializeXamlDiagnostic
 --file
 um-xamlOM.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -39,5 +39,5 @@ SourceInfo=SupportedOSPlatform("windows10.0")
 VisualElement=SupportedOSPlatform("windows10.0")
 VisualElementState=SupportedOSPlatform("windows10.0.14393.0")
 VisualMutationType=SupportedOSPlatform("windows10.0")
---with-librarypath
+--with-library-path
 InitializeXamlDiagnosticsEx=windows.ui.xaml.dll

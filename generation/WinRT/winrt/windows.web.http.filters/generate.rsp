@@ -19,7 +19,7 @@ WINDOWS_NETWORKING_SOCKETS_CONTROLCHANNELTRIGGERCONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.web.http.filters.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

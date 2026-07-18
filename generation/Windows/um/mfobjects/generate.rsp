@@ -4,7 +4,7 @@
 __MIDL___MIDL_itf_mfobjects_0000_0012_0001
 --file
 um-mfobjects.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -27,6 +27,6 @@ IMFPluginControl2=SupportedOSPlatform("windows6.2")
 IMFSampleOutputStream=SupportedOSPlatform("windows6.2")
 MF2DBuffer_LockFlags=SupportedOSPlatform("windows6.2")
 MF_PLUGIN_CONTROL_POLICY=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 MFDeserializeAttributesFromStream=mfplat
 MFSerializeAttributesToStream=mfplat

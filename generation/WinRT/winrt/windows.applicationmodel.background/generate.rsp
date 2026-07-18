@@ -160,7 +160,7 @@ WINDOWS_STORAGE_PROVIDER_CLOUDFILESCONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.background.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

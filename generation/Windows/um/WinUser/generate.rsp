@@ -107,7 +107,7 @@ _Inout_grows_updates_bypassable_or_z_
 _In_bypassable_reads_or_z_
 --file
 um-WinUser.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -243,7 +243,7 @@ UnregisterPointerInputTarget=SupportedOSPlatform("windows6.2")
 UnregisterPointerInputTargetEx=SupportedOSPlatform("windows10.0")
 UnregisterSuspendResumeNotification=SupportedOSPlatform("windows6.2")
 USAGE_PROPERTIES=SupportedOSPlatform("windows10.0.17763.0")
---with-librarypath
+--with-library-path
 ActivateKeyboardLayout=user32
 AddClipboardFormatListener=user32
 AdjustWindowRect=user32

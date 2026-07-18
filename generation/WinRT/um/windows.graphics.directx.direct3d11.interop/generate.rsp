@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-windows.graphics.directx.direct3d11.interop.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -12,7 +12,7 @@ TerraFX.Interop.WinRT
 ../../../../tests/Interop/Windows/WinRT/um/windows.graphics.directx.direct3d11.interop
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/windows.graphics.directx.direct3d11.interop.h
---with-librarypath
+--with-library-path
 CreateDirect3D11DeviceFromDXGIDevice=d3d11
 CreateDirect3D11SurfaceFromDXGISurface=d3d11
 interop::CreateDirect3DDevice=d3d11

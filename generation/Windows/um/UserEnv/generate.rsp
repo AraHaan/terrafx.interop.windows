@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-UserEnv.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -19,7 +19,7 @@ DeriveAppContainerSidFromAppContainerName=SupportedOSPlatform("windows6.2")
 DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName=SupportedOSPlatform("windows10.0")
 GetAppContainerFolderPath=SupportedOSPlatform("windows6.2")
 GetAppContainerRegistryLocation=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 CreateAppContainerProfile=userenv
 CreateEnvironmentBlock=userenv
 CreateProfile=userenv

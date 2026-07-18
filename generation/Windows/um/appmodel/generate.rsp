@@ -6,7 +6,7 @@ PACKAGE_INFO
 _PACKAGE_INFO_REFERENCE
 --file
 um-appmodel.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -65,7 +65,7 @@ PACKAGE_VERSION=SupportedOSPlatform("windows6.2")
 ParseApplicationUserModelId=SupportedOSPlatform("windows6.3")
 RemovePackageDependency=SupportedOSPlatform("windows10.0.22000.0")
 TryCreatePackageDependency=SupportedOSPlatform("windows10.0.22000.0")
---with-librarypath
+--with-library-path
 AppPolicyGetClrCompat=api-ms-win-appmodel-runtime-l1-1-2
 AppPolicyGetCreateFileAccess=api-ms-win-appmodel-runtime-l1-1-2
 AppPolicyGetLifecycleManagement=api-ms-win-appmodel-runtime-l1-1-2
@@ -74,7 +74,7 @@ AppPolicyGetProcessTerminationMethod=api-ms-win-appmodel-runtime-l1-1-2
 AppPolicyGetShowDeveloperDiagnostic=api-ms-win-appmodel-runtime-l1-1-2
 AppPolicyGetThreadInitializationType=api-ms-win-appmodel-runtime-l1-1-2
 AppPolicyGetWindowingModel=api-ms-win-appmodel-runtime-l1-1-2
---with-librarypath
+--with-library-path
 ClosePackageInfo=kernel32
 FindPackagesByPackageFamily=kernel32
 FormatApplicationUserModelId=kernel32
@@ -101,7 +101,7 @@ PackageFullNameFromId=kernel32
 PackageIdFromFullName=kernel32
 PackageNameAndPublisherIdFromFamilyName=kernel32
 ParseApplicationUserModelId=kernel32
---with-librarypath
+--with-library-path
 AddPackageDependency2=kernelbase
 AddPackageDependency=kernelbase
 CheckIsMSIXPackage=kernelbase

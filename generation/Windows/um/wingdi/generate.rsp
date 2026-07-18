@@ -27,7 +27,7 @@ PALETTERGB
 RGB
 --file
 um-wingdi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -42,7 +42,7 @@ DISPLAYCONFIG_DESKTOP_IMAGE_INFO=SupportedOSPlatform("windows10.0.17763.0")
 DISPLAYCONFIG_MODE_INFO.__AnonymousRecord_wingdi_L2936_C5.desktopImageInfo=SupportedOSPlatform("windows10.0.17763.0")
 DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION=SupportedOSPlatform("windows10.0.17763.0")
 DISPLAYCONFIG_TARGET_BASE_TYPE=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 AbortDoc=gdi32
 AbortPath=gdi32
 AddFontMemResourceEx=gdi32
@@ -432,11 +432,11 @@ UpdateICMRegKey=gdi32
 UpdateICMRegKeyA=gdi32
 UpdateICMRegKeyW=gdi32
 WidenPath=gdi32
---with-librarypath
+--with-library-path
 AlphaBlend=msimg32
 GradientFill=msimg32
 TransparentBlt=msimg32
---with-librarypath
+--with-library-path
 wglCopyContext=opengl32
 wglCreateContext=opengl32
 wglCreateLayerContext=opengl32

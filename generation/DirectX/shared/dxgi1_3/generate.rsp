@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 shared-dxgi1_3.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -27,6 +27,6 @@ IDXGIOutput2=SupportedOSPlatform("windows6.3")
 IDXGIOutput3=SupportedOSPlatform("windows6.3")
 IDXGISwapChain2=SupportedOSPlatform("windows6.3")
 IDXGISwapChainMedia=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 CreateDXGIFactory2=dxgi
 DXGIGetDebugInterface1=dxgi

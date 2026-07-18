@@ -18,7 +18,7 @@ D3D_SHADER_REQUIRES_TILED_RESOURCES
 D3D_SHADER_REQUIRES_UAVS_AT_EVERY_STAGE
 --file
 d3d12-d3d12shader.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

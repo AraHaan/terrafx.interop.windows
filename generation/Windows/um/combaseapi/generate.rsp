@@ -24,7 +24,7 @@ WINOLEAPI_
 _CRT_INTERNAL_COMBASE_SYMBOL_PREFIX
 --file
 um-combaseapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -46,7 +46,7 @@ CWMO_FLAGS=Flags
 REGCLS=Flags
 RoGetAgileReference=SupportedOSPlatform("windows6.3")
 STDMSHLFLAGS=Flags
---with-librarypath
+--with-library-path
 CLSIDFromProgID=ole32
 CLSIDFromProgIDEx=ole32
 CLSIDFromString=ole32
@@ -127,7 +127,7 @@ RoGetAgileReference=ole32
 StringFromCLSID=ole32
 StringFromGUID2=ole32
 StringFromIID=ole32
---with-librarypath
+--with-library-path
 CoCreateInstanceFromApp=combase
 CoDecodeProxy=combase
 CoFreeUnusedLibrariesEx=combase

@@ -8,7 +8,7 @@ __MIDL___MIDL_itf_strmif_0000_0026_0002
 __MIDL___MIDL_itf_strmif_0000_0122_0001
 --file
 um-strmif.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

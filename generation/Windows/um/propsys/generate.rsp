@@ -4,7 +4,7 @@
 PSSTDAPI_
 --file
 um-propsys.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -22,7 +22,7 @@ PROPDESC_TYPE_FLAGS=Flags
 PROPDESC_VIEW_FLAGS=Flags
 PropVariantToWinRTPropertyValue=SupportedOSPlatform("windows6.2")
 WinRTPropertyValueToPropVariant=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 PropVariantToWinRTPropertyValue=propsys
 PSCoerceToCanonicalValue=propsys
 PSCreateAdapterFromPropertyStore=propsys

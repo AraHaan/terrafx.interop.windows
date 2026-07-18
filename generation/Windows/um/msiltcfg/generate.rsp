@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-msiltcfg.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -12,5 +12,5 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/msiltcfg
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/msiltcfg.h
---with-librarypath
+--with-library-path
 *=msiltcfg

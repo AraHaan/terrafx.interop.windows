@@ -7,7 +7,7 @@ DEFINE_CROSS_PLATFORM_UUIDOF
 DXC_FOURCC
 --file
 um-dxcapi.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -17,5 +17,5 @@ TerraFX.Interop.DirectX
 ../../../../tests/Interop/Windows/DirectX/um/dxcapi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/dxcapi.h
---with-librarypath
+--with-library-path
 *=dxcompiler

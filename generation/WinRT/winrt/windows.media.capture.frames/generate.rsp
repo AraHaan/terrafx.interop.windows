@@ -65,7 +65,7 @@ WINDOWS_MEDIA_DEVICES_CALLCONTROLCONTRACT_VERSION
 WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 --file
 winrt-windows.media.capture.frames.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

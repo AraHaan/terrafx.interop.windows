@@ -4,7 +4,7 @@
 CreateDataAdviseHolder
 --file
 um-ole2.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/ole2
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/ole2.h
---with-librarypath
+--with-library-path
 CreateOleAdviseHolder=ole32
 DoDragDrop=ole32
 IsAccelerator=ole32

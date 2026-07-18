@@ -545,7 +545,7 @@ _nrealloc
 _nstrdup
 --file
 shared-windowsx.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

@@ -4,7 +4,7 @@
 D2D1.ComputeFlatteningTolerance
 --file
 um-d2d1_2helper.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

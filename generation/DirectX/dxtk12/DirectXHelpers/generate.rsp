@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 dxtk12-DirectXHelpers.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

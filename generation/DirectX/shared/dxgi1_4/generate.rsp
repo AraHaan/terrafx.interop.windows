@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 shared-dxgi1_4.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

@@ -4,7 +4,7 @@
 DXCoreCreateAdapterFactory<T>(T **):HRESULT
 --file
 d3d12-dxcore.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -16,5 +16,5 @@ TerraFX.Interop.DirectX
 ../../../include/d3d12/dxcore.h
 --with-attribute
 DXCoreCreateAdapterFactory=SupportedOSPlatform("windows10.0.19041.0")
---with-librarypath
+--with-library-path
 *=dxcore

@@ -4,7 +4,7 @@
 IAgileReference.Resolve<Q>(Q **):HRESULT
 --file
 um-objidlbase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

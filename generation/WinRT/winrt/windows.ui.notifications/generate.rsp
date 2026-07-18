@@ -108,7 +108,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.ui.notifications.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

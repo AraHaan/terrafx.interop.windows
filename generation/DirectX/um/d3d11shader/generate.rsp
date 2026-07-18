@@ -6,7 +6,7 @@ D3D11_SHVER_GET_MINOR
 D3D11_SHVER_GET_TYPE
 --file
 um-d3d11shader.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

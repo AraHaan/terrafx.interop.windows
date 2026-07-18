@@ -30,7 +30,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_NETWORKING_SOCKETS_CONTROLCHANNELTRIGGERCONTRACT_VERSION
 --file
 winrt-windows.devices.bluetooth.rfcomm.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

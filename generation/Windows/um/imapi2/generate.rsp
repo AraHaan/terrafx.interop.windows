@@ -4,7 +4,7 @@
 LIBID_IMAPILib2
 --file
 um-imapi2.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

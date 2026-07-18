@@ -16,7 +16,7 @@ FNFCISTATUS
 FNFCIWRITE
 --file
 um-fci.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -26,7 +26,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/fci
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/fci.h
---with-librarypath
+--with-library-path
 FCIAddFile=cabinet
 FCICreate=cabinet
 FCIDestroy=cabinet

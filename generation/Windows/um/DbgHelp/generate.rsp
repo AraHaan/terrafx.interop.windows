@@ -14,7 +14,7 @@ SymGetSymPrevW
 SymGetSymPrevW64
 --file
 um-DbgHelp.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -30,7 +30,7 @@ SymAddSourceStream=SupportedOSPlatform("windows10.0.19043.0")
 SymAddSourceStreamA=SupportedOSPlatform("windows10.0.19043.0")
 SymMatchString=SupportedOSPlatform("windows10.0.19043.0")
 SymMatchStringA=SupportedOSPlatform("windows10.0.19043.0")
---with-librarypath
+--with-library-path
 DbgHelpCreateUserDump=DbgHelp
 DbgHelpCreateUserDumpW=DbgHelp
 EnumDirTree=DbgHelp

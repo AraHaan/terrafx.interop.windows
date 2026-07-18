@@ -5,7 +5,7 @@ __MIDL___MIDL_itf_dimm_0000_0000_0012
 __MIDL___MIDL_itf_dimm_0000_0000_0014
 --file
 um-Dimm.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

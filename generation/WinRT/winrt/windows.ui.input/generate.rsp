@@ -109,7 +109,7 @@ WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 WINDOWS_UI_CORE_COREWINDOWDIALOGSCONTRACT_VERSION
 --file
 winrt-windows.ui.input.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

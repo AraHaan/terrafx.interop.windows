@@ -16,7 +16,7 @@ HTTP_SET_NULL_ID
 HTTP_SET_VERSION
 --file
 um-http.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -34,7 +34,7 @@ HttpIsFeatureSupported=SupportedOSPlatform("windows10.0.19043.0")
 HttpPrepareUrl=SupportedOSPlatform("windows6.2")
 HttpQueryRequestProperty=SupportedOSPlatform("windows10.0.16299.0")
 HttpUpdateServiceConfiguration=SupportedOSPlatform("windows10.0.15063.0")
---with-librarypath
+--with-library-path
 HttpAddFragmentToCache=httpapi
 HttpAddUrl=httpapi
 HttpAddUrlToUrlGroup=httpapi

@@ -7,7 +7,7 @@ CoFileTimeNow
 StgOpenLayoutDocfile
 --file
 um-objbase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -17,7 +17,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/objbase
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/objbase.h
---with-librarypath
+--with-library-path
 BindMoniker=ole32
 CoAllowSetForegroundWindow=ole32
 CoBuildVersion=ole32

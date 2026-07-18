@@ -18,7 +18,7 @@ ImeUnregisterWord(LPCTSTR, DWORD, LPCTSTR):BOOL
 NotifyIME
 --file
 um-immdev.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -28,7 +28,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/immdev
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/immdev.h
---with-librarypath
+--with-library-path
 ImmAssociateContext=imm32
 ImmAssociateContextEx=imm32
 ImmConfigureIME=imm32

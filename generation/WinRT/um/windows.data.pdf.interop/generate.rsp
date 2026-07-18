@@ -4,7 +4,7 @@
 PdfRenderParams(const D2D_RECT_F &, UINT32, UINT32, const D2D_COLOR_F &, BOOLEAN):PDF_RENDER_PARAMS
 --file
 um-windows.data.pdf.interop.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -19,6 +19,6 @@ IPdfRendererNative=SupportedOSPlatform("windows6.3")
 PdfCreateRenderer=SupportedOSPlatform("windows6.3")
 PdfRenderParams=SupportedOSPlatform("windows6.3")
 PDF_RENDER_PARAMS=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 PdfCreateRenderer=windows.data.pdf.dll
 PdfRenderParams=windows.data.pdf.dll

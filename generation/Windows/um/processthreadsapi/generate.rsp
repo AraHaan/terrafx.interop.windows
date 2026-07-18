@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-processthreadsapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -49,7 +49,7 @@ SetThreadDescription=SupportedOSPlatform("windows10.0.14393.0")
 SetThreadInformation=SupportedOSPlatform("windows6.2")
 SetThreadSelectedCpuSetMasks=SupportedOSPlatform("windows10.0.22000.0")
 SetThreadSelectedCpuSets=SupportedOSPlatform("windows10.0")
---with-librarypath
+--with-library-path
 CreateProcess=kernel32
 CreateProcessA=kernel32
 CreateProcessW=kernel32
@@ -136,14 +136,14 @@ SwitchToThread=kernel32
 TerminateProcess=kernel32
 TerminateThread=kernel32
 UpdateProcThreadAttribute=kernel32
---with-librarypath
+--with-library-path
 CreateProcessAsUser=advapi32
 CreateProcessAsUserA=advapi32
 CreateProcessAsUserW=advapi32
 OpenProcessToken=advapi32
 OpenThreadToken=advapi32
 SetThreadToken=advapi32
---with-librarypath
+--with-library-path
 TlsAlloc=kernelbase
 TlsFree=kernelbase
 TlsGetValue=kernelbase

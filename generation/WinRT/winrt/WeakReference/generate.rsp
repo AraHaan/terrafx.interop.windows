@@ -4,7 +4,7 @@
 IWeakReference.Resolve<T>(T **):HRESULT
 --file
 winrt-WeakReference.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

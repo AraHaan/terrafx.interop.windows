@@ -23,7 +23,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.i2c.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

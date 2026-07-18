@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-synchapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -19,7 +19,7 @@ InitializeSynchronizationBarrier=SupportedOSPlatform("windows6.2")
 WaitOnAddress=SupportedOSPlatform("windows6.2")
 WakeByAddressAll=SupportedOSPlatform("windows6.2")
 WakeByAddressSingle=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 AcquireSRWLockExclusive=kernel32
 AcquireSRWLockShared=kernel32
 CancelWaitableTimer=kernel32
@@ -94,9 +94,9 @@ WaitForSingleObject=kernel32
 WaitForSingleObjectEx=kernel32
 WakeAllConditionVariable=kernel32
 WakeConditionVariable=kernel32
---with-librarypath
+--with-library-path
 SleepEx=kernelbase
---with-librarypath
+--with-library-path
 WaitOnAddress=api-ms-win-core-synch-l1-2-0
 WakeByAddressAll=api-ms-win-core-synch-l1-2-0
 WakeByAddressSingle=api-ms-win-core-synch-l1-2-0

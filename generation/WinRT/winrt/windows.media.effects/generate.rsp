@@ -49,7 +49,7 @@ WINDOWS_MEDIA_CAPTURE_GAMEBARCONTRACT_VERSION
 WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 --file
 winrt-windows.media.effects.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

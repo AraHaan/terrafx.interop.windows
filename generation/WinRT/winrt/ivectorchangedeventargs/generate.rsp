@@ -13,7 +13,7 @@ WINDOWS_PHONE_PHONEINTERNALCONTRACT_VERSION
 WINDOWS_UI_WEBUI_CORE_WEBUICOMMANDBARCONTRACT_VERSION
 --file
 winrt-ivectorchangedeventargs.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

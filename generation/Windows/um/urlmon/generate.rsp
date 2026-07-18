@@ -7,7 +7,7 @@ SetUrlPolicyPermissions
 __MIDL_IInternetZoneManager_0001
 --file
 um-urlmon.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -28,7 +28,7 @@ PUAF=Flags
 PUAFOUT=Flags
 SZM_FLAGS=Flags
 ZAFLAGS=Flags
---with-librarypath
+--with-library-path
 AsyncInstallDistributionUnit=urlmon
 CoGetClassObjectFromURL=urlmon
 CoInternetCombineIUri=urlmon

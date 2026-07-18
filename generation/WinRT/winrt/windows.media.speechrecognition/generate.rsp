@@ -62,7 +62,7 @@ WINDOWS_PHONE_PHONECONTRACT_VERSION
 WINDOWS_PHONE_PHONEINTERNALCONTRACT_VERSION
 --file
 winrt-windows.media.speechrecognition.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -7,7 +7,7 @@ __REQUIRED_RPCNDR_H_VERSION__
 __REQUIRED_RPCSAL_H_VERSION__
 --file
 shared-wtypes.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

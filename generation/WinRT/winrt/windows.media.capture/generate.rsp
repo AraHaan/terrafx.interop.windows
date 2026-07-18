@@ -194,7 +194,7 @@ WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.media.capture.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -5,7 +5,7 @@ XAPOAlloc
 XAPOFree
 --file
 um-xapo.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

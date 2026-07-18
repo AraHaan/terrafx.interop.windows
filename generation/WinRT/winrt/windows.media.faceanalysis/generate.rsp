@@ -20,7 +20,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 --file
 winrt-windows.media.faceanalysis.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

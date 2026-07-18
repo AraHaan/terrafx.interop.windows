@@ -23,7 +23,7 @@ _WSAIORW
 _WSAIOW
 --file
 shared-ws2def.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

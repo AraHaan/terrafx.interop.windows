@@ -69,7 +69,7 @@ WINDOWS_PHONE_PHONEINTERNALCONTRACT_VERSION
 WINDOWS_UI_CORE_COREWINDOWDIALOGSCONTRACT_VERSION
 --file
 winrt-windows.ui.viewmanagement.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

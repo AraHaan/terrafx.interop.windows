@@ -4,7 +4,7 @@
 d3d12-d3d12video.h
 --include-directory
 ../d3d12
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

@@ -30,7 +30,7 @@ _DIBSIZE
 _RAWSIZE
 --file
 um-amvideo.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

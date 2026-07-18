@@ -136,7 +136,7 @@ WINDOWS_MEDIA_CAPTURE_GAMEBARCONTRACT_VERSION
 WINDOWS_MEDIA_DEVICES_CALLCONTROLCONTRACT_VERSION
 --file
 winrt-windows.media.devices.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

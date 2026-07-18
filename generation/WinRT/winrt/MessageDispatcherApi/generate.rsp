@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 winrt-MessageDispatcherApi.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -12,6 +12,6 @@ TerraFX.Interop.WinRT
 ../../../../tests/Interop/Windows/WinRT/winrt/MessageDispatcherApi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/winrt/MessageDispatcherApi.h
---with-librarypath
+--with-library-path
 CoHandlePriorityEventsFromMessagePump=ole32
 CoSetMessageDispatcher=ole32

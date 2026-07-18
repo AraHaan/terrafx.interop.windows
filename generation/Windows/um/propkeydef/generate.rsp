@@ -7,7 +7,7 @@ operator==(const PROPERTYKEY &, const PROPERTYKEY &):int
 operator!=(const PROPERTYKEY &, const PROPERTYKEY &):int
 --file
 um-propkeydef.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

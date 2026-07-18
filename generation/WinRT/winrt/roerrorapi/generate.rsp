@@ -10,7 +10,7 @@ ABI.Windows.Foundation.Diagnostics.TransformError(HRESULT, HRESULT, UINT, PCWSTR
 ABI.Windows.Foundation.Diagnostics.TransformError(HRESULT, HRESULT, HSTRING):BOOL
 --file
 winrt-roerrorapi.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -49,7 +49,7 @@ WinRTOriginateErrorW=SupportedOSPlatform("windows6.2")
 WinRTSetErrorReportingFlags=SupportedOSPlatform("windows6.2")
 WinRTTransformError=SupportedOSPlatform("windows6.2")
 WinRTTransformErrorW=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 GetRestrictedErrorInfo=combase
 IsErrorPropagationEnabled=combase
 RoCaptureErrorContext=combase
@@ -72,8 +72,8 @@ WinRTGetErrorReportingFlags=combase
 WinRTSetErrorReportingFlags=combase
 WinRTTransformError=combase
 WinRTTransformErrorW=combase
---with-librarypath
+--with-library-path
 WinRTOriginateError=runtimeobject
 WinRTOriginateErrorW=runtimeobject
---with-librarypath
+--with-library-path
 RoReportUnhandledError=api-ms-win-core-winrt-error-l1-1-1

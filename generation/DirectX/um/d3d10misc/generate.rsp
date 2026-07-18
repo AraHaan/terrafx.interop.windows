@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-d3d10misc.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -12,7 +12,7 @@ TerraFX.Interop.DirectX
 ../../../../tests/Interop/Windows/DirectX/um/d3d10misc
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/d3d10misc.h
---with-librarypath
+--with-library-path
 D3D10CreateBlob=d3d10
 D3D10CreateDevice=d3d10
 D3D10CreateDeviceAndSwapChain=d3d10

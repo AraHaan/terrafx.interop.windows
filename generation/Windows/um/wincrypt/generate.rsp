@@ -35,7 +35,7 @@ _szPROP_ID
 __CRYPT32WTEXT
 --file
 um-wincrypt.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -65,7 +65,7 @@ PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET=SupportedOSPlatform("windows6.2")
 PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE=SupportedOSPlatform("windows6.2")
 PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE=SupportedOSPlatform("windows6.2")
 SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS=SupportedOSPlatform("windows10.0")
---with-librarypath
+--with-library-path
 CertAddCertificateContextToStore=crypt32
 CertAddCertificateLinkToStore=crypt32
 CertAddCRLContextToStore=crypt32
@@ -293,7 +293,7 @@ PFXExportCertStoreEx=crypt32
 PFXImportCertStore=crypt32
 PFXIsPFXBlob=crypt32
 PFXVerifyPassword=crypt32
---with-librarypath
+--with-library-path
 CryptAcquireContext=advapi32
 CryptAcquireContextA=advapi32
 CryptAcquireContextW=advapi32
@@ -341,7 +341,7 @@ CryptSignHashW=advapi32
 CryptVerifySignature=advapi32
 CryptVerifySignatureA=advapi32
 CryptVerifySignatureW=advapi32
---with-librarypath
+--with-library-path
 CryptCancelAsyncRetrieval=cryptnet
 CryptFlushTimeValidObject=cryptnet
 CryptGetObjectUrl=cryptnet
@@ -351,7 +351,7 @@ CryptRetrieveObjectByUrl=cryptnet
 CryptRetrieveObjectByUrlA=cryptnet
 CryptRetrieveObjectByUrlW=cryptnet
 CryptUninstallCancelRetrieval=cryptnet
---with-librarypath
+--with-library-path
 FindCertsByIssuer=wintrust
 --with-setlasterror
 CertAddCertificateContextToStore

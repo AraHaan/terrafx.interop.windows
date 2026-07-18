@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-threadpoolapiset.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -12,7 +12,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/threadpoolapiset
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/threadpoolapiset.h
---with-librarypath
+--with-library-path
 CallbackMayRunLong=kernel32
 CancelThreadpoolIo=kernel32
 CloseThreadpool=kernel32

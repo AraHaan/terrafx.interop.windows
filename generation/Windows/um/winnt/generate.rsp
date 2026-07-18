@@ -598,7 +598,7 @@ __writegsqword
 __writegsword
 --file
 um-winnt.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -671,7 +671,7 @@ SYSTEM_SCOPED_POLICY_ID_ACE=SupportedOSPlatform("windows6.2")
 TOKEN_APPCONTAINER_INFORMATION=SupportedOSPlatform("windows6.2")
 TOKEN_DEVICE_CLAIMS=SupportedOSPlatform("windows6.2")
 TOKEN_USER_CLAIMS=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 InterlockedCompareExchange=kernel32
 InterlockedCompareExchange64=kernel32
 InterlockedDecrement=kernel32
@@ -679,7 +679,7 @@ InterlockedExchange=kernel32
 InterlockedExchangeAdd=kernel32
 InterlockedIncrement=kernel32
 VerSetConditionMask=kernel32
---with-librarypath
+--with-library-path
 CaptureStackBackTrace=ntdll
 --with-type
 SECURITY_DESCRIPTOR_MIN_LENGTH=uint

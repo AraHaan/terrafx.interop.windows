@@ -19,7 +19,7 @@ OPENFILENAME_SIZE_VERSION_400W
 OPENFILENAME_SIZE_VERSION_400
 --file
 um-CommDlg.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -30,7 +30,7 @@ TerraFX.Interop.Windows
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/CommDlg.h
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/CommDlg.inl
---with-librarypath
+--with-library-path
 ChooseColorA=comdlg32
 ChooseColorW=comdlg32
 ChooseFontA=comdlg32

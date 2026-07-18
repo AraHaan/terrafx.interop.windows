@@ -4,7 +4,7 @@
 OLESTR
 --file
 shared-wtypesbase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

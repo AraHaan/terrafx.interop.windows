@@ -7,7 +7,7 @@ SPRULETRANS_TEXTBUFFER
 SPRULETRANS_WILDCARD
 --file
 um-sapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

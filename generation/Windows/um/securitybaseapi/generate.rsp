@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-securitybaseapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -20,7 +20,7 @@ CheckTokenMembershipEx=SupportedOSPlatform("windows6.2")
 CveEventWrite=SupportedOSPlatform("windows10.0")
 GetCachedSigningLevel=SupportedOSPlatform("windows6.2")
 SetCachedSigningLevel=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 AccessCheck=advapi32
 AccessCheckAndAuditAlarmW=advapi32
 AccessCheckAndAuditAlarm=advapi32
@@ -128,7 +128,7 @@ SetSecurityDescriptorOwner=advapi32
 SetSecurityDescriptorRMControl=advapi32
 SetSecurityDescriptorSacl=advapi32
 SetTokenInformation=advapi32
---with-librarypath
+--with-library-path
 AddResourceAttributeAce=kernel32
 AddScopedPolicyIDAce=kernel32
 CheckTokenCapability=kernel32
@@ -136,7 +136,7 @@ CheckTokenMembershipEx=kernel32
 GetAppContainerAce=kernel32
 GetCachedSigningLevel=kernel32
 SetCachedSigningLevel=kernel32
---with-librarypath
+--with-library-path
 DeriveCapabilitySidsFromName=kernelbase
 --with-setlasterror
 AccessCheck

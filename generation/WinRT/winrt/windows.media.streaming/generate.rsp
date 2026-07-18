@@ -87,7 +87,7 @@ WINDOWS_UI_WEBUI_CORE_WEBUICOMMANDBARCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.media.streaming.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

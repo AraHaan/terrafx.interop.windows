@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-ioapiset.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/ioapiset.h
 --with-attribute
 GetOverlappedResultEx=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 CancelIo=kernel32
 CancelIoEx=kernel32
 CancelSynchronousIo=kernel32

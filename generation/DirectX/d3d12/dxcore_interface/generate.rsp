@@ -13,7 +13,7 @@ IDXCoreAdapterList.GetAdapter<T>(uint32_t, T **):HRESULT
 IDXCoreAdapterList.GetFactory<T>(T **):HRESULT
 --file
 d3d12-dxcore_interface.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

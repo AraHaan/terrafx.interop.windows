@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-ShellScalingApi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -29,7 +29,7 @@ SCALE_CHANGE_FLAGS=SupportedOSPlatform("windows6.2")
 SetProcessDpiAwareness=SupportedOSPlatform("windows6.3")
 SHELL_UI_COMPONENT=SupportedOSPlatform("windows6.3")
 UnregisterScaleChangeEvent=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 GetDpiForMonitor=shcore
 GetDpiForShellUiComponent=shcore
 GetDpiForShellUIComponent=shcore

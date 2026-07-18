@@ -10,7 +10,7 @@ CD3D11_TEXTURE3D_DESC1
 CD3D11_UNORDERED_ACCESS_VIEW_DESC1
 --file
 um-d3d11_3.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

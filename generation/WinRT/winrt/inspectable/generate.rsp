@@ -5,7 +5,7 @@ IID_INS_ARGS
 IID_INS_ARGS_Helper<T>(T **):void **
 --file
 winrt-inspectable.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -15,7 +15,7 @@ TerraFX.Interop.WinRT
 ../../../../tests/Interop/Windows/WinRT/winrt/inspectable
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/winrt/inspectable.h
---with-librarypath
+--with-library-path
 HSTRING_UserFree=combase
 HSTRING_UserFree64=combase
 HSTRING_UserMarshal=combase

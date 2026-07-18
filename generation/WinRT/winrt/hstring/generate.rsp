@@ -4,7 +4,7 @@
 HSTRING_HEADER
 --file
 winrt-hstring.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
