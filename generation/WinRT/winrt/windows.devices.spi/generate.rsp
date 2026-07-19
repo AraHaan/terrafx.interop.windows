@@ -8,18 +8,6 @@ ABI::Windows::Devices::Spi::IID_ISpiController
 ABI::Windows::Devices::Spi::IID_ISpiControllerStatics
 ABI::Windows::Devices::Spi::IID_ISpiDevice
 ABI::Windows::Devices::Spi::IID_ISpiDeviceStatics
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Spi::SpiController *>
-ABI::Windows::Foundation::Collections::IIterable<int>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Spi::SpiController *>
-ABI::Windows::Foundation::Collections::IIterator<int>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Spi::SpiController *>
-ABI::Windows::Foundation::Collections::IVectorView<int>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Spi::SpiController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Spi::SpiDevice *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Spi::SpiController *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Spi::SpiController *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Spi::SpiDevice *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Spi::SpiController *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION

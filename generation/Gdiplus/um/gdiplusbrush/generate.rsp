@@ -6,10 +6,6 @@ Gdiplus.HatchBrush
 Gdiplus.LinearGradientBrush
 Gdiplus.SolidBrush
 Gdiplus.TextureBrush
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusbrush.h
 --method-class-name

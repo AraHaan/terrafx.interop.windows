@@ -1,20 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Security::Cryptography::Certificates::CertificateExtension *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Security::Cryptography::Certificates::CmsSignerInfo *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Security::Cryptography::Certificates::CertificateExtension *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Security::Cryptography::Certificates::CmsSignerInfo *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Security::Cryptography::Certificates::Certificate *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Security::Cryptography::Certificates::CertificateExtension *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Cryptography::Certificates::CertificateExtension *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Cryptography::Certificates::CmsSignerInfo *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Cryptography::Certificates::Certificate *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Cryptography::Certificates::CertificateChain *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Cryptography::Certificates::SignatureValidationResult>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Cryptography::Certificates::Certificate *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Cryptography::Certificates::CertificateChain *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Cryptography::Certificates::SignatureValidationResult>
 ABI::Windows::Security::Cryptography::Certificates::IID_ICertificate
 ABI::Windows::Security::Cryptography::Certificates::IID_ICertificate2
 ABI::Windows::Security::Cryptography::Certificates::IID_ICertificate3

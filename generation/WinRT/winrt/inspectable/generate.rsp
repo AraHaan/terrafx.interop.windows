@@ -2,7 +2,6 @@
 @../../../remap.rsp
 --exclude
 IID_INS_ARGS
-IID_INS_ARGS_Helper<T>(T **):void **
 --file
 winrt-inspectable.h
 --method-class-name

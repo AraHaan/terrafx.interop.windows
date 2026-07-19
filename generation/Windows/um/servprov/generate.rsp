@@ -1,7 +1,5 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-IServiceProvider.QueryService<Q>(const GUID &, Q **):HRESULT
 --file
 um-servprov.h
 --method-class-name

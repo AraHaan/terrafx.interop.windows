@@ -1,23 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Networking::Sockets::SocketActivityInformation *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Networking::Sockets::SocketActivityInformation *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Networking::Sockets::SocketActivityInformation *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Networking::Sockets::SocketActivityInformation *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::EndpointPair *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::Streams::IOutputStream *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::EndpointPair *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::Streams::IOutputStream *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::DatagramSocket *, ABI::Windows::Networking::Sockets::DatagramSocketMessageReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::IWebSocket *, ABI::Windows::Networking::Sockets::WebSocketClosedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::MessageWebSocket *, ABI::Windows::Networking::Sockets::MessageWebSocketMessageReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::MessageWebSocket *, ABI::Windows::Networking::Sockets::WebSocketServerCustomValidationRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::ServerMessageWebSocket *, ABI::Windows::Networking::Sockets::MessageWebSocketMessageReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::ServerMessageWebSocket *, ABI::Windows::Networking::Sockets::WebSocketClosedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::ServerStreamWebSocket *, ABI::Windows::Networking::Sockets::WebSocketClosedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::StreamSocketListener *, ABI::Windows::Networking::Sockets::StreamSocketListenerConnectionReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::Sockets::StreamWebSocket *, ABI::Windows::Networking::Sockets::WebSocketServerCustomValidationRequestedEventArgs *>
 ABI::Windows::Networking::Sockets::IID_IControlChannelTrigger
 ABI::Windows::Networking::Sockets::IID_IControlChannelTrigger2
 ABI::Windows::Networking::Sockets::IID_IControlChannelTriggerEventDetails

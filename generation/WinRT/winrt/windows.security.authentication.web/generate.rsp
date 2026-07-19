@@ -1,8 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Authentication::Web::WebAuthenticationResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Authentication::Web::WebAuthenticationResult *>
 ABI::Windows::Security::Authentication::Web::IID_IWebAuthenticationBrokerStatics
 ABI::Windows::Security::Authentication::Web::IID_IWebAuthenticationBrokerStatics2
 ABI::Windows::Security::Authentication::Web::IID_IWebAuthenticationResult

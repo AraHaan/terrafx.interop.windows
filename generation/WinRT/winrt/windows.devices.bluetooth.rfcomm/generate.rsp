@@ -12,17 +12,6 @@ ABI::Windows::Devices::Bluetooth::Rfcomm::IID_IRfcommServiceIdStatics
 ABI::Windows::Devices::Bluetooth::Rfcomm::IID_IRfcommServiceProvider
 ABI::Windows::Devices::Bluetooth::Rfcomm::IID_IRfcommServiceProvider2
 ABI::Windows::Devices::Bluetooth::Rfcomm::IID_IRfcommServiceProviderStatics
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<UINT32, ABI::Windows::Storage::Streams::IBuffer *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<UINT32, ABI::Windows::Storage::Streams::IBuffer *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<unsigned int, ABI::Windows::Storage::Streams::IBuffer *>
-ABI::Windows::Foundation::Collections::IMap<unsigned int, ABI::Windows::Storage::Streams::IBuffer *>
-ABI::Windows::Foundation::Collections::IMapView<unsigned int, ABI::Windows::Storage::Streams::IBuffer *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Bluetooth::Rfcomm::RfcommDeviceService *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Bluetooth::Rfcomm::RfcommServiceProvider *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IMapView<UINT32, ABI::Windows::Storage::Streams::IBuffer *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Bluetooth::Rfcomm::RfcommDeviceService *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Bluetooth::Rfcomm::RfcommServiceProvider *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IMapView<UINT32, ABI::Windows::Storage::Streams::IBuffer *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

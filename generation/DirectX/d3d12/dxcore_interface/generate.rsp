@@ -2,15 +2,6 @@
 @../../../remap.rsp
 --exclude
 MAKE_DXCORE_HRESULT
-IDXCoreAdapter.GetFactory<T>(T **):HRESULT
-IDXCoreAdapter.GetProperty<T>(DXCoreAdapterProperty, T *):HRESULT
-IDXCoreAdapter.QueryState<T1, T2>(DXCoreAdapterState, const T1 *, T2 *):HRESULT
-IDXCoreAdapter.QueryState<T>(DXCoreAdapterState, T *):HRESULT
-IDXCoreAdapter.SetState<T1, T2>(DXCoreAdapterState, const T1 *, const T2 *):HRESULT
-IDXCoreAdapterFactory.CreateAdapterList<T>(uint32_t, const GUID *, T **):HRESULT
-IDXCoreAdapterFactory.GetAdapterByLuid<T>(const LUID &, T **):HRESULT
-IDXCoreAdapterList.GetAdapter<T>(uint32_t, T **):HRESULT
-IDXCoreAdapterList.GetFactory<T>(T **):HRESULT
 --file
 d3d12-dxcore_interface.h
 --method-class-name

@@ -1,29 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::UI::Core::BackRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreComponentInputSource *, ABI::Windows::UI::Core::ClosestInteractiveBoundsRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreDispatcher *, ABI::Windows::UI::Core::AcceleratorKeyEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::AutomationProviderRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::CharacterReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::ClosestInteractiveBoundsRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::CoreWindowEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::CoreWindowPopupShowingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::InputEnabledEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::KeyEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::PointerEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::TouchHitTestingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::VisibilityChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::WindowActivatedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, ABI::Windows::UI::Core::WindowSizeChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::CoreWindow *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Core::ICorePointerRedirector *, ABI::Windows::UI::Core::PointerEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Core::CharacterReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Core::CoreWindowEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Core::InputEnabledEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Core::KeyEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Core::PointerEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Core::TouchHitTestingEventArgs *>
 ABI::Windows::UI::Core::IID_IAcceleratorKeyEventArgs
 ABI::Windows::UI::Core::IID_IAcceleratorKeyEventArgs2
 ABI::Windows::UI::Core::IID_IAutomationProviderRequestedEventArgs

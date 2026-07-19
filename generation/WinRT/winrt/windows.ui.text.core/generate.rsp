@@ -1,21 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Text::Core::CoreTextCompositionSegment *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Text::Core::CoreTextCompositionSegment *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::UI::Text::Core::CoreTextCompositionSegment *>
-ABI::Windows::Foundation::IReference<ABI::Windows::UI::Text::UnderlineType>
-ABI::Windows::Foundation::IReference<ABI::Windows::UI::ViewManagement::UIElementType>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextCompositionCompletedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextCompositionStartedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextFormatUpdatingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextLayoutRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextSelectionRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextSelectionUpdatingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextTextRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, ABI::Windows::UI::Text::Core::CoreTextTextUpdatingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextEditContext *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Text::Core::CoreTextServicesManager *, IInspectable *>
 ABI::Windows::UI::Text::Core::IID_ICoreTextCompositionCompletedEventArgs
 ABI::Windows::UI::Text::Core::IID_ICoreTextCompositionSegment
 ABI::Windows::UI::Text::Core::IID_ICoreTextCompositionStartedEventArgs

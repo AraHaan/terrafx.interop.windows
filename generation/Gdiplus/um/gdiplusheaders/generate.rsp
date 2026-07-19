@@ -18,10 +18,6 @@ Gdiplus.InstalledFontCollection
 Gdiplus.Metafile
 Gdiplus.PrivateFontCollection
 Gdiplus.Region
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusheaders.h
 --method-class-name

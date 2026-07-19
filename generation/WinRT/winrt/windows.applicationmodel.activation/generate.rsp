@@ -65,10 +65,6 @@ ABI::Windows::ApplicationModel::Activation::IID_IVoiceCommandActivatedEventArgs
 ABI::Windows::ApplicationModel::Activation::IID_IWalletActionActivatedEventArgs
 ABI::Windows::ApplicationModel::Activation::IID_IWebAccountProviderActivatedEventArgs
 ABI::Windows::ApplicationModel::Activation::IID_IWebAuthenticationBrokerContinuationEventArgs
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Notifications::ShownTileNotification *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Notifications::ShownTileNotification *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::UI::Notifications::ShownTileNotification *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Activation::SplashScreen *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_APPLICATIONMODEL_BACKGROUND_BACKGROUNDALARMAPPLICATIONCONTRACT_VERSION

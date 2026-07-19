@@ -1,9 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Globalization::JapanesePhoneme *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Globalization::JapanesePhoneme *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Globalization::JapanesePhoneme *>
 ABI::Windows::Globalization::IID_IApplicationLanguagesStatics
 ABI::Windows::Globalization::IID_IApplicationLanguagesStatics2
 ABI::Windows::Globalization::IID_ICalendar

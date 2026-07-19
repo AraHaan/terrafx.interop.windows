@@ -51,31 +51,6 @@ ABI::Windows::ApplicationModel::DataTransfer::IID_IStandardDataFormatsStatics
 ABI::Windows::ApplicationModel::DataTransfer::IID_IStandardDataFormatsStatics2
 ABI::Windows::ApplicationModel::DataTransfer::IID_IStandardDataFormatsStatics3
 ABI::Windows::ApplicationModel::DataTransfer::IID_ITargetApplicationChosenEventArgs
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::DataTransfer::ClipboardHistoryItem *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::DataTransfer::ShareProvider *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Storage::Streams::RandomAccessStreamReference *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::DataTransfer::ClipboardHistoryItem *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::DataTransfer::ShareProvider *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Storage::Streams::RandomAccessStreamReference *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Storage::Streams::RandomAccessStreamReference *>
-ABI::Windows::Foundation::Collections::IMap<HSTRING__ *, ABI::Windows::Storage::Streams::RandomAccessStreamReference *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Storage::Streams::RandomAccessStreamReference *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::DataTransfer::ShareProvider *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::DataTransfer::ClipboardHistoryItem *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::DataTransfer::ShareProvider *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::DataTransfer::ClipboardHistoryItemsResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Storage::Streams::RandomAccessStreamReference *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Uri *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::DataTransfer::ClipboardHistoryItemsResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Storage::Streams::RandomAccessStreamReference *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Uri *>
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::ApplicationModel::DataTransfer::ClipboardHistoryChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::DataTransfer::DataPackage *, ABI::Windows::ApplicationModel::DataTransfer::OperationCompletedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::DataTransfer::DataPackage *, ABI::Windows::ApplicationModel::DataTransfer::ShareCompletedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::DataTransfer::DataPackage *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::DataTransfer::DataTransferManager *, ABI::Windows::ApplicationModel::DataTransfer::DataRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::DataTransfer::DataTransferManager *, ABI::Windows::ApplicationModel::DataTransfer::ShareProvidersRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::DataTransfer::DataTransferManager *, ABI::Windows::ApplicationModel::DataTransfer::TargetApplicationChosenEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

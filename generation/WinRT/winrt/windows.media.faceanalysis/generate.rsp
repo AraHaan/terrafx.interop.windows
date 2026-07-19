@@ -1,13 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Media::FaceAnalysis::DetectedFace *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Media::FaceAnalysis::DetectedFace *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::FaceAnalysis::FaceDetector *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::FaceAnalysis::FaceTracker *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Media::FaceAnalysis::DetectedFace *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::FaceAnalysis::FaceDetector *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::FaceAnalysis::FaceTracker *>
 ABI::Windows::Media::FaceAnalysis::IID_IDetectedFace
 ABI::Windows::Media::FaceAnalysis::IID_IFaceDetector
 ABI::Windows::Media::FaceAnalysis::IID_IFaceDetectorStatics

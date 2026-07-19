@@ -1,12 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Graphics::Display::Core::HdmiDisplayMode *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Graphics::Display::Core::HdmiDisplayMode *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Graphics::Display::Core::HdmiDisplayMode *>
-ABI::Windows::Foundation::IAsyncOperation<bool>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<bool>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Display::Core::HdmiDisplayInformation *, IInspectable *>
 ABI::Windows::Graphics::Display::Core::IID_IHdmiDisplayInformation
 ABI::Windows::Graphics::Display::Core::IID_IHdmiDisplayInformationStatics
 ABI::Windows::Graphics::Display::Core::IID_IHdmiDisplayMode

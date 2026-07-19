@@ -15,16 +15,6 @@ ABI::Windows::ApplicationModel::AppService::IID_IAppServiceTriggerDetails2
 ABI::Windows::ApplicationModel::AppService::IID_IAppServiceTriggerDetails3
 ABI::Windows::ApplicationModel::AppService::IID_IAppServiceTriggerDetails4
 ABI::Windows::ApplicationModel::AppService::IID_IStatelessAppServiceResponse
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::AppService::AppServiceConnectionStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::AppService::AppServiceResponse *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::AppService::AppServiceResponseStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::AppService::StatelessAppServiceResponse *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::AppService::AppServiceConnectionStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::AppService::AppServiceResponse *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::AppService::AppServiceResponseStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::AppService::StatelessAppServiceResponse *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::AppService::AppServiceConnection *, ABI::Windows::ApplicationModel::AppService::AppServiceClosedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::AppService::AppServiceConnection *, ABI::Windows::ApplicationModel::AppService::AppServiceRequestReceivedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_APPLICATIONMODEL_FULLTRUSTAPPCONTRACT_VERSION

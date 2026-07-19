@@ -22,46 +22,6 @@ ABI::Windows::Devices::Printers::IID_IPdlPassthroughTarget
 ABI::Windows::Devices::Printers::IID_IPrint3DDevice
 ABI::Windows::Devices::Printers::IID_IPrint3DDeviceStatics
 ABI::Windows::Devices::Printers::IID_IPrintSchema
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Printers::IppAttributeValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Printers::IppIntegerRange *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Printers::IppResolution *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Printers::IppTextWithLanguage *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::__FIKeyValuePair_2_HSTRING_Windows__CDevices__CPrinters__CIppAttributeValue_t *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Devices::Printers::IppAttributeError *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Devices::Printers::IppAttributeValue *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Devices::Printers::IppAttributeValue *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::DateTime>
-ABI::Windows::Foundation::Collections::IIterable<bool>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Printers::IppAttributeValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Printers::IppIntegerRange *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Printers::IppResolution *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Printers::IppTextWithLanguage *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::__FIKeyValuePair_2_HSTRING_Windows__CDevices__CPrinters__CIppAttributeValue_t *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Devices::Printers::IppAttributeError *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Devices::Printers::IppAttributeValue *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Devices::Printers::IppAttributeValue *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::DateTime>
-ABI::Windows::Foundation::Collections::IIterator<bool>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Devices::Printers::IppAttributeError *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Devices::Printers::IppAttributeValue *>
-ABI::Windows::Foundation::Collections::IMap<HSTRING__ *, ABI::Windows::Devices::Printers::IppAttributeValue *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Devices::Printers::IppAttributeError *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Devices::Printers::IppAttributeValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Devices::Printers::IppIntegerRange *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Devices::Printers::IppResolution *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Devices::Printers::IppTextWithLanguage *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Devices::Printers::IppAttributeValue *> *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Foundation::DateTime>
-ABI::Windows::Foundation::Collections::IVector<bool>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Printers::IppAttributeValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Printers::IppIntegerRange *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Printers::IppResolution *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Printers::IppTextWithLanguage *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Devices::Printers::IppAttributeValue *> *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Foundation::DateTime>
-ABI::Windows::Foundation::Collections::IVectorView<bool>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Printers::Print3DDevice *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Printers::Print3DDevice *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

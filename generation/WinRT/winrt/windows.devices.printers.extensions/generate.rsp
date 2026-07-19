@@ -11,9 +11,6 @@ ABI::Windows::Devices::Printers::Extensions::IID_IPrintTaskConfiguration
 ABI::Windows::Devices::Printers::Extensions::IID_IPrintTaskConfigurationSaveRequest
 ABI::Windows::Devices::Printers::Extensions::IID_IPrintTaskConfigurationSaveRequestedDeferral
 ABI::Windows::Devices::Printers::Extensions::IID_IPrintTaskConfigurationSaveRequestedEventArgs
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Printers::Extensions::Print3DWorkflow *, ABI::Windows::Devices::Printers::Extensions::Print3DWorkflowPrinterChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Printers::Extensions::Print3DWorkflow *, ABI::Windows::Devices::Printers::Extensions::Print3DWorkflowPrintRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Printers::Extensions::PrintTaskConfiguration *, ABI::Windows::Devices::Printers::Extensions::PrintTaskConfigurationSaveRequestedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

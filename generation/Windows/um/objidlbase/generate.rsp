@@ -1,7 +1,5 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-IAgileReference.Resolve<Q>(Q **):HRESULT
 --file
 um-objidlbase.h
 --method-class-name

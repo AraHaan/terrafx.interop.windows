@@ -1,15 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::AccessibilitySettings *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::ApplicationView *, ABI::Windows::UI::ViewManagement::ApplicationViewConsolidatedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::ApplicationView *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::InputPane *, ABI::Windows::UI::ViewManagement::InputPaneVisibilityEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::StatusBar *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::UISettings *, ABI::Windows::UI::ViewManagement::UISettingsAnimationsEnabledChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::UISettings *, ABI::Windows::UI::ViewManagement::UISettingsAutoHideScrollBarsChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::UISettings *, ABI::Windows::UI::ViewManagement::UISettingsMessageDurationChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::UISettings *, IInspectable *>
 ABI::Windows::UI::ViewManagement::IID_IAccessibilitySettings
 ABI::Windows::UI::ViewManagement::IID_IActivationViewSwitcher
 ABI::Windows::UI::ViewManagement::IID_IApplicationView

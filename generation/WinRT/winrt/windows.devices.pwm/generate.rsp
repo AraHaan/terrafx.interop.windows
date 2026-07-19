@@ -6,13 +6,6 @@ ABI::Windows::Devices::Pwm::IID_IPwmControllerStatics
 ABI::Windows::Devices::Pwm::IID_IPwmControllerStatics2
 ABI::Windows::Devices::Pwm::IID_IPwmControllerStatics3
 ABI::Windows::Devices::Pwm::IID_IPwmPin
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Pwm::PwmController *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Pwm::PwmController *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Pwm::PwmController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Pwm::PwmController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Pwm::PwmController *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Pwm::PwmController *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Pwm::PwmController *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION

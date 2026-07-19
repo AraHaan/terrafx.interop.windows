@@ -2,10 +2,6 @@
 @../../../remap.rsp
 --exclude
 Gdiplus.ImageAttributes
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusimageattributes.h
 --method-class-name

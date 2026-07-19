@@ -37,16 +37,6 @@ ABI::Windows::Devices::Bluetooth::IID_IBluetoothLEPreferredConnectionParametersR
 ABI::Windows::Devices::Bluetooth::IID_IBluetoothLEPreferredConnectionParametersStatics
 ABI::Windows::Devices::Bluetooth::IID_IBluetoothSignalStrengthFilter
 ABI::Windows::Devices::Bluetooth::IID_IBluetoothUuidHelperStatics
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Bluetooth::BluetoothAdapter *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Bluetooth::BluetoothDevice *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Bluetooth::BluetoothLEDevice *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Bluetooth::Rfcomm::RfcommDeviceServicesResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Bluetooth::BluetoothAdapter *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Bluetooth::BluetoothDevice *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Bluetooth::BluetoothLEDevice *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Bluetooth::Rfcomm::RfcommDeviceServicesResult *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Bluetooth::BluetoothDevice *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Bluetooth::BluetoothLEDevice *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

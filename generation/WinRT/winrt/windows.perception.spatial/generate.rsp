@@ -1,31 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Perception::Spatial::SpatialAnchor *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Perception::Spatial::SpatialAnchor *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Perception::Spatial::SpatialAnchor *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Perception::Spatial::SpatialAnchor *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Perception::Spatial::SpatialAnchor *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Perception::Spatial::SpatialAnchorExportSufficiency *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Perception::Spatial::SpatialAnchorStore *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Perception::Spatial::SpatialPerceptionAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Perception::Spatial::SpatialPerceptionAccessStatus>'
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Perception::Spatial::SpatialStageFrameOfReference *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IMapView<HSTRING, ABI::Windows::Perception::Spatial::SpatialAnchor *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Perception::Spatial::SpatialAnchorExportSufficiency *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Perception::Spatial::SpatialAnchorStore *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Perception::Spatial::SpatialPerceptionAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Perception::Spatial::SpatialPerceptionAccessStatus>'
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Perception::Spatial::SpatialStageFrameOfReference *>
-ABI::Windows::Foundation::IReference<ABI::Windows::Foundation::Numerics::Matrix4x4>
-ABI::Windows::Foundation::IReference<ABI::Windows::Foundation::Numerics::Matrix4x4>'
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialAnchor *, ABI::Windows::Perception::Spatial::SpatialAnchorRawCoordinateSystemAdjustedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialEntityWatcher *, ABI::Windows::Perception::Spatial::SpatialEntityAddedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialEntityWatcher *, ABI::Windows::Perception::Spatial::SpatialEntityRemovedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialEntityWatcher *, ABI::Windows::Perception::Spatial::SpatialEntityUpdatedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialEntityWatcher *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialLocator *, ABI::Windows::Perception::Spatial::SpatialLocatorPositionalTrackingDeactivatingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Perception::Spatial::SpatialLocator *, IInspectable *>
 ABI::Windows::Perception::Spatial::IID_ISpatialAnchor
 ABI::Windows::Perception::Spatial::IID_ISpatialAnchor2
 ABI::Windows::Perception::Spatial::IID_ISpatialAnchorExporter

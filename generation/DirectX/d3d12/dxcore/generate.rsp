@@ -1,7 +1,5 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-DXCoreCreateAdapterFactory<T>(T **):HRESULT
 --file
 d3d12-dxcore.h
 --method-class-name

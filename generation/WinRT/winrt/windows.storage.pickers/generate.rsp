@@ -1,11 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Foundation::Collections::__FIVector_1_HSTRING_t *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Foundation::Collections::__FIVector_1_HSTRING_t *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Foundation::Collections::IVector<HSTRING> *>
-ABI::Windows::Foundation::Collections::IMap<HSTRING__ *, ABI::Windows::Foundation::Collections::IVector<HSTRING> *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Foundation::Collections::IVector<HSTRING> *>
 ABI::Windows::Storage::Pickers::IID_IFileOpenPicker
 ABI::Windows::Storage::Pickers::IID_IFileOpenPicker2
 ABI::Windows::Storage::Pickers::IID_IFileOpenPicker3

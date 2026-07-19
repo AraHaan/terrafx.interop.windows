@@ -1,7 +1,5 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-IWeakReference.Resolve<T>(T **):HRESULT
 --file
 winrt-WeakReference.h
 --method-class-name

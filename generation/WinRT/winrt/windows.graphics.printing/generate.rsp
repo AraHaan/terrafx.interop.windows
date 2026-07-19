@@ -1,14 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Graphics::Printing::PrintPageRange *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Graphics::Printing::PrintPageRange *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Graphics::Printing::PrintPageRange *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Graphics::Printing::PrintPageRange *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Printing::PrintManager *, ABI::Windows::Graphics::Printing::PrintTaskRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Printing::PrintTask *, ABI::Windows::Graphics::Printing::PrintTaskCompletedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Printing::PrintTask *, ABI::Windows::Graphics::Printing::PrintTaskProgressingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Printing::PrintTask *, IInspectable *>
 ABI::Windows::Graphics::Printing::IID_IPrintDocumentSource
 ABI::Windows::Graphics::Printing::IID_IPrintManager
 ABI::Windows::Graphics::Printing::IID_IPrintManagerStatic

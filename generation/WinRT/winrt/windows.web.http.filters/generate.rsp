@@ -1,7 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Web::Http::Filters::HttpBaseProtocolFilter *, ABI::Windows::Web::Http::Filters::HttpServerCustomValidationRequestedEventArgs *>
 ABI::Windows::Web::Http::Filters::IID_IHttpBaseProtocolFilter
 ABI::Windows::Web::Http::Filters::IID_IHttpBaseProtocolFilter2
 ABI::Windows::Web::Http::Filters::IID_IHttpBaseProtocolFilter3

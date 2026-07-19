@@ -1,10 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-Windows.Foundation.ActivateInstance<T>(HSTRING, T **):HRESULT
-Windows.Foundation.GetActivationFactory<T>(HSTRING, T **):HRESULT
-ABI.Windows.Foundation.ActivateInstance<T>(HSTRING, T **):HRESULT
-ABI.Windows.Foundation.GetActivationFactory<T>(HSTRING, T **):HRESULT
 ABI.Windows.Foundation.Initialize(RO_INIT_TYPE):HRESULT
 ABI.Windows.Foundation.Uninitialize():void
 ABI.Windows.Foundation.RegisterActivationFactories(HSTRING *, PFNGETACTIVATIONFACTORY *, UINT32, RO_REGISTRATION_COOKIE *):HRESULT

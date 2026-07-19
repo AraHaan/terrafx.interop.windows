@@ -1,9 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::IAsyncOperationProgressHandler<ABI::Windows::System::Diagnostics::DiagnosticActionResult *, ABI::Windows::System::Diagnostics::DiagnosticActionState>
-ABI::Windows::Foundation::IAsyncOperationWithProgress<ABI::Windows::System::Diagnostics::DiagnosticActionResult *, ABI::Windows::System::Diagnostics::DiagnosticActionState>
-ABI::Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<ABI::Windows::System::Diagnostics::DiagnosticActionResult *, ABI::Windows::System::Diagnostics::DiagnosticActionState>
 ABI::Windows::System::Diagnostics::IID_IDiagnosticActionResult
 ABI::Windows::System::Diagnostics::IID_IDiagnosticInvoker
 ABI::Windows::System::Diagnostics::IID_IDiagnosticInvoker2

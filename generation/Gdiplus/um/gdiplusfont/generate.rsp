@@ -2,10 +2,6 @@
 @../../../remap.rsp
 --exclude
 Gdiplus.Font
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusfont.h
 --method-class-name

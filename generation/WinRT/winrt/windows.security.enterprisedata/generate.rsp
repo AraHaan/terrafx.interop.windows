@@ -1,23 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::BufferProtectUnprotectResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::DataProtectionInfo *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::FileProtectionInfo *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::FileProtectionStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::ProtectedContainerExportResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::ProtectedContainerImportResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::EnterpriseData::ProtectedFileCreateResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::BufferProtectUnprotectResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::DataProtectionInfo *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::FileProtectionInfo *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::FileProtectionStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::ProtectedContainerExportResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::ProtectedContainerImportResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::EnterpriseData::ProtectedFileCreateResult *>
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::Security::EnterpriseData::ProtectedAccessResumedEventArgs *>
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::Security::EnterpriseData::ProtectedAccessSuspendingEventArgs *>
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::Security::EnterpriseData::ProtectedContentRevokedEventArgs *>
 ABI::Windows::Security::EnterpriseData::IID_IBufferProtectUnprotectResult
 ABI::Windows::Security::EnterpriseData::IID_IDataProtectionInfo
 ABI::Windows::Security::EnterpriseData::IID_IDataProtectionManagerStatics

@@ -4,7 +4,6 @@
 ABI::Windows::ApplicationModel::Contacts::Provider::IID_IContactPickerUI
 ABI::Windows::ApplicationModel::Contacts::Provider::IID_IContactPickerUI2
 ABI::Windows::ApplicationModel::Contacts::Provider::IID_IContactRemovedEventArgs
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Contacts::Provider::ContactPickerUI *, ABI::Windows::ApplicationModel::Contacts::Provider::ContactRemovedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

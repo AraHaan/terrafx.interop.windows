@@ -4,10 +4,6 @@
 Gdiplus.GenericDefaultStringFormatBuffer
 Gdiplus.GenericTypographicStringFormatBuffer
 Gdiplus.StringFormat
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusstringformat.h
 --method-class-name

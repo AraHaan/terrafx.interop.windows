@@ -1,7 +1,5 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-__unaligned
 --file
 um-shtypes.h
 --method-class-name

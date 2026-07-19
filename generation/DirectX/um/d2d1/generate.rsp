@@ -1,8 +1,5 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-D2D1CreateFactory<Factory>(D2D1_FACTORY_TYPE, Factory **):HRESULT nothrow
-D2D1CreateFactory<Factory>(D2D1_FACTORY_TYPE, const D2D1_FACTORY_OPTIONS &, Factory **):HRESULT nothrow
 --file
 um-d2d1.h
 --method-class-name

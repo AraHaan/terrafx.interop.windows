@@ -1,8 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Core::VariablePhotoSequenceCapture *, ABI::Windows::Media::Capture::Core::VariablePhotoCapturedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Core::VariablePhotoSequenceCapture *, IInspectable *>
 ABI::Windows::Media::Capture::Core::IID_IVariablePhotoCapturedEventArgs
 ABI::Windows::Media::Capture::Core::IID_IVariablePhotoSequenceCapture
 ABI::Windows::Media::Capture::Core::IID_IVariablePhotoSequenceCapture2

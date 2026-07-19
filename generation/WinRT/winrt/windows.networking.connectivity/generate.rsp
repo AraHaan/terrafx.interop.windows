@@ -1,46 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::Connectivity::AttributedNetworkUsage *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::Connectivity::ConnectionProfile *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::Connectivity::ConnectivityInterval *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::Connectivity::LanIdentifier *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::Connectivity::NetworkUsage *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::Connectivity::ProviderNetworkUsage *>
-ABI::Windows::Foundation::Collections::IIterable<unsigned char>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::Connectivity::AttributedNetworkUsage *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::Connectivity::ConnectionProfile *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::Connectivity::ConnectivityInterval *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::Connectivity::LanIdentifier *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::Connectivity::NetworkUsage *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::Connectivity::ProviderNetworkUsage *>
-ABI::Windows::Foundation::Collections::IIterator<unsigned char>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::AttributedNetworkUsage *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ConnectionProfile *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ConnectivityInterval *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::LanIdentifier *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::NetworkUsage *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ProviderNetworkUsage *>
-ABI::Windows::Foundation::Collections::IVectorView<unsigned char>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::AttributedNetworkUsage *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ConnectionProfile *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ConnectivityInterval *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::NetworkUsage *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ProviderNetworkUsage *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::Connectivity::ConnectionProfile *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::Connectivity::ConnectionProfileDeleteStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::Connectivity::ConnectionSession *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::Connectivity::ProxyConfiguration *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::AttributedNetworkUsage *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ConnectionProfile *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ConnectivityInterval *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::NetworkUsage *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::Connectivity::ProviderNetworkUsage *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::Connectivity::ConnectionProfile *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::Connectivity::ConnectionProfileDeleteStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::Connectivity::ConnectionSession *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::Connectivity::ProxyConfiguration *>
-ABI::Windows::Foundation::IReference<_GUID>
 ABI::Windows::Networking::Connectivity::IID_IAttributedNetworkUsage
 ABI::Windows::Networking::Connectivity::IID_ICellularApnContext
 ABI::Windows::Networking::Connectivity::IID_ICellularApnContext2

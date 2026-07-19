@@ -34,30 +34,6 @@ ABI::Windows::Devices::Geolocation::IID_IGeovisitTriggerDetails
 ABI::Windows::Devices::Geolocation::IID_IPositionChangedEventArgs
 ABI::Windows::Devices::Geolocation::IID_IStatusChangedEventArgs
 ABI::Windows::Devices::Geolocation::IID_IVenueData
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Geolocation::BasicGeoposition>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Geolocation::Geoposition *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Geolocation::Geovisit *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Geolocation::BasicGeoposition>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Geolocation::Geoposition *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Geolocation::Geovisit *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Geolocation::BasicGeoposition>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Geolocation::Geoposition *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Geolocation::Geovisit *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Geolocation::GeolocationAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Geolocation::Geoposition *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Geolocation::Geovisit *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Geolocation::Geoposition *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Geolocation::GeolocationAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Geolocation::Geoposition *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Geolocation::Geovisit *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Geolocation::Geoposition *> *>
-ABI::Windows::Foundation::IReference<ABI::Windows::Devices::Geolocation::BasicGeoposition>
-ABI::Windows::Foundation::IReference<ABI::Windows::Foundation::DateTime>
-ABI::Windows::Foundation::IReference<double>
-ABI::Windows::Foundation::IReference<unsigned int>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Geolocation::Geolocator *, ABI::Windows::Devices::Geolocation::PositionChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Geolocation::Geolocator *, ABI::Windows::Devices::Geolocation::StatusChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Geolocation::GeovisitMonitor *, ABI::Windows::Devices::Geolocation::GeovisitStateChangedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

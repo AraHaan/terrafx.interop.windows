@@ -6,9 +6,6 @@ ABI::Windows::ApplicationModel::UserDataAccounts::Provider::IID_IUserDataAccount
 ABI::Windows::ApplicationModel::UserDataAccounts::Provider::IID_IUserDataAccountProviderOperation
 ABI::Windows::ApplicationModel::UserDataAccounts::Provider::IID_IUserDataAccountProviderResolveErrorsOperation
 ABI::Windows::ApplicationModel::UserDataAccounts::Provider::IID_IUserDataAccountProviderSettingsOperation
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::UserDataAccounts::Provider::UserDataAccountPartnerAccountInfo *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::UserDataAccounts::Provider::UserDataAccountPartnerAccountInfo *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::UserDataAccounts::Provider::UserDataAccountPartnerAccountInfo *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION

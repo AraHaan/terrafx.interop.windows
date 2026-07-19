@@ -3,9 +3,6 @@
 --exclude
 ABI::Windows::Devices::Adc::Provider::IID_IAdcControllerProvider
 ABI::Windows::Devices::Adc::Provider::IID_IAdcProvider
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Adc::Provider::IAdcControllerProvider *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Adc::Provider::IAdcControllerProvider *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Adc::Provider::IAdcControllerProvider *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION

@@ -2,10 +2,6 @@
 @../../../remap.rsp
 --exclude
 Gdiplus.FontCollection
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusfontcollection.h
 --method-class-name

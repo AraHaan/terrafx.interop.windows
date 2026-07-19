@@ -10,18 +10,6 @@ ABI::Windows::Devices::Gpio::IID_IGpioControllerStatics
 ABI::Windows::Devices::Gpio::IID_IGpioControllerStatics2
 ABI::Windows::Devices::Gpio::IID_IGpioPin
 ABI::Windows::Devices::Gpio::IID_IGpioPinValueChangedEventArgs
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Gpio::GpioChangeRecord>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Gpio::GpioController *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Gpio::GpioChangeRecord>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Gpio::GpioController *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Devices::Gpio::GpioChangeRecord>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Gpio::GpioChangeRecord>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Gpio::GpioController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Gpio::GpioController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Gpio::GpioController *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Gpio::GpioController *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Gpio::GpioController *> *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Gpio::GpioPin *, ABI::Windows::Devices::Gpio::GpioPinValueChangedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION

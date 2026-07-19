@@ -61,45 +61,6 @@ ABI::Windows::ApplicationModel::Calls::IID_IVoipPhoneCall
 ABI::Windows::ApplicationModel::Calls::IID_IVoipPhoneCall2
 ABI::Windows::ApplicationModel::Calls::IID_IVoipPhoneCall3
 ABI::Windows::ApplicationModel::Calls::IID_IVoipPhoneCall4
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Calls::PhoneCall *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Calls::PhoneCall *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Calls::PhoneCall *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryStore *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallInfo *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallOperationStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallsResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallStore *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneCallVideoCapabilities *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneLine *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::PhoneLineDialResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Calls::VoipPhoneCallResourceReservationStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryStore *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallInfo *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallOperationStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallsResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallStore *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneCallVideoCapabilities *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneLine *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::PhoneLineDialResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Calls::VoipPhoneCallResourceReservationStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Calls::PhoneCallHistoryEntry *> *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::LockScreenCallUI *, ABI::Windows::ApplicationModel::Calls::LockScreenCallEndRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::LockScreenCallUI *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::PhoneCall *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::PhoneLine *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::PhoneLineTransportDevice *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::PhoneLineWatcher *, ABI::Windows::ApplicationModel::Calls::PhoneLineWatcherEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::PhoneLineWatcher *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::VoipCallCoordinator *, ABI::Windows::ApplicationModel::Calls::MuteChangeEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::VoipPhoneCall *, ABI::Windows::ApplicationModel::Calls::CallAnswerEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::VoipPhoneCall *, ABI::Windows::ApplicationModel::Calls::CallRejectEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Calls::VoipPhoneCall *, ABI::Windows::ApplicationModel::Calls::CallStateChangeEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_APPLICATIONMODEL_CALLS_CALLSPHONECONTRACT_VERSION
