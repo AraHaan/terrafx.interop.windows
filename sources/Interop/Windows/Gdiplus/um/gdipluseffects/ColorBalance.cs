@@ -48,7 +48,7 @@ public unsafe partial struct ColorBalance
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const ColorBalanceParams *")] ColorBalanceParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::ColorBalanceParams *")] ColorBalanceParams* parameters)
     {
         uint size = 12;
 

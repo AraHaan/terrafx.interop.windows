@@ -114,17 +114,17 @@ public unsafe partial struct IHttpResponseHeaderCollection : IHttpResponseHeader
     /// <include file='IHttpResponseHeaderCollection.xml' path='doc/member[@name="IHttpResponseHeaderCollection.get_Date"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpResponseHeaderCollection*, IReference<DateTime>**, int>)(lpVtbl[11]))((IHttpResponseHeaderCollection*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpResponseHeaderCollection*, IReference<WinRTDateTime>**, int>)(lpVtbl[11]))((IHttpResponseHeaderCollection*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpResponseHeaderCollection.xml' path='doc/member[@name="IHttpResponseHeaderCollection.put_Date"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(12)]
-    public HRESULT put_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpResponseHeaderCollection*, IReference<DateTime>*, int>)(lpVtbl[12]))((IHttpResponseHeaderCollection*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpResponseHeaderCollection*, IReference<WinRTDateTime>*, int>)(lpVtbl[12]))((IHttpResponseHeaderCollection*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpResponseHeaderCollection.xml' path='doc/member[@name="IHttpResponseHeaderCollection.get_Location"]/*' />
@@ -217,10 +217,10 @@ public unsafe partial struct IHttpResponseHeaderCollection : IHttpResponseHeader
         HRESULT get_Connection([NativeTypeName("ABI::Windows::Web::Http::Headers::IHttpConnectionOptionHeaderValueCollection **")] IHttpConnectionOptionHeaderValueCollection** value);
 
         [VtblIndex(11)]
-        HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(12)]
-        HRESULT put_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(13)]
         HRESULT get_Location([NativeTypeName("ABI::Windows::Foundation::IUriRuntimeClass **")] IUriRuntimeClass** value);
@@ -287,10 +287,10 @@ public unsafe partial struct IHttpResponseHeaderCollection : IHttpResponseHeader
         public delegate* unmanaged[MemberFunction]<TSelf*, IHttpConnectionOptionHeaderValueCollection**, int> get_Connection;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Date;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Date;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_Date;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_Date;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::IUriRuntimeClass **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IUriRuntimeClass**, int> get_Location;

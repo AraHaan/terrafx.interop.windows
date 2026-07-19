@@ -7,7 +7,6 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using TerraFX.Interop.WinRT;
 
 namespace TerraFX.Interop.Windows;
 
@@ -102,6 +101,30 @@ public static unsafe partial class IID
                 0x17,
                 0x3E,
                 0x1D
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IKnownSimpleHapticsControllerWaveformsStatics3
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0xE4, 0x0C, 0x48, 0xAE,
+                0xB6, 0x4A,
+                0x2F, 0x5B,
+                0xAD,
+                0x0B,
+                0xCB,
+                0x52,
+                0xF3,
+                0x7D,
+                0x45,
+                0xFB
             ];
 
             Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());

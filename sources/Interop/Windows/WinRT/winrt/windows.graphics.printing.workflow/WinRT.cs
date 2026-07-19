@@ -91,6 +91,9 @@ public static partial class WinRT
     [NativeTypeName("const WCHAR[61]")]
     public const string InterfaceName_Windows_Graphics_Printing_Workflow_IPrintWorkflowPrinterJob2 = "Windows.Graphics.Printing.Workflow.IPrintWorkflowPrinterJob2";
 
+    [NativeTypeName("const WCHAR[61]")]
+    public const string InterfaceName_Windows_Graphics_Printing_Workflow_IPrintWorkflowPrinterJob3 = "Windows.Graphics.Printing.Workflow.IPrintWorkflowPrinterJob3";
+
     [NativeTypeName("const WCHAR[63]")]
     public const string InterfaceName_Windows_Graphics_Printing_Workflow_IPrintWorkflowSourceContent = "Windows.Graphics.Printing.Workflow.IPrintWorkflowSourceContent";
 

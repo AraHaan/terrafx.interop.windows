@@ -74,7 +74,7 @@ public unsafe partial struct ICompositionCapabilitiesInteropFactory : ICompositi
     /// <include file='ICompositionCapabilitiesInteropFactory.xml' path='doc/member[@name="ICompositionCapabilitiesInteropFactory.GetForWindow"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT GetForWindow(HWND hwnd, ICompositionCapabilities** result)
+    public HRESULT GetForWindow(HWND hwnd, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionCapabilities **")] ICompositionCapabilities** result)
     {
         return ((delegate* unmanaged[MemberFunction]<ICompositionCapabilitiesInteropFactory*, HWND, ICompositionCapabilities**, int>)(lpVtbl[6]))((ICompositionCapabilitiesInteropFactory*)Unsafe.AsPointer(ref this), hwnd, result);
     }
@@ -82,7 +82,7 @@ public unsafe partial struct ICompositionCapabilitiesInteropFactory : ICompositi
     public interface Interface : IInspectable.Interface
     {
         [VtblIndex(6)]
-        HRESULT GetForWindow(HWND hwnd, ICompositionCapabilities** result);
+        HRESULT GetForWindow(HWND hwnd, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionCapabilities **")] ICompositionCapabilities** result);
     }
 
     public partial struct Vtbl<TSelf>

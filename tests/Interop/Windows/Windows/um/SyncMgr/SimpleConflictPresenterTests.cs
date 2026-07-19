@@ -6,7 +6,7 @@
 using NUnit.Framework;
 using System;
 using System.Runtime.InteropServices;
-using static TerraFX.Interop.Windows.IID;
+using static TerraFX.Interop.Windows.CLSID;
 
 namespace TerraFX.Interop.Windows.UnitTests;
 
@@ -17,6 +17,6 @@ public static unsafe partial class SimpleConflictPresenterTests
     [Test]
     public static void GuidOfTest()
     {
-        Assert.That(typeof(SimpleConflictPresenter).GUID, Is.EqualTo(IID_SimpleConflictPresenter));
+        Assert.That(typeof(SimpleConflictPresenter).GUID, Is.EqualTo(CLSID_SimpleConflictPresenter));
     }
 }

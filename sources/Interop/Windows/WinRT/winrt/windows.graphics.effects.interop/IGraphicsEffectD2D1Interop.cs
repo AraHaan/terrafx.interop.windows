@@ -74,7 +74,7 @@ public unsafe partial struct IGraphicsEffectD2D1Interop : IGraphicsEffectD2D1Int
     /// <include file='IGraphicsEffectD2D1Interop.xml' path='doc/member[@name="IGraphicsEffectD2D1Interop.GetProperty"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT GetProperty(uint index, [NativeTypeName("Windows::Foundation::IPropertyValue **")] IPropertyValue** value)
+    public HRESULT GetProperty(uint index, [NativeTypeName("ABI::Windows::Foundation::IPropertyValue **")] IPropertyValue** value)
     {
         return ((delegate* unmanaged[MemberFunction]<IGraphicsEffectD2D1Interop*, uint, IPropertyValue**, int>)(lpVtbl[6]))((IGraphicsEffectD2D1Interop*)Unsafe.AsPointer(ref this), index, value);
     }
@@ -82,7 +82,7 @@ public unsafe partial struct IGraphicsEffectD2D1Interop : IGraphicsEffectD2D1Int
     /// <include file='IGraphicsEffectD2D1Interop.xml' path='doc/member[@name="IGraphicsEffectD2D1Interop.GetSource"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(7)]
-    public HRESULT GetSource(uint index, IGraphicsEffectSource** source)
+    public HRESULT GetSource(uint index, [NativeTypeName("ABI::Windows::Graphics::Effects::IGraphicsEffectSource **")] IGraphicsEffectSource** source)
     {
         return ((delegate* unmanaged[MemberFunction]<IGraphicsEffectD2D1Interop*, uint, IGraphicsEffectSource**, int>)(lpVtbl[7]))((IGraphicsEffectD2D1Interop*)Unsafe.AsPointer(ref this), index, source);
     }
@@ -107,10 +107,10 @@ public unsafe partial struct IGraphicsEffectD2D1Interop : IGraphicsEffectD2D1Int
         HRESULT GetPropertyCount(uint* count);
 
         [VtblIndex(6)]
-        HRESULT GetProperty(uint index, [NativeTypeName("Windows::Foundation::IPropertyValue **")] IPropertyValue** value);
+        HRESULT GetProperty(uint index, [NativeTypeName("ABI::Windows::Foundation::IPropertyValue **")] IPropertyValue** value);
 
         [VtblIndex(7)]
-        HRESULT GetSource(uint index, IGraphicsEffectSource** source);
+        HRESULT GetSource(uint index, [NativeTypeName("ABI::Windows::Graphics::Effects::IGraphicsEffectSource **")] IGraphicsEffectSource** source);
 
         [VtblIndex(8)]
         HRESULT GetSourceCount(uint* count);

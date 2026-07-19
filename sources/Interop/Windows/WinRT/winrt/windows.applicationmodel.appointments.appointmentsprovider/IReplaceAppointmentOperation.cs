@@ -90,9 +90,9 @@ public unsafe partial struct IReplaceAppointmentOperation : IReplaceAppointmentO
     /// <include file='IReplaceAppointmentOperation.xml' path='doc/member[@name="IReplaceAppointmentOperation.get_InstanceStartDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(8)]
-    public HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IReplaceAppointmentOperation*, IReference<DateTime>**, int>)(lpVtbl[8]))((IReplaceAppointmentOperation*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IReplaceAppointmentOperation*, IReference<WinRTDateTime>**, int>)(lpVtbl[8]))((IReplaceAppointmentOperation*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IReplaceAppointmentOperation.xml' path='doc/member[@name="IReplaceAppointmentOperation.get_SourcePackageFamilyName"]/*' />
@@ -144,7 +144,7 @@ public unsafe partial struct IReplaceAppointmentOperation : IReplaceAppointmentO
         HRESULT get_AppointmentInformation([NativeTypeName("ABI::Windows::ApplicationModel::Appointments::IAppointment **")] IAppointment** value);
 
         [VtblIndex(8)]
-        HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(9)]
         HRESULT get_SourcePackageFamilyName(HSTRING* value);
@@ -190,7 +190,7 @@ public unsafe partial struct IReplaceAppointmentOperation : IReplaceAppointmentO
         public delegate* unmanaged[MemberFunction]<TSelf*, IAppointment**, int> get_AppointmentInformation;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_InstanceStartDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_InstanceStartDate;
 
         [NativeTypeName("HRESULT (HSTRING *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING*, int> get_SourcePackageFamilyName;

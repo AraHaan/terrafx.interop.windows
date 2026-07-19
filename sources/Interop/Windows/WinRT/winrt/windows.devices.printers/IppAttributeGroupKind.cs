@@ -8,4 +8,12 @@ namespace TerraFX.Interop.WinRT;
 /// <include file='IppAttributeGroupKind.xml' path='doc/member[@name="IppAttributeGroupKind"]/*' />
 public enum IppAttributeGroupKind
 {
+    /// <include file='IppAttributeGroupKind.xml' path='doc/member[@name="IppAttributeGroupKind.IppAttributeGroupKind_Printer"]/*' />
+    IppAttributeGroupKind_Printer = 0,
+
+    /// <include file='IppAttributeGroupKind.xml' path='doc/member[@name="IppAttributeGroupKind.IppAttributeGroupKind_Job"]/*' />
+    IppAttributeGroupKind_Job = 1,
+
+    /// <include file='IppAttributeGroupKind.xml' path='doc/member[@name="IppAttributeGroupKind.IppAttributeGroupKind_Operation"]/*' />
+    IppAttributeGroupKind_Operation = 2,
 }

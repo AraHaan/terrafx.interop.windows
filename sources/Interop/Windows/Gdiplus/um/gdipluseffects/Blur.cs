@@ -48,7 +48,7 @@ public unsafe partial struct Blur
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const BlurParams *")] BlurParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::BlurParams *")] BlurParams* parameters)
     {
         uint size = 8;
 

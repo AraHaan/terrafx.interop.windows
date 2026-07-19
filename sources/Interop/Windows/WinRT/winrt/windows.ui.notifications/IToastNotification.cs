@@ -82,17 +82,17 @@ public unsafe partial struct IToastNotification : IToastNotification.Interface, 
     /// <include file='IToastNotification.xml' path='doc/member[@name="IToastNotification.put_ExpirationTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(7)]
-    public HRESULT put_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IToastNotification*, IReference<DateTime>*, int>)(lpVtbl[7]))((IToastNotification*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IToastNotification*, IReference<WinRTDateTime>*, int>)(lpVtbl[7]))((IToastNotification*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IToastNotification.xml' path='doc/member[@name="IToastNotification.get_ExpirationTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(8)]
-    public HRESULT get_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IToastNotification*, IReference<DateTime>**, int>)(lpVtbl[8]))((IToastNotification*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IToastNotification*, IReference<WinRTDateTime>**, int>)(lpVtbl[8]))((IToastNotification*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IToastNotification.xml' path='doc/member[@name="IToastNotification.add_Dismissed"]/*' />
@@ -149,10 +149,10 @@ public unsafe partial struct IToastNotification : IToastNotification.Interface, 
         HRESULT get_Content([NativeTypeName("ABI::Windows::Data::Xml::Dom::IXmlDocument **")] IXmlDocument** value);
 
         [VtblIndex(7)]
-        HRESULT put_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(8)]
-        HRESULT get_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_ExpirationTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(9)]
         HRESULT add_Dismissed([NativeTypeName("ABI::Windows::Foundation::__FITypedEventHandler_2_Windows__CUI__CNotifications__CToastNotification_Windows__CUI__CNotifications__CToastDismissedEventArgs_t *")] ITypedEventHandler<Pointer<IToastNotification>, Pointer<IToastDismissedEventArgs>>* handler, EventRegistrationToken* token);
@@ -198,10 +198,10 @@ public unsafe partial struct IToastNotification : IToastNotification.Interface, 
         public delegate* unmanaged[MemberFunction]<TSelf*, IXmlDocument**, int> get_Content;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_ExpirationTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_ExpirationTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_ExpirationTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_ExpirationTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FITypedEventHandler_2_Windows__CUI__CNotifications__CToastNotification_Windows__CUI__CNotifications__CToastDismissedEventArgs_t *, EventRegistrationToken *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, ITypedEventHandler<Pointer<IToastNotification>, Pointer<IToastDismissedEventArgs>>*, EventRegistrationToken*, int> add_Dismissed;

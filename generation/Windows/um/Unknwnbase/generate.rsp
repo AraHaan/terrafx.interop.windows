@@ -2,6 +2,8 @@
 @../../../remap.rsp
 --exclude
 IUnknown.QueryInterface<Q>(Q **):HRESULT
+--with-base
+IUnknown=INativeGuid
 --file
 um-Unknwnbase.h
 --method-class-name

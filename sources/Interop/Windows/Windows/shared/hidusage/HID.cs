@@ -3853,6 +3853,18 @@ public static partial class HID
     [NativeTypeName("#define HID_USAGE_HAPTICS_WAVEFORM_SPARKLE_CONTINUOUS ((USAGE) 0x1011)")]
     public const ushort HID_USAGE_HAPTICS_WAVEFORM_SPARKLE_CONTINUOUS = ((ushort)(0x1011));
 
+    [NativeTypeName("#define HID_USAGE_HAPTICS_WAVEFORM_COLLIDE ((USAGE) 0x1012)")]
+    public const ushort HID_USAGE_HAPTICS_WAVEFORM_COLLIDE = ((ushort)(0x1012));
+
+    [NativeTypeName("#define HID_USAGE_HAPTICS_WAVEFORM_ALIGN ((USAGE) 0x1013)")]
+    public const ushort HID_USAGE_HAPTICS_WAVEFORM_ALIGN = ((ushort)(0x1013));
+
+    [NativeTypeName("#define HID_USAGE_HAPTICS_WAVEFORM_STEP ((USAGE) 0x1014)")]
+    public const ushort HID_USAGE_HAPTICS_WAVEFORM_STEP = ((ushort)(0x1014));
+
+    [NativeTypeName("#define HID_USAGE_HAPTICS_WAVEFORM_GROW ((USAGE) 0x1015)")]
+    public const ushort HID_USAGE_HAPTICS_WAVEFORM_GROW = ((ushort)(0x1015));
+
     [NativeTypeName("#define HID_USAGE_KEYBOARD_NOEVENT ((USAGE) 0x0000)")]
     public const ushort HID_USAGE_KEYBOARD_NOEVENT = ((ushort)(0x0000));
 

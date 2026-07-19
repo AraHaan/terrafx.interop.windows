@@ -19,6 +19,9 @@ public static partial class WinRT
     [NativeTypeName("const WCHAR[71]")]
     public const string InterfaceName_Windows_Devices_Haptics_IKnownSimpleHapticsControllerWaveformsStatics2 = "Windows.Devices.Haptics.IKnownSimpleHapticsControllerWaveformsStatics2";
 
+    [NativeTypeName("const WCHAR[71]")]
+    public const string InterfaceName_Windows_Devices_Haptics_IKnownSimpleHapticsControllerWaveformsStatics3 = "Windows.Devices.Haptics.IKnownSimpleHapticsControllerWaveformsStatics3";
+
     [NativeTypeName("const WCHAR[49]")]
     public const string InterfaceName_Windows_Devices_Haptics_ISimpleHapticsController = "Windows.Devices.Haptics.ISimpleHapticsController";
 

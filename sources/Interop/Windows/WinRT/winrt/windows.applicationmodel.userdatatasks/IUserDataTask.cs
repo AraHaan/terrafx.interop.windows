@@ -106,17 +106,17 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_CompletedDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>**, int>)(lpVtbl[10]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.put_CompletedDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT put_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>*, int>)(lpVtbl[11]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>*, int>)(lpVtbl[11]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_Details"]/*' />
@@ -154,17 +154,17 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_DueDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(16)]
-    public HRESULT get_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>**, int>)(lpVtbl[16]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>**, int>)(lpVtbl[16]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.put_DueDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(17)]
-    public HRESULT put_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>*, int>)(lpVtbl[17]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>*, int>)(lpVtbl[17]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_Kind"]/*' />
@@ -226,17 +226,17 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_Reminder"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(25)]
-    public HRESULT get_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>**, int>)(lpVtbl[25]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>**, int>)(lpVtbl[25]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.put_Reminder"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(26)]
-    public HRESULT put_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>*, int>)(lpVtbl[26]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>*, int>)(lpVtbl[26]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_Sensitivity"]/*' />
@@ -274,17 +274,17 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.get_StartDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(31)]
-    public HRESULT get_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>**, int>)(lpVtbl[31]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>**, int>)(lpVtbl[31]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTask.xml' path='doc/member[@name="IUserDataTask.put_StartDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(32)]
-    public HRESULT put_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<DateTime>*, int>)(lpVtbl[32]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTask*, IReference<WinRTDateTime>*, int>)(lpVtbl[32]))((IUserDataTask*)Unsafe.AsPointer(ref this), value);
     }
 
     public interface Interface : IInspectable.Interface
@@ -302,10 +302,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         HRESULT put_RemoteId(HSTRING value);
 
         [VtblIndex(10)]
-        HRESULT get_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
-        HRESULT put_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_CompletedDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(12)]
         HRESULT get_Details(HSTRING* value);
@@ -320,10 +320,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         HRESULT put_DetailsKind([NativeTypeName("ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskDetailsKind")] UserDataTaskDetailsKind value);
 
         [VtblIndex(16)]
-        HRESULT get_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(17)]
-        HRESULT put_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_DueDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(18)]
         HRESULT get_Kind([NativeTypeName("ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskKind *")] UserDataTaskKind* value);
@@ -347,10 +347,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         HRESULT put_RegenerationProperties([NativeTypeName("ABI::Windows::ApplicationModel::UserDataTasks::IUserDataTaskRegenerationProperties *")] IUserDataTaskRegenerationProperties* value);
 
         [VtblIndex(25)]
-        HRESULT get_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(26)]
-        HRESULT put_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_Reminder([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(27)]
         HRESULT get_Sensitivity([NativeTypeName("ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskSensitivity *")] UserDataTaskSensitivity* value);
@@ -365,10 +365,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         HRESULT put_Subject(HSTRING value);
 
         [VtblIndex(31)]
-        HRESULT get_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(32)]
-        HRESULT put_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_StartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
     }
 
     public partial struct Vtbl<TSelf>
@@ -405,10 +405,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, int> put_RemoteId;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_CompletedDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_CompletedDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_CompletedDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_CompletedDate;
 
         [NativeTypeName("HRESULT (HSTRING *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING*, int> get_Details;
@@ -423,10 +423,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         public delegate* unmanaged[MemberFunction]<TSelf*, UserDataTaskDetailsKind, int> put_DetailsKind;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_DueDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_DueDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_DueDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_DueDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskKind *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, UserDataTaskKind*, int> get_Kind;
@@ -450,10 +450,10 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         public delegate* unmanaged[MemberFunction]<TSelf*, IUserDataTaskRegenerationProperties*, int> put_RegenerationProperties;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Reminder;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Reminder;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_Reminder;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_Reminder;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskSensitivity *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, UserDataTaskSensitivity*, int> get_Sensitivity;
@@ -468,9 +468,9 @@ public unsafe partial struct IUserDataTask : IUserDataTask.Interface, INativeGui
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, int> put_Subject;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_StartDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_StartDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_StartDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_StartDate;
     }
 }

@@ -139,18 +139,18 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(13)]
     [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT get_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<DateTime>**, int>)(lpVtbl[13]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<WinRTDateTime>**, int>)(lpVtbl[13]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletItem.xml' path='doc/member[@name="IWalletItem.put_LastUpdated"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(14)]
     [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT put_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<DateTime>*, int>)(lpVtbl[14]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<WinRTDateTime>*, int>)(lpVtbl[14]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletItem.xml' path='doc/member[@name="IWalletItem.get_Kind"]/*' />
@@ -184,18 +184,18 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(18)]
     [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT get_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<DateTime>**, int>)(lpVtbl[18]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<WinRTDateTime>**, int>)(lpVtbl[18]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletItem.xml' path='doc/member[@name="IWalletItem.put_ExpirationDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(19)]
     [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT put_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<DateTime>*, int>)(lpVtbl[19]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<WinRTDateTime>*, int>)(lpVtbl[19]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletItem.xml' path='doc/member[@name="IWalletItem.get_Logo159x159"]/*' />
@@ -454,18 +454,18 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(48)]
     [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT get_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<DateTime>**, int>)(lpVtbl[48]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<WinRTDateTime>**, int>)(lpVtbl[48]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletItem.xml' path='doc/member[@name="IWalletItem.put_RelevantDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(49)]
     [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT put_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<DateTime>*, int>)(lpVtbl[49]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletItem*, IReference<WinRTDateTime>*, int>)(lpVtbl[49]))((IWalletItem*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletItem.xml' path='doc/member[@name="IWalletItem.get_RelevantDateDisplayMessage"]/*' />
@@ -572,11 +572,11 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
 
         [VtblIndex(13)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT get_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(14)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT put_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_LastUpdated([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(15)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
@@ -592,11 +592,11 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
 
         [VtblIndex(18)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT get_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(19)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT put_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_ExpirationDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(20)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
@@ -712,11 +712,11 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
 
         [VtblIndex(48)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT get_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(49)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT put_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_RelevantDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(50)]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
@@ -802,11 +802,11 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_LastUpdated;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_LastUpdated;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_LastUpdated;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_LastUpdated;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::Wallet::WalletItemKind *) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
@@ -822,11 +822,11 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_ExpirationDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_ExpirationDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_ExpirationDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_ExpirationDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Storage::Streams::IRandomAccessStreamReference **) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
@@ -942,11 +942,11 @@ public unsafe partial struct IWalletItem : IWalletItem.Interface, INativeGuid
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_RelevantDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_RelevantDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_RelevantDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_RelevantDate;
 
         [NativeTypeName("HRESULT (HSTRING *) __attribute__((stdcall))")]
         [Obsolete("IWalletItem is deprecated and might not work on all platforms. For more info, see MSDN.")]

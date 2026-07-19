@@ -186,33 +186,33 @@ public unsafe partial struct IHttpContentHeaderCollection : IHttpContentHeaderCo
     /// <include file='IHttpContentHeaderCollection.xml' path='doc/member[@name="IHttpContentHeaderCollection.get_Expires"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(20)]
-    public HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<DateTime>**, int>)(lpVtbl[20]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<WinRTDateTime>**, int>)(lpVtbl[20]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpContentHeaderCollection.xml' path='doc/member[@name="IHttpContentHeaderCollection.put_Expires"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(21)]
-    public HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<DateTime>*, int>)(lpVtbl[21]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<WinRTDateTime>*, int>)(lpVtbl[21]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpContentHeaderCollection.xml' path='doc/member[@name="IHttpContentHeaderCollection.get_LastModified"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(22)]
-    public HRESULT get_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<DateTime>**, int>)(lpVtbl[22]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<WinRTDateTime>**, int>)(lpVtbl[22]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpContentHeaderCollection.xml' path='doc/member[@name="IHttpContentHeaderCollection.put_LastModified"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(23)]
-    public HRESULT put_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<DateTime>*, int>)(lpVtbl[23]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpContentHeaderCollection*, IReference<WinRTDateTime>*, int>)(lpVtbl[23]))((IHttpContentHeaderCollection*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpContentHeaderCollection.xml' path='doc/member[@name="IHttpContentHeaderCollection.Append"]/*' />
@@ -276,16 +276,16 @@ public unsafe partial struct IHttpContentHeaderCollection : IHttpContentHeaderCo
         HRESULT put_ContentType([NativeTypeName("ABI::Windows::Web::Http::Headers::IHttpMediaTypeHeaderValue *")] IHttpMediaTypeHeaderValue* value);
 
         [VtblIndex(20)]
-        HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(21)]
-        HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(22)]
-        HRESULT get_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(23)]
-        HRESULT put_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_LastModified([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(24)]
         HRESULT Append(HSTRING name, HSTRING value);
@@ -358,16 +358,16 @@ public unsafe partial struct IHttpContentHeaderCollection : IHttpContentHeaderCo
         public delegate* unmanaged[MemberFunction]<TSelf*, IHttpMediaTypeHeaderValue*, int> put_ContentType;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Expires;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Expires;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_Expires;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_Expires;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_LastModified;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_LastModified;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_LastModified;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_LastModified;
 
         [NativeTypeName("HRESULT (HSTRING, HSTRING) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, HSTRING, int> Append;

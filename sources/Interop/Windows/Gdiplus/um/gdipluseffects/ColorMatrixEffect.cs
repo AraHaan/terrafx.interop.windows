@@ -48,7 +48,7 @@ public unsafe partial struct ColorMatrixEffect
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const ColorMatrix *")] ColorMatrix* matrix)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::ColorMatrix *")] ColorMatrix* matrix)
     {
         uint size = 100;
 

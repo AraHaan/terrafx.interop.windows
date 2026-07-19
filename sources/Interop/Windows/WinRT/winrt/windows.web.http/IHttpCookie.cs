@@ -98,17 +98,17 @@ public unsafe partial struct IHttpCookie : IHttpCookie.Interface, INativeGuid
     /// <include file='IHttpCookie.xml' path='doc/member[@name="IHttpCookie.get_Expires"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(9)]
-    public HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpCookie*, IReference<DateTime>**, int>)(lpVtbl[9]))((IHttpCookie*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpCookie*, IReference<WinRTDateTime>**, int>)(lpVtbl[9]))((IHttpCookie*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpCookie.xml' path='doc/member[@name="IHttpCookie.put_Expires"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpCookie*, IReference<DateTime>*, int>)(lpVtbl[10]))((IHttpCookie*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpCookie*, IReference<WinRTDateTime>*, int>)(lpVtbl[10]))((IHttpCookie*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpCookie.xml' path='doc/member[@name="IHttpCookie.get_HttpOnly"]/*' />
@@ -171,10 +171,10 @@ public unsafe partial struct IHttpCookie : IHttpCookie.Interface, INativeGuid
         HRESULT get_Path(HSTRING* value);
 
         [VtblIndex(9)]
-        HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(10)]
-        HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_Expires([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(11)]
         HRESULT get_HttpOnly([NativeTypeName("boolean *")] byte* value);
@@ -226,10 +226,10 @@ public unsafe partial struct IHttpCookie : IHttpCookie.Interface, INativeGuid
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING*, int> get_Path;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Expires;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Expires;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_Expires;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_Expires;
 
         [NativeTypeName("HRESULT (boolean *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, byte*, int> get_HttpOnly;

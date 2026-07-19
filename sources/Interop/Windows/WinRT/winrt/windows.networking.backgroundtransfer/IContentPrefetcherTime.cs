@@ -74,15 +74,15 @@ public unsafe partial struct IContentPrefetcherTime : IContentPrefetcherTime.Int
     /// <include file='IContentPrefetcherTime.xml' path='doc/member[@name="IContentPrefetcherTime.get_LastSuccessfulPrefetchTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT get_LastSuccessfulPrefetchTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_LastSuccessfulPrefetchTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IContentPrefetcherTime*, IReference<DateTime>**, int>)(lpVtbl[6]))((IContentPrefetcherTime*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IContentPrefetcherTime*, IReference<WinRTDateTime>**, int>)(lpVtbl[6]))((IContentPrefetcherTime*)Unsafe.AsPointer(ref this), value);
     }
 
     public interface Interface : IInspectable.Interface
     {
         [VtblIndex(6)]
-        HRESULT get_LastSuccessfulPrefetchTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_LastSuccessfulPrefetchTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
     }
 
     public partial struct Vtbl<TSelf>
@@ -107,6 +107,6 @@ public unsafe partial struct IContentPrefetcherTime : IContentPrefetcherTime.Int
         public delegate* unmanaged[MemberFunction]<TSelf*, TrustLevel*, int> GetTrustLevel;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_LastSuccessfulPrefetchTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_LastSuccessfulPrefetchTime;
     }
 }

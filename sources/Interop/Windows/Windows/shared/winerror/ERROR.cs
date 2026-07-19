@@ -4279,6 +4279,9 @@ public static partial class ERROR
     [NativeTypeName("#define ERROR_VSMIDK_MODULUS_MISMATCH 4565L")]
     public const int ERROR_VSMIDK_MODULUS_MISMATCH = 4565;
 
+    [NativeTypeName("#define ERROR_VSM_FW_MEASUREMENTS_SEAL_FAILURE 4566L")]
+    public const int ERROR_VSM_FW_MEASUREMENTS_SEAL_FAILURE = 4566;
+
     [NativeTypeName("#define ERROR_PLATFORM_MANIFEST_NOT_AUTHORIZED 4570L")]
     public const int ERROR_PLATFORM_MANIFEST_NOT_AUTHORIZED = 4570;
 
@@ -10401,6 +10404,9 @@ public static partial class ERROR
 
     [NativeTypeName("#define ERROR_SMB_TLS_ACCESS_DENIED _HRESULT_TYPEDEF_(0xC05D0007L)")]
     public const int ERROR_SMB_TLS_ACCESS_DENIED = unchecked((int)(0xC05D0007));
+
+    [NativeTypeName("#define ERROR_SMB_ALTERNATIVE_PORT_CONFLICT _HRESULT_TYPEDEF_(0xC05D000BL)")]
+    public const int ERROR_SMB_ALTERNATIVE_PORT_CONFLICT = unchecked((int)(0xC05D000B));
 
     [NativeTypeName("#define ERROR_QUIC_HANDSHAKE_FAILURE _HRESULT_TYPEDEF_(0x80410000L)")]
     public const int ERROR_QUIC_HANDSHAKE_FAILURE = unchecked((int)(0x80410000));

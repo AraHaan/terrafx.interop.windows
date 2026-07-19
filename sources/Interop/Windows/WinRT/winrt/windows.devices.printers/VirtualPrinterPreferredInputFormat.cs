@@ -8,4 +8,9 @@ namespace TerraFX.Interop.WinRT;
 /// <include file='VirtualPrinterPreferredInputFormat.xml' path='doc/member[@name="VirtualPrinterPreferredInputFormat"]/*' />
 public enum VirtualPrinterPreferredInputFormat
 {
+    /// <include file='VirtualPrinterPreferredInputFormat.xml' path='doc/member[@name="VirtualPrinterPreferredInputFormat.VirtualPrinterPreferredInputFormat_OpenXps"]/*' />
+    VirtualPrinterPreferredInputFormat_OpenXps = 0,
+
+    /// <include file='VirtualPrinterPreferredInputFormat.xml' path='doc/member[@name="VirtualPrinterPreferredInputFormat.VirtualPrinterPreferredInputFormat_PostScript"]/*' />
+    VirtualPrinterPreferredInputFormat_PostScript = 1,
 }

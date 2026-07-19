@@ -48,7 +48,7 @@ public unsafe partial struct ColorCurve
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const ColorCurveParams *")] ColorCurveParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::ColorCurveParams *")] ColorCurveParams* parameters)
     {
         uint size = 12;
 

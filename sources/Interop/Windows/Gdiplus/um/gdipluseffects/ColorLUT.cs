@@ -48,7 +48,7 @@ public unsafe partial struct ColorLUT
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const ColorLUTParams *")] ColorLUTParams* lut)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::ColorLUTParams *")] ColorLUTParams* lut)
     {
         uint size = 1024;
 

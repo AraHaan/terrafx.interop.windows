@@ -7,6 +7,9 @@ namespace TerraFX.Interop.WinRT;
 
 public static partial class WinRT
 {
+    [NativeTypeName("const WCHAR[55]")]
+    public const string InterfaceName_Windows_Devices_Printers_IIppAttributeConverterStatics = "Windows.Devices.Printers.IIppAttributeConverterStatics";
+
     [NativeTypeName("const WCHAR[44]")]
     public const string InterfaceName_Windows_Devices_Printers_IIppAttributeError = "Windows.Devices.Printers.IIppAttributeError";
 
@@ -58,6 +61,9 @@ public static partial class WinRT
     [NativeTypeName("const WCHAR[49]")]
     public const string InterfaceName_Windows_Devices_Printers_IPdlPassthroughProvider = "Windows.Devices.Printers.IPdlPassthroughProvider";
 
+    [NativeTypeName("const WCHAR[50]")]
+    public const string InterfaceName_Windows_Devices_Printers_IPdlPassthroughProvider2 = "Windows.Devices.Printers.IPdlPassthroughProvider2";
+
     [NativeTypeName("const WCHAR[47]")]
     public const string InterfaceName_Windows_Devices_Printers_IPdlPassthroughTarget = "Windows.Devices.Printers.IPdlPassthroughTarget";
 
@@ -69,6 +75,24 @@ public static partial class WinRT
 
     [NativeTypeName("const WCHAR[38]")]
     public const string InterfaceName_Windows_Devices_Printers_IPrintSchema = "Windows.Devices.Printers.IPrintSchema";
+
+    [NativeTypeName("const WCHAR[63]")]
+    public const string InterfaceName_Windows_Devices_Printers_IVirtualPrinterInstallationParameters = "Windows.Devices.Printers.IVirtualPrinterInstallationParameters";
+
+    [NativeTypeName("const WCHAR[59]")]
+    public const string InterfaceName_Windows_Devices_Printers_IVirtualPrinterInstallationResult = "Windows.Devices.Printers.IVirtualPrinterInstallationResult";
+
+    [NativeTypeName("const WCHAR[55]")]
+    public const string InterfaceName_Windows_Devices_Printers_IVirtualPrinterManagerStatics = "Windows.Devices.Printers.IVirtualPrinterManagerStatics";
+
+    [NativeTypeName("const WCHAR[56]")]
+    public const string InterfaceName_Windows_Devices_Printers_IVirtualPrinterSupportedFormat = "Windows.Devices.Printers.IVirtualPrinterSupportedFormat";
+
+    [NativeTypeName("const WCHAR[63]")]
+    public const string InterfaceName_Windows_Devices_Printers_IVirtualPrinterSupportedFormatFactory = "Windows.Devices.Printers.IVirtualPrinterSupportedFormatFactory";
+
+    [NativeTypeName("const WCHAR[47]")]
+    public const string RuntimeClass_Windows_Devices_Printers_IppAttributeConverter = "Windows.Devices.Printers.IppAttributeConverter";
 
     [NativeTypeName("const WCHAR[43]")]
     public const string RuntimeClass_Windows_Devices_Printers_IppAttributeError = "Windows.Devices.Printers.IppAttributeError";
@@ -105,6 +129,18 @@ public static partial class WinRT
 
     [NativeTypeName("const WCHAR[37]")]
     public const string RuntimeClass_Windows_Devices_Printers_PrintSchema = "Windows.Devices.Printers.PrintSchema";
+
+    [NativeTypeName("const WCHAR[62]")]
+    public const string RuntimeClass_Windows_Devices_Printers_VirtualPrinterInstallationParameters = "Windows.Devices.Printers.VirtualPrinterInstallationParameters";
+
+    [NativeTypeName("const WCHAR[58]")]
+    public const string RuntimeClass_Windows_Devices_Printers_VirtualPrinterInstallationResult = "Windows.Devices.Printers.VirtualPrinterInstallationResult";
+
+    [NativeTypeName("const WCHAR[47]")]
+    public const string RuntimeClass_Windows_Devices_Printers_VirtualPrinterManager = "Windows.Devices.Printers.VirtualPrinterManager";
+
+    [NativeTypeName("const WCHAR[55]")]
+    public const string RuntimeClass_Windows_Devices_Printers_VirtualPrinterSupportedFormat = "Windows.Devices.Printers.VirtualPrinterSupportedFormat";
 
     [NativeTypeName("#define WINDOWS_DEVICES_PRINTERS_PRINTERSCONTRACT_VERSION 0x10000")]
     public const int WINDOWS_DEVICES_PRINTERS_PRINTERSCONTRACT_VERSION = 0x10000;

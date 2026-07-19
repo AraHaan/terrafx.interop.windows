@@ -74,9 +74,9 @@ public unsafe partial struct IHttpDateOrDeltaHeaderValue : IHttpDateOrDeltaHeade
     /// <include file='IHttpDateOrDeltaHeaderValue.xml' path='doc/member[@name="IHttpDateOrDeltaHeaderValue.get_Date"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IHttpDateOrDeltaHeaderValue*, IReference<DateTime>**, int>)(lpVtbl[6]))((IHttpDateOrDeltaHeaderValue*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IHttpDateOrDeltaHeaderValue*, IReference<WinRTDateTime>**, int>)(lpVtbl[6]))((IHttpDateOrDeltaHeaderValue*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IHttpDateOrDeltaHeaderValue.xml' path='doc/member[@name="IHttpDateOrDeltaHeaderValue.get_Delta"]/*' />
@@ -90,7 +90,7 @@ public unsafe partial struct IHttpDateOrDeltaHeaderValue : IHttpDateOrDeltaHeade
     public interface Interface : IInspectable.Interface
     {
         [VtblIndex(6)]
-        HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Date([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(7)]
         HRESULT get_Delta([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CTimeSpan_t **")] IReference<TimeSpan>** value);
@@ -118,7 +118,7 @@ public unsafe partial struct IHttpDateOrDeltaHeaderValue : IHttpDateOrDeltaHeade
         public delegate* unmanaged[MemberFunction]<TSelf*, TrustLevel*, int> GetTrustLevel;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Date;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Date;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CTimeSpan_t **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<TimeSpan>**, int> get_Delta;

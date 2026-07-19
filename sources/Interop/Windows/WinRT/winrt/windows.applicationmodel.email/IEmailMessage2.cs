@@ -386,17 +386,17 @@ public unsafe partial struct IEmailMessage2 : IEmailMessage2.Interface, INativeG
     /// <include file='IEmailMessage2.xml' path='doc/member[@name="IEmailMessage2.get_SentTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(45)]
-    public HRESULT get_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMessage2*, IReference<DateTime>**, int>)(lpVtbl[45]))((IEmailMessage2*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMessage2*, IReference<WinRTDateTime>**, int>)(lpVtbl[45]))((IEmailMessage2*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMessage2.xml' path='doc/member[@name="IEmailMessage2.put_SentTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(46)]
-    public HRESULT put_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMessage2*, IReference<DateTime>*, int>)(lpVtbl[46]))((IEmailMessage2*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMessage2*, IReference<WinRTDateTime>*, int>)(lpVtbl[46]))((IEmailMessage2*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMessage2.xml' path='doc/member[@name="IEmailMessage2.get_MeetingInfo"]/*' />
@@ -551,10 +551,10 @@ public unsafe partial struct IEmailMessage2 : IEmailMessage2.Interface, INativeG
         HRESULT put_Sender([NativeTypeName("ABI::Windows::ApplicationModel::Email::IEmailRecipient *")] IEmailRecipient* value);
 
         [VtblIndex(45)]
-        HRESULT get_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(46)]
-        HRESULT put_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_SentTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(47)]
         HRESULT get_MeetingInfo([NativeTypeName("ABI::Windows::ApplicationModel::Email::IEmailMeetingInfo **")] IEmailMeetingInfo** value);
@@ -708,10 +708,10 @@ public unsafe partial struct IEmailMessage2 : IEmailMessage2.Interface, INativeG
         public delegate* unmanaged[MemberFunction]<TSelf*, IEmailRecipient*, int> put_Sender;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_SentTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_SentTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_SentTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_SentTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::Email::IEmailMeetingInfo **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IEmailMeetingInfo**, int> get_MeetingInfo;

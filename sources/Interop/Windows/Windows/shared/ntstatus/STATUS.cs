@@ -8281,6 +8281,9 @@ public static partial class STATUS
     [NativeTypeName("#define STATUS_SMB_TLS_ACCESS_DENIED ((NTSTATUS)0xC05D0009L)")]
     public const int STATUS_SMB_TLS_ACCESS_DENIED = unchecked((int)(0xC05D0009));
 
+    [NativeTypeName("#define STATUS_SMB_ALTERNATIVE_PORT_CONFLICT ((NTSTATUS)0xC05D000DL)")]
+    public const int STATUS_SMB_ALTERNATIVE_PORT_CONFLICT = unchecked((int)(0xC05D000D));
+
     [NativeTypeName("#define STATUS_SECCORE_INVALID_COMMAND ((NTSTATUS)0xC0E80000L)")]
     public const int STATUS_SECCORE_INVALID_COMMAND = unchecked((int)(0xC0E80000));
 
@@ -8301,6 +8304,9 @@ public static partial class STATUS
 
     [NativeTypeName("#define STATUS_VSMIDK_MODULUS_MISMATCH ((NTSTATUS)0xC0450005L)")]
     public const int STATUS_VSMIDK_MODULUS_MISMATCH = unchecked((int)(0xC0450005));
+
+    [NativeTypeName("#define STATUS_VSM_FW_MEASUREMENTS_SEAL_FAILURE ((NTSTATUS)0xC0450006L)")]
+    public const int STATUS_VSM_FW_MEASUREMENTS_SEAL_FAILURE = unchecked((int)(0xC0450006));
 
     [NativeTypeName("#define STATUS_APPEXEC_CONDITION_NOT_SATISFIED ((NTSTATUS)0xC0EC0000L)")]
     public const int STATUS_APPEXEC_CONDITION_NOT_SATISFIED = unchecked((int)(0xC0EC0000));

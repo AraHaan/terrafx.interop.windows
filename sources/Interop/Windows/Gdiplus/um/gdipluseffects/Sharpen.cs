@@ -48,7 +48,7 @@ public unsafe partial struct Sharpen
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const SharpenParams *")] SharpenParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::SharpenParams *")] SharpenParams* parameters)
     {
         uint size = 8;
 

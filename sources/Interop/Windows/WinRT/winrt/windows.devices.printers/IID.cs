@@ -10,8 +10,32 @@ using System.Runtime.InteropServices;
 
 namespace TerraFX.Interop.Windows;
 
-public static partial class IID
+public static unsafe partial class IID
 {
+    public static ref readonly Guid IID_IIppAttributeConverterStatics
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0xDF, 0x68, 0xE3, 0x91,
+                0xA4, 0xBF,
+                0xA1, 0x5C,
+                0xA9,
+                0x2D,
+                0x07,
+                0x93,
+                0xF9,
+                0x88,
+                0xE8,
+                0x2D
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
     public static ref readonly Guid IID_IIppAttributeError
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -420,6 +444,30 @@ public static partial class IID
         }
     }
 
+    public static ref readonly Guid IID_IPdlPassthroughProvider2
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0x5C, 0x30, 0x30, 0x73,
+                0x7D, 0xA1,
+                0xEC, 0x52,
+                0xA1,
+                0x29,
+                0x9A,
+                0x4F,
+                0xF9,
+                0xC8,
+                0xF6,
+                0x55
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
     public static ref readonly Guid IID_IPdlPassthroughTarget
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -509,6 +557,126 @@ public static partial class IID
                 0x22,
                 0xA3,
                 0x5B
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IVirtualPrinterInstallationParameters
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0xB3, 0x59, 0xC1, 0xBB,
+                0xF3, 0x12,
+                0x4C, 0x58,
+                0x8D,
+                0x26,
+                0xB2,
+                0x2C,
+                0x0D,
+                0xC8,
+                0x32,
+                0x41
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IVirtualPrinterInstallationResult
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0x78, 0xFD, 0xDE, 0x82,
+                0x01, 0x16,
+                0x57, 0x56,
+                0x85,
+                0xDF,
+                0x75,
+                0xEB,
+                0x69,
+                0x16,
+                0x04,
+                0xBD
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IVirtualPrinterManagerStatics
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0xB6, 0x84, 0x10, 0x14,
+                0x02, 0x67,
+                0x5F, 0x5B,
+                0x83,
+                0xDA,
+                0xC7,
+                0x58,
+                0x91,
+                0x65,
+                0x75,
+                0x54
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IVirtualPrinterSupportedFormat
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0x17, 0xFA, 0x01, 0x38,
+                0xB5, 0x22,
+                0xAB, 0x5D,
+                0xAD,
+                0x38,
+                0x39,
+                0xE4,
+                0x7D,
+                0x60,
+                0x71,
+                0xAF
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IVirtualPrinterSupportedFormatFactory
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0x44, 0xED, 0xAA, 0x6D,
+                0xA6, 0x97,
+                0xF4, 0x57,
+                0xBE,
+                0x8B,
+                0x9D,
+                0xBA,
+                0xBC,
+                0x58,
+                0x7F,
+                0x2D
             ];
 
             Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
