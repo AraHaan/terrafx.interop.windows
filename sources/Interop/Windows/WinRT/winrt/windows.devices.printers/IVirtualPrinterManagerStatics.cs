@@ -74,33 +74,33 @@ public unsafe partial struct IVirtualPrinterManagerStatics : IVirtualPrinterMana
     /// <include file='IVirtualPrinterManagerStatics.xml' path='doc/member[@name="IVirtualPrinterManagerStatics.InstallVirtualPrinterAsync"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT InstallVirtualPrinterAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation)
+    public HRESULT InstallVirtualPrinterAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation)
     {
-        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int>)(lpVtbl[6]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, operation);
+        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int>)(lpVtbl[6]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, operation);
     }
 
     /// <include file='IVirtualPrinterManagerStatics.xml' path='doc/member[@name="IVirtualPrinterManagerStatics.InstallVirtualPrinterAsync2"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(7)]
-    public HRESULT InstallVirtualPrinterAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation)
+    public HRESULT InstallVirtualPrinterAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation)
     {
-        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int>)(lpVtbl[7]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, appPackageFamilyName, operation);
+        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int>)(lpVtbl[7]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, appPackageFamilyName, operation);
     }
 
     /// <include file='IVirtualPrinterManagerStatics.xml' path='doc/member[@name="IVirtualPrinterManagerStatics.InstallVirtualPrinterForAllUsersAsync"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(8)]
-    public HRESULT InstallVirtualPrinterForAllUsersAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation)
+    public HRESULT InstallVirtualPrinterForAllUsersAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation)
     {
-        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int>)(lpVtbl[8]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, operation);
+        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int>)(lpVtbl[8]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, operation);
     }
 
     /// <include file='IVirtualPrinterManagerStatics.xml' path='doc/member[@name="IVirtualPrinterManagerStatics.InstallVirtualPrinterForAllUsersAsync2"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(9)]
-    public HRESULT InstallVirtualPrinterForAllUsersAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation)
+    public HRESULT InstallVirtualPrinterForAllUsersAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation)
     {
-        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int>)(lpVtbl[9]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, appPackageFamilyName, operation);
+        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterManagerStatics*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int>)(lpVtbl[9]))((IVirtualPrinterManagerStatics*)Unsafe.AsPointer(ref this), parameters, appPackageFamilyName, operation);
     }
 
     /// <include file='IVirtualPrinterManagerStatics.xml' path='doc/member[@name="IVirtualPrinterManagerStatics.FindAllVirtualPrinters"]/*' />
@@ -138,16 +138,16 @@ public unsafe partial struct IVirtualPrinterManagerStatics : IVirtualPrinterMana
     public interface Interface : IInspectable.Interface
     {
         [VtblIndex(6)]
-        HRESULT InstallVirtualPrinterAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation);
+        HRESULT InstallVirtualPrinterAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation);
 
         [VtblIndex(7)]
-        HRESULT InstallVirtualPrinterAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation);
+        HRESULT InstallVirtualPrinterAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation);
 
         [VtblIndex(8)]
-        HRESULT InstallVirtualPrinterForAllUsersAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation);
+        HRESULT InstallVirtualPrinterForAllUsersAsync([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation);
 
         [VtblIndex(9)]
-        HRESULT InstallVirtualPrinterForAllUsersAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>** operation);
+        HRESULT InstallVirtualPrinterForAllUsersAsync2([NativeTypeName("ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *")] IVirtualPrinterInstallationParameters* parameters, HSTRING appPackageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **")] IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>** operation);
 
         [VtblIndex(10)]
         HRESULT FindAllVirtualPrinters([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVectorView_1_HSTRING_t **")] IVectorView<HSTRING>** result);
@@ -184,16 +184,16 @@ public unsafe partial struct IVirtualPrinterManagerStatics : IVirtualPrinterMana
         public delegate* unmanaged[MemberFunction]<TSelf*, TrustLevel*, int> GetTrustLevel;
 
         [NativeTypeName("HRESULT (ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *, ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterAsync;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterAsync;
 
         [NativeTypeName("HRESULT (ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *, HSTRING, ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterAsync2;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterAsync2;
 
         [NativeTypeName("HRESULT (ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *, ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterForAllUsersAsync;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterForAllUsersAsync;
 
         [NativeTypeName("HRESULT (ABI::Windows::Devices::Printers::IVirtualPrinterInstallationParameters *, HSTRING, ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CDevices__CPrinters__CVirtualPrinterInstallationResult_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<VirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterForAllUsersAsync2;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IVirtualPrinterInstallationParameters*, HSTRING, IAsyncOperation<Pointer<IVirtualPrinterInstallationResult>>**, int> InstallVirtualPrinterForAllUsersAsync2;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::Collections::__FIVectorView_1_HSTRING_t **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IVectorView<HSTRING>**, int> FindAllVirtualPrinters;

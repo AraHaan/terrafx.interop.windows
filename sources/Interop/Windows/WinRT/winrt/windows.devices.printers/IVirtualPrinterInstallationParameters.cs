@@ -98,9 +98,9 @@ public unsafe partial struct IVirtualPrinterInstallationParameters : IVirtualPri
     /// <include file='IVirtualPrinterInstallationParameters.xml' path='doc/member[@name="IVirtualPrinterInstallationParameters.get_SupportedInputFormats"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(9)]
-    public HRESULT get_SupportedInputFormats([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CVirtualPrinterSupportedFormat_t **")] IVector<Pointer<VirtualPrinterSupportedFormat>>** value)
+    public HRESULT get_SupportedInputFormats([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CVirtualPrinterSupportedFormat_t **")] IVector<Pointer<IVirtualPrinterSupportedFormat>>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterInstallationParameters*, IVector<Pointer<VirtualPrinterSupportedFormat>>**, int>)(lpVtbl[9]))((IVirtualPrinterInstallationParameters*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IVirtualPrinterInstallationParameters*, IVector<Pointer<IVirtualPrinterSupportedFormat>>**, int>)(lpVtbl[9]))((IVirtualPrinterInstallationParameters*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IVirtualPrinterInstallationParameters.xml' path='doc/member[@name="IVirtualPrinterInstallationParameters.get_PrintDeviceCapabilitiesPackageRelativeFilePath"]/*' />
@@ -195,7 +195,7 @@ public unsafe partial struct IVirtualPrinterInstallationParameters : IVirtualPri
         HRESULT get_OutputFileExtensions([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_HSTRING_t **")] IVector<HSTRING>** value);
 
         [VtblIndex(9)]
-        HRESULT get_SupportedInputFormats([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CVirtualPrinterSupportedFormat_t **")] IVector<Pointer<VirtualPrinterSupportedFormat>>** value);
+        HRESULT get_SupportedInputFormats([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CVirtualPrinterSupportedFormat_t **")] IVector<Pointer<IVirtualPrinterSupportedFormat>>** value);
 
         [VtblIndex(10)]
         HRESULT get_PrintDeviceCapabilitiesPackageRelativeFilePath(HSTRING* value);
@@ -259,7 +259,7 @@ public unsafe partial struct IVirtualPrinterInstallationParameters : IVirtualPri
         public delegate* unmanaged[MemberFunction]<TSelf*, IVector<HSTRING>**, int> get_OutputFileExtensions;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CVirtualPrinterSupportedFormat_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IVector<Pointer<VirtualPrinterSupportedFormat>>**, int> get_SupportedInputFormats;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IVector<Pointer<IVirtualPrinterSupportedFormat>>**, int> get_SupportedInputFormats;
 
         [NativeTypeName("HRESULT (HSTRING *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING*, int> get_PrintDeviceCapabilitiesPackageRelativeFilePath;
