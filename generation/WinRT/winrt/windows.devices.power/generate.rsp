@@ -7,17 +7,13 @@ ABI::Windows::Devices::Power::IID_IBatteryStatics
 ABI::Windows::Devices::Power::IID_IPowerGridData
 ABI::Windows::Devices::Power::IID_IPowerGridForecast
 ABI::Windows::Devices::Power::IID_IPowerGridForecastStatics
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Power::Battery *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Power::Battery *>
-ABI::Windows::Foundation::IReference<int>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Power::Battery *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.power.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

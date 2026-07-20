@@ -17,7 +17,7 @@ D3D12_GET_COARSE_SHADING_RATE_Y_AXIS
 D3D12_MAKE_COARSE_SHADING_RATE
 --file
 d3d12-d3d12.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -99,7 +99,7 @@ ID3D12ProtectedSession=SupportedOSPlatform("windows10.0")
 ID3D12SDKConfiguration=SupportedOSPlatform("windows10.0.19043.0")
 ID3D12ShaderCacheSession=SupportedOSPlatform("windows10.0.19043.0")
 ID3D12VirtualizationGuestDevice=SupportedOSPlatform("windows10.0.22621.0")
---with-librarypath
+--with-library-path
 D3D12CreateDevice=d3d12
 D3D12CreateRootSignatureDeserializer=d3d12
 D3D12CreateVersionedRootSignatureDeserializer=d3d12

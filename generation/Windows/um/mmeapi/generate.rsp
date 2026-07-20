@@ -9,7 +9,7 @@ MIDICALLBACK
 WAVECALLBACK
 --file
 um-mmeapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -19,7 +19,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/mmeapi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/mmeapi.h
---with-librarypath
+--with-library-path
 auxGetDevCaps=winmm
 auxGetDevCapsA=winmm
 auxGetDevCapsW=winmm

@@ -17,7 +17,7 @@ SIZEOF_MIB_MFE_STATS
 SIZEOF_MIB_MFE_STATS_EX
 --file
 shared-ipmib.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

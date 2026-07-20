@@ -106,9 +106,9 @@ public unsafe partial struct IDataPlanStatus : IDataPlanStatus.Interface, INativ
     /// <include file='IDataPlanStatus.xml' path='doc/member[@name="IDataPlanStatus.get_NextBillingCycle"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_NextBillingCycle([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_NextBillingCycle([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IDataPlanStatus*, IReference<DateTime>**, int>)(lpVtbl[10]))((IDataPlanStatus*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IDataPlanStatus*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IDataPlanStatus*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IDataPlanStatus.xml' path='doc/member[@name="IDataPlanStatus.get_MaxTransferSizeInMegabytes"]/*' />
@@ -134,7 +134,7 @@ public unsafe partial struct IDataPlanStatus : IDataPlanStatus.Interface, INativ
         HRESULT get_OutboundBitsPerSecond([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_UINT64_t **")] IReference<ulong>** value);
 
         [VtblIndex(10)]
-        HRESULT get_NextBillingCycle([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_NextBillingCycle([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
         HRESULT get_MaxTransferSizeInMegabytes([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_UINT32_t **")] IReference<uint>** value);
@@ -174,7 +174,7 @@ public unsafe partial struct IDataPlanStatus : IDataPlanStatus.Interface, INativ
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<ulong>**, int> get_OutboundBitsPerSecond;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_NextBillingCycle;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_NextBillingCycle;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_UINT32_t **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<uint>**, int> get_MaxTransferSizeInMegabytes;

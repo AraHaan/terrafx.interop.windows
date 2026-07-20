@@ -7,7 +7,7 @@ Gdiplus.MetafileHeader.IsEmfOrEmfPlus():BOOL
 Gdiplus.MetafileHeader.IsEmfPlus():BOOL
 --file
 um-gdiplusmetaheader.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

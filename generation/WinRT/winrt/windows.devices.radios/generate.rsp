@@ -3,16 +3,6 @@
 --exclude
 ABI::Windows::Devices::Radios::IID_IRadio
 ABI::Windows::Devices::Radios::IID_IRadioStatics
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Radios::Radio *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Radios::Radio *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Radios::Radio *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Radios::Radio *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Radios::RadioAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Radios::Radio *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Radios::Radio *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Radios::RadioAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Radios::Radio *> *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Radios::Radio *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION
@@ -20,7 +10,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.radios.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -90,9 +90,9 @@ public unsafe partial struct ILimitedAccessFeatureRequestResult : ILimitedAccess
     /// <include file='ILimitedAccessFeatureRequestResult.xml' path='doc/member[@name="ILimitedAccessFeatureRequestResult.get_EstimatedRemovalDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(8)]
-    public HRESULT get_EstimatedRemovalDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_EstimatedRemovalDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<ILimitedAccessFeatureRequestResult*, IReference<DateTime>**, int>)(lpVtbl[8]))((ILimitedAccessFeatureRequestResult*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<ILimitedAccessFeatureRequestResult*, IReference<WinRTDateTime>**, int>)(lpVtbl[8]))((ILimitedAccessFeatureRequestResult*)Unsafe.AsPointer(ref this), value);
     }
 
     public interface Interface : IInspectable.Interface
@@ -104,7 +104,7 @@ public unsafe partial struct ILimitedAccessFeatureRequestResult : ILimitedAccess
         HRESULT get_Status([NativeTypeName("ABI::Windows::ApplicationModel::LimitedAccessFeatureStatus *")] LimitedAccessFeatureStatus* value);
 
         [VtblIndex(8)]
-        HRESULT get_EstimatedRemovalDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_EstimatedRemovalDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
     }
 
     public partial struct Vtbl<TSelf>
@@ -135,6 +135,6 @@ public unsafe partial struct ILimitedAccessFeatureRequestResult : ILimitedAccess
         public delegate* unmanaged[MemberFunction]<TSelf*, LimitedAccessFeatureStatus*, int> get_Status;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_EstimatedRemovalDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_EstimatedRemovalDate;
     }
 }

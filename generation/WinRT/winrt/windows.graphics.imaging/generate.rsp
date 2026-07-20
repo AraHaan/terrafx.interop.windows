@@ -1,21 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Graphics::Imaging::BitmapCodecInformation *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Graphics::Imaging::BitmapCodecInformation *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Graphics::Imaging::BitmapCodecInformation *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Graphics::Imaging::BitmapDecoder *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Graphics::Imaging::BitmapEncoder *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Graphics::Imaging::BitmapFrame *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Graphics::Imaging::BitmapPropertySet *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Graphics::Imaging::PixelDataProvider *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Graphics::Imaging::SoftwareBitmap *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Graphics::Imaging::BitmapDecoder *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Graphics::Imaging::BitmapEncoder *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Graphics::Imaging::BitmapFrame *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Graphics::Imaging::BitmapPropertySet *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Graphics::Imaging::PixelDataProvider *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Graphics::Imaging::SoftwareBitmap *>
 ABI::Windows::Graphics::Imaging::IID_IBitmapBuffer
 ABI::Windows::Graphics::Imaging::IID_IBitmapCodecInformation
 ABI::Windows::Graphics::Imaging::IID_IBitmapDecoder
@@ -42,7 +27,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.graphics.imaging.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-dxgidebug.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -24,5 +24,5 @@ DXGI_INFO_QUEUE_MESSAGE_SEVERITY=SupportedOSPlatform("windows6.2")
 IDXGIDebug1=SupportedOSPlatform("windows6.3")
 IDXGIDebug=SupportedOSPlatform("windows6.2")
 IDXGIInfoQueue=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 DXGIGetDebugInterface=dxgidebug

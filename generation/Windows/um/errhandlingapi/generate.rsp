@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-errhandlingapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -12,7 +12,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/errhandlingapi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/errhandlingapi.h
---with-librarypath
+--with-library-path
 AddVectoredContinueHandler=kernel32
 AddVectoredExceptionHandler=kernel32
 FatalAppExit=kernel32
@@ -30,7 +30,7 @@ SetLastError=kernel32
 SetThreadErrorMode=kernel32
 SetUnhandledExceptionFilter=kernel32
 UnhandledExceptionFilter=kernel32
---with-librarypath
+--with-library-path
 TerminateProcessOnMemoryExhaustion=kernelbase
 --with-suppressgctransition
 GetLastError

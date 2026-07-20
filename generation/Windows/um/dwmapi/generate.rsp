@@ -4,7 +4,7 @@
 DWMAPI_
 --file
 um-dwmapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -24,7 +24,7 @@ DWMTRANSITION_OWNEDWINDOW_TARGET=SupportedOSPlatform("windows6.2")
 DWM_SHOWCONTACT=Flags
 DWM_TAB_WINDOW_REQUIREMENTS=Flags
 DWM_TAB_WINDOW_REQUIREMENTS=SupportedOSPlatform("windows10.0.17134.0")
---with-librarypath
+--with-library-path
 DwmAttachMilContent=dwmapi
 DwmDefWindowProc=dwmapi
 DwmDetachMilContent=dwmapi

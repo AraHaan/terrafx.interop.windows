@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-dcomp.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -49,7 +49,7 @@ IDCompositionVisual2=SupportedOSPlatform("windows6.3")
 IDCompositionVisual3=SupportedOSPlatform("windows6.3")
 IDCompositionVisual=SupportedOSPlatform("windows6.2")
 IDCompositionVisualDebug=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 DCompositionAttachMouseDragToHwnd=dcomp
 DCompositionAttachMouseWheelToHwnd=dcomp
 DCompositionBoostCompositorClock=dcomp

@@ -20,7 +20,7 @@ public partial struct ColorPalette
     public uint Count;
 
     /// <include file='ColorPalette.xml' path='doc/member[@name="ColorPalette.Entries"]/*' />
-    [NativeTypeName("ARGB[1]")]
+    [NativeTypeName("Gdiplus::ARGB[1]")]
     public _Entries_e__FixedBuffer Entries;
 
     /// <include file='_Entries_e__FixedBuffer.xml' path='doc/member[@name="_Entries_e__FixedBuffer"]/*' />

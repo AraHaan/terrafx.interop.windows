@@ -31,7 +31,7 @@ SS_PORT
 WS2IPDEF_ASSERT
 --file
 shared-ws2ipdef.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

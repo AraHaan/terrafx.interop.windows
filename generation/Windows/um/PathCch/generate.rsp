@@ -6,7 +6,7 @@ PathCchSkipRoot(PWSTR, PWSTR *):HRESULT
 PathIsUNCEx(PWSTR, PWSTR *):BOOL
 --file
 um-PathCch.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -39,7 +39,7 @@ PathCchSkipRoot=SupportedOSPlatform("windows6.2")
 PathCchStripPrefix=SupportedOSPlatform("windows6.2")
 PathCchStripToRoot=SupportedOSPlatform("windows6.2")
 PathIsUNCEx=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 PathAllocCanonicalize=kernelbase
 PathAllocCombine=kernelbase
 PathCchAddBackslash=kernelbase

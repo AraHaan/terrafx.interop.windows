@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-Windows.Devices.Display.Core.Interop.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -12,7 +12,7 @@ TerraFX.Interop.WinRT
 ../../../../tests/Interop/Windows/WinRT/um/Windows.Devices.Display.Core.Interop
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/Windows.Devices.Display.Core.Interop.h
---with-librarypath
+--with-library-path
 interop::Int64FromLuid=d3d12
 interop::LuidFromInt64=d3d12
 --with-attribute

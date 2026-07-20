@@ -4,7 +4,7 @@
 LocalDiscard
 --file
 um-minwinbase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

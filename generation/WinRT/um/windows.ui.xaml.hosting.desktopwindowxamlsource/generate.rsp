@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-windows.ui.xaml.hosting.desktopwindowxamlsource.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -4,7 +4,7 @@
 MLOperatorEdgeTypeConstrant
 --file
 um-MLOperatorAuthor.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -17,5 +17,5 @@ C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/MLOperatorAuthor.
 --with-attribute
 MLOperatorKernelOptions=Flags
 MLOperatorParameterOptions=Flags
---with-librarypath
+--with-library-path
 *=windows.ai.machinelearning.dll

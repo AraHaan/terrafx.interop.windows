@@ -1,18 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Geolocation::Geopoint *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IMap<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::FileProperties::DocumentPropertiesW *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::FileProperties::ImageProperties *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::FileProperties::MusicProperties *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::FileProperties::VideoProperties *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Geolocation::Geopoint *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IMap<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::FileProperties::DocumentPropertiesW *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::FileProperties::ImageProperties *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::FileProperties::MusicProperties *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::FileProperties::VideoProperties *>
 ABI::Windows::Storage::FileProperties::IID_IBasicProperties
 ABI::Windows::Storage::FileProperties::IID_IDocumentProperties
 ABI::Windows::Storage::FileProperties::IID_IGeotagHelperStatics
@@ -28,7 +16,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.storage.fileproperties.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

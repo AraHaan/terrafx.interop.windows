@@ -17,7 +17,7 @@ MFP_GET_STOP_EVENT
 __MFP_CAST_EVENT
 --file
 um-mfplay.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -27,5 +27,5 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/mfplay
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/mfplay.h
---with-librarypath
+--with-library-path
 MFPCreateMediaPlayer=mfplay

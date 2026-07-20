@@ -1,10 +1,8 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-IServiceProvider.QueryService<Q>(const GUID &, Q **):HRESULT
 --file
 um-servprov.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

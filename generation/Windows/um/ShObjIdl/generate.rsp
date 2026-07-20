@@ -25,7 +25,7 @@ SHRemovePersonalPropertyValues(IShellItemArray *):HRESULT
 SHResolveFolderPathInLibrary
 --file
 um-ShObjIdl.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -45,7 +45,7 @@ SYNC_ENGINE_STATE_FLAGS=SupportedOSPlatform("windows6.3")
 UNDOCK_REASON=SupportedOSPlatform("windows6.2")
 VPCOLORFLAGS=Flags
 VPWATERMARKFLAGS=Flags
---with-librarypath
+--with-library-path
 SHAddDefaultPropertiesByExt=shell32
 SHCreateDefaultPropertiesOp=shell32
 SHSetDefaultProperties=shell32

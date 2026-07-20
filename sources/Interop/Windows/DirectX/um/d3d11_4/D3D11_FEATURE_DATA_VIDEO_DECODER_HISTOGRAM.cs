@@ -3,6 +3,8 @@
 // Ported from um/d3d11_4.h in the Windows SDK for Windows 10.0.28000.0
 // Original source is Copyright © Microsoft. All rights reserved.
 
+using System;
+
 namespace TerraFX.Interop.DirectX;
 
 /// <include file='D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM.xml' path='doc/member[@name="D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM"]/*' />

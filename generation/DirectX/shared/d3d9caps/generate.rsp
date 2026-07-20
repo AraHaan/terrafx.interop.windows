@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 shared-d3d9caps.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

@@ -3,9 +3,12 @@
 // Ported from um/imapi.h in the Windows SDK for Windows 10.0.28000.0
 // Original source is Copyright © Microsoft. All rights reserved.
 
+using System;
+
 namespace TerraFX.Interop.Windows;
 
 /// <include file='MEDIA_FLAGS.xml' path='doc/member[@name="MEDIA_FLAGS"]/*' />
+[Flags]
 public enum MEDIA_FLAGS
 {
     /// <include file='MEDIA_FLAGS.xml' path='doc/member[@name="MEDIA_FLAGS.MEDIA_BLANK"]/*' />

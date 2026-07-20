@@ -74,9 +74,9 @@ public unsafe partial struct IAppointmentsProviderShowAppointmentDetailsActivate
     /// <include file='IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs.xml' path='doc/member[@name="IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs.get_InstanceStartDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs*, IReference<DateTime>**, int>)(lpVtbl[6]))((IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs*, IReference<WinRTDateTime>**, int>)(lpVtbl[6]))((IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs.xml' path='doc/member[@name="IAppointmentsProviderShowAppointmentDetailsActivatedEventArgs.get_LocalId"]/*' />
@@ -98,7 +98,7 @@ public unsafe partial struct IAppointmentsProviderShowAppointmentDetailsActivate
     public interface Interface : IInspectable.Interface
     {
         [VtblIndex(6)]
-        HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_InstanceStartDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(7)]
         HRESULT get_LocalId(HSTRING* value);
@@ -129,7 +129,7 @@ public unsafe partial struct IAppointmentsProviderShowAppointmentDetailsActivate
         public delegate* unmanaged[MemberFunction]<TSelf*, TrustLevel*, int> GetTrustLevel;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_InstanceStartDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_InstanceStartDate;
 
         [NativeTypeName("HRESULT (HSTRING *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING*, int> get_LocalId;

@@ -15,7 +15,7 @@ Gdiplus.Sharpen.Sharpen():void
 Gdiplus.Tint.Tint():void
 --file
 um-gdipluseffects.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus
@@ -25,7 +25,7 @@ TerraFX.Interop.Gdiplus
 ../../../../tests/Interop/Windows/Gdiplus/um/gdipluseffects
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/gdipluseffects.h
---with-librarypath
+--with-library-path
 GdipCreateEffect=gdiplus
 GdipDeleteEffect=gdiplus
 GdipGetEffectParameters=gdiplus

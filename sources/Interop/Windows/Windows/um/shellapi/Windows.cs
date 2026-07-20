@@ -331,6 +331,9 @@ public static unsafe partial class Windows
     [NativeTypeName("#define ABE_BOTTOM 3")]
     public const int ABE_BOTTOM = 3;
 
+    [NativeTypeName("#define ABC_OVERLAYDESKTOPICONS 0x00000001")]
+    public const int ABC_OVERLAYDESKTOPICONS = 0x00000001;
+
     [NativeTypeName("#define DoEnvironmentSubst DoEnvironmentSubstW")]
     public static delegate*<char*, uint, uint> DoEnvironmentSubst => &DoEnvironmentSubstW;
 

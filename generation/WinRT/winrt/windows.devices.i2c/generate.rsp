@@ -7,15 +7,6 @@ ABI::Windows::Devices::I2c::IID_II2cController
 ABI::Windows::Devices::I2c::IID_II2cControllerStatics
 ABI::Windows::Devices::I2c::IID_II2cDevice
 ABI::Windows::Devices::I2c::IID_II2cDeviceStatics
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::I2c::I2cController *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::I2c::I2cController *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::I2c::I2cController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::I2c::I2cController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::I2c::I2cDevice *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::I2c::I2cController *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::I2c::I2cController *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::I2c::I2cDevice *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::I2c::I2cController *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION
@@ -23,7 +14,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.i2c.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

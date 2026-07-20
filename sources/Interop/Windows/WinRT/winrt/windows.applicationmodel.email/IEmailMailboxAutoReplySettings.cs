@@ -106,33 +106,33 @@ public unsafe partial struct IEmailMailboxAutoReplySettings : IEmailMailboxAutoR
     /// <include file='IEmailMailboxAutoReplySettings.xml' path='doc/member[@name="IEmailMailboxAutoReplySettings.get_StartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<DateTime>**, int>)(lpVtbl[10]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMailboxAutoReplySettings.xml' path='doc/member[@name="IEmailMailboxAutoReplySettings.put_StartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT put_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<DateTime>*, int>)(lpVtbl[11]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<WinRTDateTime>*, int>)(lpVtbl[11]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMailboxAutoReplySettings.xml' path='doc/member[@name="IEmailMailboxAutoReplySettings.get_EndTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(12)]
-    public HRESULT get_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<DateTime>**, int>)(lpVtbl[12]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<WinRTDateTime>**, int>)(lpVtbl[12]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMailboxAutoReplySettings.xml' path='doc/member[@name="IEmailMailboxAutoReplySettings.put_EndTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(13)]
-    public HRESULT put_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<DateTime>*, int>)(lpVtbl[13]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMailboxAutoReplySettings*, IReference<WinRTDateTime>*, int>)(lpVtbl[13]))((IEmailMailboxAutoReplySettings*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMailboxAutoReplySettings.xml' path='doc/member[@name="IEmailMailboxAutoReplySettings.get_InternalReply"]/*' />
@@ -174,16 +174,16 @@ public unsafe partial struct IEmailMailboxAutoReplySettings : IEmailMailboxAutoR
         HRESULT put_ResponseKind([NativeTypeName("ABI::Windows::ApplicationModel::Email::EmailMailboxAutoReplyMessageResponseKind")] EmailMailboxAutoReplyMessageResponseKind value);
 
         [VtblIndex(10)]
-        HRESULT get_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
-        HRESULT put_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_StartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(12)]
-        HRESULT get_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(13)]
-        HRESULT put_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_EndTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(14)]
         HRESULT get_InternalReply([NativeTypeName("ABI::Windows::ApplicationModel::Email::IEmailMailboxAutoReply **")] IEmailMailboxAutoReply** value);
@@ -229,16 +229,16 @@ public unsafe partial struct IEmailMailboxAutoReplySettings : IEmailMailboxAutoR
         public delegate* unmanaged[MemberFunction]<TSelf*, EmailMailboxAutoReplyMessageResponseKind, int> put_ResponseKind;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_StartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_StartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_StartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_StartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_EndTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_EndTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_EndTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_EndTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::Email::IEmailMailboxAutoReply **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IEmailMailboxAutoReply**, int> get_InternalReply;

@@ -48,7 +48,7 @@ public unsafe partial struct Tint
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const TintParams *")] TintParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::TintParams *")] TintParams* parameters)
     {
         uint size = 8;
 

@@ -4,7 +4,7 @@
 MICROSOFT_TABLETPENSERVICE_PROPERTY
 --file
 um-tpcshrd.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

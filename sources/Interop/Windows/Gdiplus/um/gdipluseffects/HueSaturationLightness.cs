@@ -48,7 +48,7 @@ public unsafe partial struct HueSaturationLightness
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const HueSaturationLightnessParams *")] HueSaturationLightnessParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::HueSaturationLightnessParams *")] HueSaturationLightnessParams* parameters)
     {
         uint size = 12;
 

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-SystemMediaTransportControlsInterop.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

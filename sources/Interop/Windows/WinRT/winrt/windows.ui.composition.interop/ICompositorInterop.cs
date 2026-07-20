@@ -50,7 +50,7 @@ public unsafe partial struct ICompositorInterop : ICompositorInterop.Interface, 
     /// <include file='ICompositorInterop.xml' path='doc/member[@name="ICompositorInterop.CreateCompositionSurfaceForHandle"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(3)]
-    public HRESULT CreateCompositionSurfaceForHandle(HANDLE swapChain, ICompositionSurface** result)
+    public HRESULT CreateCompositionSurfaceForHandle(HANDLE swapChain, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionSurface **")] ICompositionSurface** result)
     {
         return ((delegate* unmanaged[MemberFunction]<ICompositorInterop*, HANDLE, ICompositionSurface**, int>)(lpVtbl[3]))((ICompositorInterop*)Unsafe.AsPointer(ref this), swapChain, result);
     }
@@ -58,7 +58,7 @@ public unsafe partial struct ICompositorInterop : ICompositorInterop.Interface, 
     /// <include file='ICompositorInterop.xml' path='doc/member[@name="ICompositorInterop.CreateCompositionSurfaceForSwapChain"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(4)]
-    public HRESULT CreateCompositionSurfaceForSwapChain(IUnknown* swapChain, ICompositionSurface** result)
+    public HRESULT CreateCompositionSurfaceForSwapChain(IUnknown* swapChain, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionSurface **")] ICompositionSurface** result)
     {
         return ((delegate* unmanaged[MemberFunction]<ICompositorInterop*, IUnknown*, ICompositionSurface**, int>)(lpVtbl[4]))((ICompositorInterop*)Unsafe.AsPointer(ref this), swapChain, result);
     }
@@ -66,7 +66,7 @@ public unsafe partial struct ICompositorInterop : ICompositorInterop.Interface, 
     /// <include file='ICompositorInterop.xml' path='doc/member[@name="ICompositorInterop.CreateGraphicsDevice"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(5)]
-    public HRESULT CreateGraphicsDevice(IUnknown* renderingDevice, ICompositionGraphicsDevice** result)
+    public HRESULT CreateGraphicsDevice(IUnknown* renderingDevice, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionGraphicsDevice **")] ICompositionGraphicsDevice** result)
     {
         return ((delegate* unmanaged[MemberFunction]<ICompositorInterop*, IUnknown*, ICompositionGraphicsDevice**, int>)(lpVtbl[5]))((ICompositorInterop*)Unsafe.AsPointer(ref this), renderingDevice, result);
     }
@@ -74,13 +74,13 @@ public unsafe partial struct ICompositorInterop : ICompositorInterop.Interface, 
     public interface Interface : IUnknown.Interface
     {
         [VtblIndex(3)]
-        HRESULT CreateCompositionSurfaceForHandle(HANDLE swapChain, ICompositionSurface** result);
+        HRESULT CreateCompositionSurfaceForHandle(HANDLE swapChain, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionSurface **")] ICompositionSurface** result);
 
         [VtblIndex(4)]
-        HRESULT CreateCompositionSurfaceForSwapChain(IUnknown* swapChain, ICompositionSurface** result);
+        HRESULT CreateCompositionSurfaceForSwapChain(IUnknown* swapChain, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionSurface **")] ICompositionSurface** result);
 
         [VtblIndex(5)]
-        HRESULT CreateGraphicsDevice(IUnknown* renderingDevice, ICompositionGraphicsDevice** result);
+        HRESULT CreateGraphicsDevice(IUnknown* renderingDevice, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionGraphicsDevice **")] ICompositionGraphicsDevice** result);
     }
 
     public partial struct Vtbl<TSelf>

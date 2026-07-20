@@ -11,7 +11,7 @@ operator!=(const DEVPROPKEY &, const DEVPROPKEY &):bool
 operator!=(const DEVPROPCOMPKEY &, const DEVPROPCOMPKEY &):bool
 --file
 shared-devpropdef.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

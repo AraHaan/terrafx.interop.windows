@@ -5,13 +5,6 @@ ABI::Windows::Devices::Adc::IID_IAdcChannel
 ABI::Windows::Devices::Adc::IID_IAdcController
 ABI::Windows::Devices::Adc::IID_IAdcControllerStatics
 ABI::Windows::Devices::Adc::IID_IAdcControllerStatics2
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Adc::AdcController *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Adc::AdcController *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Adc::AdcController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Adc::AdcController *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Adc::AdcController *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Adc::AdcController *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Adc::AdcController *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION
@@ -19,7 +12,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.adc.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

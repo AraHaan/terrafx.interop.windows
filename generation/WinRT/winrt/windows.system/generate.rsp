@@ -1,70 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::AppResourceGroupBackgroundTaskReport *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::AppResourceGroupInfo *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::AppUriHandlerHost *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::User *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::UserWatcherUpdateKind>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::AppResourceGroupBackgroundTaskReport *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::AppResourceGroupInfo *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::AppUriHandlerHost *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::User *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::UserWatcherUpdateKind>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Storage::IStorageItem *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppResourceGroupBackgroundTaskReport *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppResourceGroupInfo *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppUriHandlerHost *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::Diagnostics::ProcessDiagnosticInfo *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::AppResourceGroupBackgroundTaskReport *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::AppResourceGroupInfo *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::AppUriHandlerHost *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::User *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::UserWatcherUpdateKind>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IPropertySet *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppDiagnosticInfo *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppUriHandlerHost *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::User *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::AppActivationResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::AppExecutionStateChangeResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::AutoUpdateTimeZoneStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::DiagnosticAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::LaunchQuerySupportStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::LaunchUriResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::LaunchUriStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::ProcessLauncherResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::RemoteLaunchUriStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::User *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::UserAgeConsentResult>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IPropertySet *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppDiagnosticInfo *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::System::AppUriHandlerHost *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::User *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::AppActivationResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::AppExecutionStateChangeResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::AutoUpdateTimeZoneStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::DiagnosticAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::LaunchQuerySupportStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::LaunchUriResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::LaunchUriStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::ProcessLauncherResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::RemoteLaunchUriStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::User *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::UserAgeConsentResult>
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::System::AppMemoryUsageLimitChangingEventArgs *>
-ABI::Windows::Foundation::IEventHandler<ABI::Windows::System::UserDeviceAssociationChangedEventArgs *>
-ABI::Windows::Foundation::IReference<ABI::Windows::Foundation::Point>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::AppDiagnosticInfoWatcher *, ABI::Windows::System::AppDiagnosticInfoWatcherEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::AppDiagnosticInfoWatcher *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::AppResourceGroupInfoWatcher *, ABI::Windows::System::AppResourceGroupInfoWatcherEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::AppResourceGroupInfoWatcher *, ABI::Windows::System::AppResourceGroupInfoWatcherExecutionStateChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::AppResourceGroupInfoWatcher *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::DispatcherQueue *, ABI::Windows::System::DispatcherQueueShutdownStartingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::DispatcherQueue *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::DispatcherQueueTimer *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::UserWatcher *, ABI::Windows::System::UserAuthenticationStatusChangingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::UserWatcher *, ABI::Windows::System::UserChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::UserWatcher *, IInspectable *>
 ABI::Windows::System::IID_IAppActivationResult
 ABI::Windows::System::IID_IAppDiagnosticInfo
 ABI::Windows::System::IID_IAppDiagnosticInfo2
@@ -156,7 +92,7 @@ WINDOWS_UI_CORE_COREWINDOWDIALOGSCONTRACT_VERSION
 WINDOWS_UI_VIEWMANAGEMENT_VIEWMANAGEMENTVIEWSCALINGCONTRACT_VERSION
 --file
 winrt-windows.system.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

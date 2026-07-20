@@ -13,7 +13,7 @@ SIZEOF_UDPTABLE_OWNER_PID
 TCPIP_OWNING_MODULE_SIZE
 --file
 shared-udpmib.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

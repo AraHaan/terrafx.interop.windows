@@ -4,7 +4,7 @@
 _HIDE_GLOBAL_ASYNC_STATUS
 --file
 winrt-asyncinfo.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

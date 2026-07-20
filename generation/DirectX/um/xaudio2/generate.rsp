@@ -7,7 +7,7 @@ X2DEFAULT
 XAudio2Create(IXAudio2 **, UINT32, XAUDIO2_PROCESSOR):HRESULT
 --file
 um-xaudio2.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -19,6 +19,6 @@ TerraFX.Interop.DirectX
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/xaudio2.h
 --with-attribute
 IXAudio2=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 XAudio2Create=xaudio2_9
 XAudio2CreateWithVersionInfo=xaudio2_9

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-StructuredQueryCondition.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

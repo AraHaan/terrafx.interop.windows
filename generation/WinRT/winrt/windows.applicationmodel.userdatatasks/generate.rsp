@@ -13,20 +13,6 @@ ABI::Windows::ApplicationModel::UserDataTasks::IID_IUserDataTaskReader
 ABI::Windows::ApplicationModel::UserDataTasks::IID_IUserDataTaskRecurrenceProperties
 ABI::Windows::ApplicationModel::UserDataTasks::IID_IUserDataTaskRegenerationProperties
 ABI::Windows::ApplicationModel::UserDataTasks::IID_IUserDataTaskStore
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTask *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTask *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTask *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTask *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskBatch *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskList *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskStore *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTask *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskBatch *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskList *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskStore *>
-ABI::Windows::Foundation::IReference<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskDaysOfWeek>
-ABI::Windows::Foundation::IReference<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskWeekOfMonth>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::UserDataTasks::UserDataTaskListSyncManager *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
@@ -34,7 +20,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.userdatatasks.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

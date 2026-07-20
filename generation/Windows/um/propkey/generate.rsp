@@ -4,7 +4,7 @@
 DEFINE_API_PKEY
 --file
 um-propkey.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

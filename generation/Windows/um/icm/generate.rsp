@@ -6,7 +6,7 @@ CMGetPS2ColorRenderingIntent(HPROFILE, DWORD, LPBYTE, LPDWORD):BOOL
 CMGetPS2ColorSpaceArray(HPROFILE, DWORD, DWORD, LPBYTE, LPDWORD, LPBOOL):BOOL
 --file
 um-icm.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -31,7 +31,7 @@ ColorProfileGetDisplayUserScope=SupportedOSPlatform("windows10.0.19043.0")
 ColorProfileRemoveDisplayAssociation=SupportedOSPlatform("windows10.0.19043.0")
 ColorProfileSetDisplayDefaultAssociation=SupportedOSPlatform("windows10.0.19043.0")
 GetColorDirectory=Obsolete("GetColorDirectory is deprecated and might not work on all platforms. For more info, see MSDN.")
---with-librarypath
+--with-library-path
 AssociateColorProfileWithDevice=mscms
 AssociateColorProfileWithDeviceA=mscms
 AssociateColorProfileWithDeviceW=mscms
@@ -59,7 +59,7 @@ CMTranslateColors=icm32
 CMTranslateRGB=icm32
 CMTranslateRGBs=icm32
 CMTranslateRGBsExt=icm32
---with-librarypath
+--with-library-path
 ColorProfileAddDisplayAssociation=mscms
 ColorProfileGetDeviceCapabilities=mscms
 ColorProfileGetDisplayDefault=mscms

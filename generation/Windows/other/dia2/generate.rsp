@@ -1,13 +1,10 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-__MIDL___MIDL_itf_dia2_0000_0000_0001
-__MIDL___MIDL_itf_dia2_0000_0036_0001
 --include-directory
 C:/Program Files/Microsoft Visual Studio/2022/Preview/DIA SDK/include/
 --file
 other-dia2.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

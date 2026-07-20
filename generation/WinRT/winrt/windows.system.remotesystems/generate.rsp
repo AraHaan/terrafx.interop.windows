@@ -1,36 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::RemoteSystems::IRemoteSystemFilter *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::RemoteSystems::RemoteSystemApp *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipant *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::RemoteSystems::IRemoteSystemFilter *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::RemoteSystems::RemoteSystemApp *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipant *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::System::RemoteSystems::RemoteSystemApp *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::RemoteSystems::RemoteSystem *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::RemoteSystems::RemoteSystemAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::RemoteSystems::RemoteSystemSessionCreationResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::System::RemoteSystems::RemoteSystemSessionJoinResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::RemoteSystems::RemoteSystem *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::RemoteSystems::RemoteSystemAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionCreationResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionJoinResult *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSession *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionDisconnectedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionController *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionJoinRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionInvitationListener *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionInvitationReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionMessageChannel *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionValueSetReceivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipantWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipantAddedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipantWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipantRemovedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionParticipantWatcher *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionAddedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionRemovedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemSessionWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemSessionUpdatedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemAddedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemEnumerationCompletedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemRemovedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemUpdatedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::System::RemoteSystems::RemoteSystemWatcher *, ABI::Windows::System::RemoteSystems::RemoteSystemWatcherErrorOccurredEventArgs *>
 ABI::Windows::System::RemoteSystems::IID_IKnownRemoteSystemCapabilitiesStatics
 ABI::Windows::System::RemoteSystems::IID_IRemoteSystem
 ABI::Windows::System::RemoteSystems::IID_IRemoteSystem2
@@ -106,7 +76,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.system.remotesystems.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

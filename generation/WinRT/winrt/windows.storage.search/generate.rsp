@@ -1,30 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Foundation::Collections::__FIVectorView_1_Windows__CData__CText__CTextSegment_t *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IMapView<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Search::IIndexableContent *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Search::SortEntry>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Foundation::Collections::__FIVectorView_1_Windows__CData__CText__CTextSegment_t *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IMapView<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Search::IIndexableContent *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Search::SortEntry>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Foundation::Collections::IVectorView<struct ABI::Windows::Data::Text::TextSegment> *>
-ABI::Windows::Foundation::Collections::IMap<HSTRING__ *, ABI::Windows::Foundation::Collections::IVectorView<struct ABI::Windows::Data::Text::TextSegment> *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Foundation::Collections::IVectorView<struct ABI::Windows::Data::Text::TextSegment> *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Storage::Search::SortEntry>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Foundation::Collections::IMapView<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Search::IIndexableContent *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Search::SortEntry>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IMapView<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Foundation::Collections::__FIMapView_2_HSTRING_IInspectable_t *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Search::IIndexableContent *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::Search::IndexedState>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IMapView<HSTRING, IInspectable *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Foundation::Collections::__FIMapView_2_HSTRING_IInspectable_t *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Search::IIndexableContent *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::Search::IndexedState>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::Search::IStorageQueryResultBase *, IInspectable *>
 ABI::Windows::Storage::Search::IID_IContentIndexer
 ABI::Windows::Storage::Search::IID_IContentIndexerQuery
 ABI::Windows::Storage::Search::IID_IContentIndexerQueryOperations
@@ -48,7 +24,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.storage.search.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

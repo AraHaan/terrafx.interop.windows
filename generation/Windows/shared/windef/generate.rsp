@@ -34,7 +34,7 @@ DPI_AWARENESS_CONTEXT_UNAWARE
 DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED
 --file
 shared-windef.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

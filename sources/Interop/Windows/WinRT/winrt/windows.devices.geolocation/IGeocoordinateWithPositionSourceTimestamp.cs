@@ -74,15 +74,15 @@ public unsafe partial struct IGeocoordinateWithPositionSourceTimestamp : IGeocoo
     /// <include file='IGeocoordinateWithPositionSourceTimestamp.xml' path='doc/member[@name="IGeocoordinateWithPositionSourceTimestamp.get_PositionSourceTimestamp"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(6)]
-    public HRESULT get_PositionSourceTimestamp([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_PositionSourceTimestamp([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IGeocoordinateWithPositionSourceTimestamp*, IReference<DateTime>**, int>)(lpVtbl[6]))((IGeocoordinateWithPositionSourceTimestamp*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IGeocoordinateWithPositionSourceTimestamp*, IReference<WinRTDateTime>**, int>)(lpVtbl[6]))((IGeocoordinateWithPositionSourceTimestamp*)Unsafe.AsPointer(ref this), value);
     }
 
     public interface Interface : IInspectable.Interface
     {
         [VtblIndex(6)]
-        HRESULT get_PositionSourceTimestamp([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_PositionSourceTimestamp([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
     }
 
     public partial struct Vtbl<TSelf>
@@ -107,6 +107,6 @@ public unsafe partial struct IGeocoordinateWithPositionSourceTimestamp : IGeocoo
         public delegate* unmanaged[MemberFunction]<TSelf*, TrustLevel*, int> GetTrustLevel;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_PositionSourceTimestamp;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_PositionSourceTimestamp;
     }
 }

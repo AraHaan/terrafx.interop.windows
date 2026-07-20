@@ -3,13 +3,9 @@
 --exclude
 Gdiplus.AdjustableArrowCap
 Gdiplus.CustomLineCap
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdipluslinecaps.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

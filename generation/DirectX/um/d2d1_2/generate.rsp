@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-d2d1_2.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -20,5 +20,5 @@ ID2D1Device1=SupportedOSPlatform("windows6.3")
 ID2D1DeviceContext1=SupportedOSPlatform("windows6.3")
 ID2D1Factory2=SupportedOSPlatform("windows6.3")
 ID2D1GeometryRealization=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 D2D1ComputeMaximumScaleFactor=d2d1

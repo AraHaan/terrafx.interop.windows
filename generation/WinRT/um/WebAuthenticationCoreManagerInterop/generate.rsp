@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-WebAuthenticationCoreManagerInterop.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

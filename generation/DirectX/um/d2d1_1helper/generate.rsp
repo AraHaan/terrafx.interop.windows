@@ -23,7 +23,7 @@ D2D1.Vector3F
 D2D1.Vector4F
 --file
 um-d2d1_1helper.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -33,7 +33,7 @@ TerraFX.Interop.DirectX
 ../../../../tests/Interop/Windows/DirectX/um/d2d1_1helper
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/d2d1_1helper.h
---with-librarypath
+--with-library-path
 BitmapBrushProperties1=d2d1
 BitmapProperties1=d2d1
 ConvertColorSpace=d2d1

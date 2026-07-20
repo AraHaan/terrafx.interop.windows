@@ -1,38 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::UI::Composition::ICompositionAnimationBase *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Composition::CompositionAnimation *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Composition::CompositionColorGradientStop *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Composition::CompositionProjectedShadowCaster *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Composition::CompositionProjectedShadowReceiver *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Composition::CompositionShape *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Composition::Visual *>
-ABI::Windows::Foundation::Collections::IIterable<float>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::UI::Composition::ICompositionAnimationBase *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Composition::CompositionAnimation *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Composition::CompositionColorGradientStop *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Composition::CompositionProjectedShadowCaster *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Composition::CompositionProjectedShadowReceiver *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Composition::CompositionShape *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Composition::Visual *>
-ABI::Windows::Foundation::Collections::IIterator<float>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::UI::Composition::ICompositionAnimationBase *>
-ABI::Windows::Foundation::Collections::IMap<HSTRING__ *, ABI::Windows::UI::Composition::ICompositionAnimationBase *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::UI::Composition::ICompositionAnimationBase *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::UI::Composition::CompositionColorGradientStop *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::UI::Composition::CompositionShape *>
-ABI::Windows::Foundation::Collections::IVector<float>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::UI::Composition::CompositionColorGradientStop *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::UI::Composition::CompositionShape *>
-ABI::Windows::Foundation::Collections::IVectorView<float>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::UI::Composition::ICompositionSurface *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::UI::Composition::ICompositionSurface *>
-ABI::Windows::Foundation::IReference<ABI::Windows::Foundation::Numerics::Vector2>
-ABI::Windows::Foundation::IReference<ABI::Windows::Foundation::Numerics::Vector3>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Composition::CompositionCapabilities *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::Composition::CompositionGraphicsDevice *, ABI::Windows::UI::Composition::RenderingDeviceReplacedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<IInspectable *, ABI::Windows::UI::Composition::CompositionBatchCompletedEventArgs *>
 ABI::Windows::UI::Composition::IID_IAmbientLight
 ABI::Windows::UI::Composition::IID_IAmbientLight2
 ABI::Windows::UI::Composition::IID_IAnimationController
@@ -225,7 +193,7 @@ WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 WINDOWS_UI_CORE_COREWINDOWDIALOGSCONTRACT_VERSION
 --file
 winrt-windows.ui.composition.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

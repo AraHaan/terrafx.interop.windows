@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-mfcontentdecryptionmodule.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -19,5 +19,5 @@ IMFContentDecryptionModuleFactory=SupportedOSPlatform("windows10.0.19041.0")
 IMFContentDecryptionModuleSession=SupportedOSPlatform("windows10.0.19041.0")
 IMFContentDecryptionModuleSessionCallbacks=SupportedOSPlatform("windows10.0.19041.0")
 MFCreateEncryptedMediaExtensionsStoreActivate=SupportedOSPlatform("windows10.0.19041.0")
---with-librarypath
+--with-library-path
 *=mf

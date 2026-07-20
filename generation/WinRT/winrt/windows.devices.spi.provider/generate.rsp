@@ -6,11 +6,6 @@ ABI::Windows::Devices::Spi::Provider::IID_IProviderSpiConnectionSettingsFactory
 ABI::Windows::Devices::Spi::Provider::IID_ISpiControllerProvider
 ABI::Windows::Devices::Spi::Provider::IID_ISpiDeviceProvider
 ABI::Windows::Devices::Spi::Provider::IID_ISpiProvider
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Spi::Provider::ISpiControllerProvider *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Spi::Provider::ISpiControllerProvider *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Spi::Provider::ISpiControllerProvider *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Spi::Provider::ISpiControllerProvider *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Spi::Provider::ISpiControllerProvider *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_DEVICES_DEVICESLOWLEVELCONTRACT_VERSION
@@ -18,7 +13,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.spi.provider.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

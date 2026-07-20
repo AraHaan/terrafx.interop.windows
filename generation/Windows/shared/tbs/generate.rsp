@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 shared-tbs.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -20,7 +20,7 @@ Tbsi_Is_Tpm_Present=SupportedOSPlatform("windows10.0.22621.0")
 Tbsi_Revoke_Attestation=SupportedOSPlatform("windows6.2")
 TBS_CONTEXT_PARAMS2=SupportedOSPlatform("windows6.2")
 TPM_DEVICE_INFO=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 GetDeviceID=tbs
 GetDeviceIDString=tbs
 Tbsip_Cancel_Commands=tbs

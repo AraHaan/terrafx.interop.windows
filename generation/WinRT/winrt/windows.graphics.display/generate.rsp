@@ -1,13 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Graphics::Display::NitRange>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Graphics::Display::NitRange>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Graphics::Display::NitRange>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Display::BrightnessOverride *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Display::DisplayEnhancementOverride *, ABI::Windows::Graphics::Display::DisplayEnhancementOverrideCapabilitiesChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Display::DisplayEnhancementOverride *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Graphics::Display::DisplayInformation *, IInspectable *>
 ABI::Windows::Graphics::Display::IID_IAdvancedColorInfo
 ABI::Windows::Graphics::Display::IID_IBrightnessOverride
 ABI::Windows::Graphics::Display::IID_IBrightnessOverrideSettings
@@ -35,7 +28,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.graphics.display.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

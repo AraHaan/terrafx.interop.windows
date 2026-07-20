@@ -11,7 +11,7 @@ namespace TerraFX.Interop.Gdiplus;
 public partial struct ColorMatrix
 {
     /// <include file='ColorMatrix.xml' path='doc/member[@name="ColorMatrix.m"]/*' />
-    [NativeTypeName("REAL[5][5]")]
+    [NativeTypeName("Gdiplus::REAL[5][5]")]
     public _m_e__FixedBuffer m;
 
     /// <include file='_m_e__FixedBuffer.xml' path='doc/member[@name="_m_e__FixedBuffer"]/*' />

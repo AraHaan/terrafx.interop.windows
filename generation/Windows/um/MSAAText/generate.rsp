@@ -8,7 +8,7 @@ IID_ITextStoreAnchorSink
 IID_ITextStoreACPSink
 --file
 um-MSAAText.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

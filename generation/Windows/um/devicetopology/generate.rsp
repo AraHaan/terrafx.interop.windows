@@ -5,7 +5,7 @@ DeviceTopology
 E_NOTFOUND
 --file
 um-devicetopology.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

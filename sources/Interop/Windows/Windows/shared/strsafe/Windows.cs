@@ -128,7 +128,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(sbyte));
+                        cbRemaining = cchRemaining * sizeof(sbyte);
                         _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -145,7 +145,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(sbyte));
+                cbDest = cchDest * sizeof(sbyte);
                 _ = StringExHandleOtherFlagsA(pszDest, cbDest, 0, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -217,7 +217,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(char));
+                        cbRemaining = cchRemaining * sizeof(char);
                         _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -234,7 +234,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(char));
+                cbDest = cchDest * sizeof(char);
                 _ = StringExHandleOtherFlagsW(pszDest, cbDest, 0, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -408,7 +408,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(sbyte));
+                        cbRemaining = cchRemaining * sizeof(sbyte);
                         _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -425,7 +425,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(sbyte));
+                cbDest = cchDest * sizeof(sbyte);
                 _ = StringExHandleOtherFlagsA(pszDest, cbDest, 0, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -497,7 +497,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(char));
+                        cbRemaining = cchRemaining * sizeof(char);
                         _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -514,7 +514,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(char));
+                cbDest = cchDest * sizeof(char);
                 _ = StringExHandleOtherFlagsW(pszDest, cbDest, 0, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -579,7 +579,7 @@ public static unsafe partial class Windows
         hr = StringValidateDestAndLengthA(pszDest, cchDest, &cchDestLength, 2147483647);
         if ((((HRESULT)(hr)) >= 0))
         {
-            hr = StringCopyWorkerA(pszDest + cchDestLength, unchecked(cchDest) - cchDestLength, null, pszSrc, (2147483647 - 1));
+            hr = StringCopyWorkerA(pszDest + cchDestLength, cchDest - cchDestLength, null, pszSrc, (2147483647 - 1));
         }
 
         return hr;
@@ -595,7 +595,7 @@ public static unsafe partial class Windows
         hr = StringValidateDestAndLengthW(pszDest, cchDest, &cchDestLength, 2147483647);
         if ((((HRESULT)(hr)) >= 0))
         {
-            hr = StringCopyWorkerW(pszDest + cchDestLength, unchecked(cchDest) - cchDestLength, null, pszSrc, (2147483647 - 1));
+            hr = StringCopyWorkerW(pszDest + cchDestLength, cchDest - cchDestLength, null, pszSrc, (2147483647 - 1));
         }
 
         return hr;
@@ -645,7 +645,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(sbyte));
+                        cbRemaining = cchRemaining * sizeof(sbyte);
                         _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -655,7 +655,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(sbyte));
+                cbDest = cchDest * sizeof(sbyte);
                 _ = StringExHandleOtherFlagsA(pszDest, cbDest, cchDestLength, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -720,7 +720,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(char));
+                        cbRemaining = cchRemaining * sizeof(char);
                         _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -730,7 +730,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(char));
+                cbDest = cchDest * sizeof(char);
                 _ = StringExHandleOtherFlagsW(pszDest, cbDest, cchDestLength, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -791,12 +791,12 @@ public static unsafe partial class Windows
 
                     hr = StringCopyWorkerA(pszDestEnd, cchRemaining, &cchCopied, pszSrc, (2147483647 - 1));
                     pszDestEnd = pszDestEnd + cchCopied;
-                    unchecked(cchRemaining) = unchecked(cchRemaining - cchCopied);
+                    cchRemaining = cchRemaining - cchCopied;
                     if ((((HRESULT)(hr)) >= 0) && (dwFlags & 0x00000200) != 0 && unchecked(cchRemaining > 1))
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked((cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte)));
+                        cbRemaining = (cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte));
                         _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -816,7 +816,7 @@ public static unsafe partial class Windows
 
                 if ((pcbRemaining) != null)
                 {
-                    *pcbRemaining = unchecked((cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte)));
+                    *pcbRemaining = (cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte));
                 }
             }
         }
@@ -864,12 +864,12 @@ public static unsafe partial class Windows
 
                     hr = StringCopyWorkerW(pszDestEnd, cchRemaining, &cchCopied, pszSrc, (2147483647 - 1));
                     pszDestEnd = pszDestEnd + cchCopied;
-                    unchecked(cchRemaining) = unchecked(cchRemaining - cchCopied);
+                    cchRemaining = cchRemaining - cchCopied;
                     if ((((HRESULT)(hr)) >= 0) && (dwFlags & 0x00000200) != 0)
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked((cchRemaining * sizeof(char)) + (cbDest % sizeof(char)));
+                        cbRemaining = (cchRemaining * sizeof(char)) + (cbDest % sizeof(char));
                         _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -889,7 +889,7 @@ public static unsafe partial class Windows
 
                 if ((pcbRemaining) != null)
                 {
-                    *pcbRemaining = unchecked((cchRemaining * sizeof(char)) + (cbDest % sizeof(char)));
+                    *pcbRemaining = (cchRemaining * sizeof(char)) + (cbDest % sizeof(char));
                 }
             }
         }
@@ -959,7 +959,7 @@ public static unsafe partial class Windows
             }
             else
             {
-                hr = StringCopyWorkerA(pszDest + cchDestLength, unchecked(cchDest) - cchDestLength, null, pszSrc, cchToAppend);
+                hr = StringCopyWorkerA(pszDest + cchDestLength, cchDest - cchDestLength, null, pszSrc, cchToAppend);
             }
         }
 
@@ -984,7 +984,7 @@ public static unsafe partial class Windows
             }
             else
             {
-                hr = StringCopyWorkerW(pszDest + cchDestLength, unchecked(cchDest) - cchDestLength, null, pszSrc, cchToAppend);
+                hr = StringCopyWorkerW(pszDest + cchDestLength, cchDest - cchDestLength, null, pszSrc, cchToAppend);
             }
         }
 
@@ -1035,7 +1035,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(sbyte));
+                        cbRemaining = cchRemaining * sizeof(sbyte);
                         _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -1045,7 +1045,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(sbyte));
+                cbDest = cchDest * sizeof(sbyte);
                 _ = StringExHandleOtherFlagsA(pszDest, cbDest, cchDestLength, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -1110,7 +1110,7 @@ public static unsafe partial class Windows
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked(cchRemaining * sizeof(char));
+                        cbRemaining = cchRemaining * sizeof(char);
                         _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -1120,7 +1120,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(char));
+                cbDest = cchDest * sizeof(char);
                 _ = StringExHandleOtherFlagsW(pszDest, cbDest, cchDestLength, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -1182,12 +1182,12 @@ public static unsafe partial class Windows
 
                     hr = StringCopyWorkerA(pszDestEnd, cchRemaining, &cchCopied, pszSrc, cchToAppend);
                     pszDestEnd = pszDestEnd + cchCopied;
-                    unchecked(cchRemaining) = unchecked(cchRemaining - cchCopied);
+                    cchRemaining = cchRemaining - cchCopied;
                     if ((((HRESULT)(hr)) >= 0) && (dwFlags & 0x00000200) != 0 && unchecked(cchRemaining > 1))
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked((cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte)));
+                        cbRemaining = (cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte));
                         _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -1207,7 +1207,7 @@ public static unsafe partial class Windows
 
                 if ((pcbRemaining) != null)
                 {
-                    *pcbRemaining = unchecked((cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte)));
+                    *pcbRemaining = (cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte));
                 }
             }
         }
@@ -1256,12 +1256,12 @@ public static unsafe partial class Windows
 
                     hr = StringCopyWorkerW(pszDestEnd, cchRemaining, &cchCopied, pszSrc, cchToAppend);
                     pszDestEnd = pszDestEnd + cchCopied;
-                    unchecked(cchRemaining) = unchecked(cchRemaining - cchCopied);
+                    cchRemaining = cchRemaining - cchCopied;
                     if ((((HRESULT)(hr)) >= 0) && (dwFlags & 0x00000200) != 0)
                     {
                         nuint cbRemaining;
 
-                        cbRemaining = unchecked((cchRemaining * sizeof(char)) + (cbDest % sizeof(char)));
+                        cbRemaining = (cchRemaining * sizeof(char)) + (cbDest % sizeof(char));
                         _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                     }
                 }
@@ -1281,7 +1281,7 @@ public static unsafe partial class Windows
 
                 if ((pcbRemaining) != null)
                 {
-                    *pcbRemaining = unchecked((cchRemaining * sizeof(char)) + (cbDest % sizeof(char)));
+                    *pcbRemaining = (cchRemaining * sizeof(char)) + (cbDest % sizeof(char));
                 }
             }
         }
@@ -1404,7 +1404,7 @@ public static unsafe partial class Windows
                 {
                     nuint cbRemaining;
 
-                    cbRemaining = unchecked(cchRemaining * sizeof(sbyte));
+                    cbRemaining = cchRemaining * sizeof(sbyte);
                     _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                 }
             }
@@ -1413,7 +1413,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(sbyte));
+                cbDest = cchDest * sizeof(sbyte);
                 _ = StringExHandleOtherFlagsA(pszDest, cbDest, 0, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -1479,7 +1479,7 @@ public static unsafe partial class Windows
                 {
                     nuint cbRemaining;
 
-                    cbRemaining = unchecked(cchRemaining * sizeof(char));
+                    cbRemaining = cchRemaining * sizeof(char);
                     _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                 }
             }
@@ -1488,7 +1488,7 @@ public static unsafe partial class Windows
             {
                 nuint cbDest;
 
-                cbDest = unchecked(cchDest * sizeof(char));
+                cbDest = cchDest * sizeof(char);
                 _ = StringExHandleOtherFlagsW(pszDest, cbDest, 0, &pszDestEnd, &cchRemaining, dwFlags);
             }
 
@@ -1550,12 +1550,12 @@ public static unsafe partial class Windows
 
                 hr = StringGetsWorkerA(pszDest, cchDest, &cchNewDestLength);
                 pszDestEnd = pszDest + cchNewDestLength;
-                unchecked(cchRemaining) = unchecked(cchDest - cchNewDestLength);
+                cchRemaining = cchDest - cchNewDestLength;
                 if ((((HRESULT)(hr)) >= 0) && (dwFlags & 0x00000200) != 0 && unchecked(cchRemaining > 1))
                 {
                     nuint cbRemaining;
 
-                    cbRemaining = unchecked((cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte)));
+                    cbRemaining = (cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte));
                     _ = StringExHandleFillBehindNullA(pszDestEnd, cbRemaining, dwFlags);
                 }
             }
@@ -1574,7 +1574,7 @@ public static unsafe partial class Windows
 
                 if ((pcbRemaining) != null)
                 {
-                    *pcbRemaining = unchecked((cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte)));
+                    *pcbRemaining = (cchRemaining * sizeof(sbyte)) + (cbDest % sizeof(sbyte));
                 }
             }
         }
@@ -1623,12 +1623,12 @@ public static unsafe partial class Windows
 
                 hr = StringGetsWorkerW(pszDest, cchDest, &cchNewDestLength);
                 pszDestEnd = pszDest + cchNewDestLength;
-                unchecked(cchRemaining) = unchecked(cchDest - cchNewDestLength);
+                cchRemaining = cchDest - cchNewDestLength;
                 if ((((HRESULT)(hr)) >= 0) && (dwFlags & 0x00000200) != 0)
                 {
                     nuint cbRemaining;
 
-                    cbRemaining = unchecked((cchRemaining * sizeof(char)) + (cbDest % sizeof(char)));
+                    cbRemaining = (cchRemaining * sizeof(char)) + (cbDest % sizeof(char));
                     _ = StringExHandleFillBehindNullW(pszDestEnd, cbRemaining, dwFlags);
                 }
             }
@@ -1647,7 +1647,7 @@ public static unsafe partial class Windows
 
                 if ((pcbRemaining) != null)
                 {
-                    *pcbRemaining = unchecked((cchRemaining * sizeof(char)) + (cbDest % sizeof(char)));
+                    *pcbRemaining = (cchRemaining * sizeof(char)) + (cbDest % sizeof(char));
                 }
             }
         }
@@ -1723,7 +1723,7 @@ public static unsafe partial class Windows
         {
             if ((((HRESULT)(hr)) >= 0))
             {
-                *pcbLength = unchecked(cchLength * sizeof(sbyte));
+                *pcbLength = cchLength * sizeof(sbyte);
             }
             else
             {
@@ -1754,7 +1754,7 @@ public static unsafe partial class Windows
         {
             if ((((HRESULT)(hr)) >= 0))
             {
-                *pcbLength = unchecked(cchLength * sizeof(char));
+                *pcbLength = cchLength * sizeof(char);
             }
             else
             {
@@ -1807,7 +1807,7 @@ public static unsafe partial class Windows
         {
             if ((((HRESULT)(hr)) >= 0))
             {
-                *pcbLength = unchecked(cchLength * sizeof(char));
+                *pcbLength = cchLength * sizeof(char);
             }
             else
             {

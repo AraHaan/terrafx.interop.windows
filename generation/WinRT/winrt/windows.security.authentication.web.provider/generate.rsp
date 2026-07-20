@@ -1,18 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Security::Authentication::Web::Provider::WebAccountClientView *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Security::Authentication::Web::Provider::WebProviderTokenResponse *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Security::Authentication::Web::Provider::WebAccountClientView *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Security::Authentication::Web::Provider::WebProviderTokenResponse *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Security::Authentication::Web::Provider::WebProviderTokenResponse *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::HttpCookie *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Authentication::Web::Provider::WebAccountClientView *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Authentication::Web::Provider::WebProviderTokenResponse *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Authentication::Web::Provider::WebAccountClientView *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Credentials::WebAccount *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Authentication::Web::Provider::WebAccountClientView *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Credentials::WebAccount *> *>
 ABI::Windows::Security::Authentication::Web::Provider::IID_IWebAccountClientView
 ABI::Windows::Security::Authentication::Web::Provider::IID_IWebAccountClientViewFactory
 ABI::Windows::Security::Authentication::Web::Provider::IID_IWebAccountManagerStatics
@@ -45,7 +33,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.security.authentication.web.provider.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -236,7 +236,7 @@ IDirectInput_RunControlPanel
 MAKEDIPROP
 --file
 um-dinput.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -264,7 +264,7 @@ IDirectInputDeviceA=5944E680-C92E-11CF-BFC7-444553540000
 IDirectInputDeviceW=5944E681-C92E-11CF-BFC7-444553540000
 IDirectInputEffect=E7E1F7C0-88D2-11D0-9AD0-00A0C9A06E35
 IDirectInputW=89521361-AA8A-11CF-BFC7-444553540000
---with-librarypath
+--with-library-path
 GetdfDIJoystick=dinput8
 DirectInput8Create=dinput8
 joyConfigChanged=Winmm

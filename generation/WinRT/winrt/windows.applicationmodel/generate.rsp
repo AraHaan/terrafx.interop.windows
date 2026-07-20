@@ -61,55 +61,6 @@ ABI::Windows::ApplicationModel::IID_IStartupTaskStatics
 ABI::Windows::ApplicationModel::IID_ISuspendingDeferral
 ABI::Windows::ApplicationModel::IID_ISuspendingEventArgs
 ABI::Windows::ApplicationModel::IID_ISuspendingOperation
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::AppInstance *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Core::AppListEntry *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Package *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::PackageContentGroup *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::StartupTask *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::AppInstance *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Core::AppListEntry *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Package *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::PackageContentGroup *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::StartupTask *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::AppInstance *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::Package *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::PackageContentGroup *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::AppInstance *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Core::AppListEntry *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Package *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::PackageContentGroup *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::StartupTask *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::FullTrustProcessLaunchResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::PackageCatalogAddOptionalPackageResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::PackageCatalogRemoveOptionalPackagesResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::PackageCatalogRemoveResourcePackagesResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::PackageContentGroup *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::PackageUpdateAvailabilityResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::StartupTask *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::StartupTaskState>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::PackageContentGroup *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Core::AppListEntry *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::StartupTask *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::FullTrustProcessLaunchResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::PackageCatalogAddOptionalPackageResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::PackageCatalogRemoveOptionalPackagesResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::PackageCatalogRemoveResourcePackagesResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::PackageContentGroup *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::PackageUpdateAvailabilityResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::StartupTask *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::StartupTaskState>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::PackageContentGroup *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Core::AppListEntry *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::StartupTask *> *>
-ABI::Windows::Foundation::IAsyncOperationProgressHandler<ABI::Windows::ApplicationModel::PackageCatalogAddResourcePackageResult *, ABI::Windows::ApplicationModel::PackageInstallProgress>
-ABI::Windows::Foundation::IAsyncOperationWithProgress<ABI::Windows::ApplicationModel::PackageCatalogAddResourcePackageResult *, ABI::Windows::ApplicationModel::PackageInstallProgress>
-ABI::Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<ABI::Windows::ApplicationModel::PackageCatalogAddResourcePackageResult *, ABI::Windows::ApplicationModel::PackageInstallProgress>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::PackageCatalog *, ABI::Windows::ApplicationModel::PackageContentGroupStagingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::PackageCatalog *, ABI::Windows::ApplicationModel::PackageInstallingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::PackageCatalog *, ABI::Windows::ApplicationModel::PackageStagingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::PackageCatalog *, ABI::Windows::ApplicationModel::PackageStatusChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::PackageCatalog *, ABI::Windows::ApplicationModel::PackageUninstallingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::PackageCatalog *, ABI::Windows::ApplicationModel::PackageUpdatingEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_APPLICATIONMODEL_ACTIVATION_ACTIVATEDEVENTSCONTRACT_VERSION
@@ -121,7 +72,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

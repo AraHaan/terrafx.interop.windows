@@ -1,27 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Media::Capture::Frames::MediaFrameFormat *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Media::Capture::Frames::MediaFrameFormat *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Media::Capture::Frames::MediaFrameFormat *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Capture::Frames::MediaFrameReaderStartStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGetPropertyResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Capture::Frames::MediaFrameSourceSetPropertyStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Capture::Frames::MultiSourceMediaFrameReaderStartStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Capture::Frames::MediaFrameReaderStartStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGetPropertyResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Capture::Frames::MediaFrameSourceGroup *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Capture::Frames::MediaFrameSourceSetPropertyStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Capture::Frames::MultiSourceMediaFrameReaderStartStatus>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Frames::MediaFrameReader *, ABI::Windows::Media::Capture::Frames::MediaFrameArrivedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Frames::MediaFrameSource *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Frames::MultiSourceMediaFrameReader *, ABI::Windows::Media::Capture::Frames::MultiSourceMediaFrameArrivedEventArgs *>
 ABI::Windows::Media::Capture::Frames::IID_IAudioMediaFrame
 ABI::Windows::Media::Capture::Frames::IID_IBufferMediaFrame
 ABI::Windows::Media::Capture::Frames::IID_IDepthMediaFrame
@@ -65,7 +44,7 @@ WINDOWS_MEDIA_DEVICES_CALLCONTROLCONTRACT_VERSION
 WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 --file
 winrt-windows.media.capture.frames.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -59,7 +59,7 @@ SHSTDDOCAPI_
 VOID_OFFSET
 --file
 um-ShlObj_core.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -104,7 +104,7 @@ PACKAGE_EXECUTION_STATE=SupportedOSPlatform("windows6.2")
 PLACEHOLDER_STATES=SupportedOSPlatform("windows6.3")
 SetContractDelegateWindow=SupportedOSPlatform("windows6.2")
 SYNC_TRANSFER_STATUS=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 AssocGetDetailsOfPropKey=shell32
 CDefFolderMenu_Create2=shell32
 CIDLData_CreateFromIDArray=shell32
@@ -264,7 +264,7 @@ SignalFileOpen=shell32
 StgMakeUniqueName=shell32
 Win32DeleteFile=shell32
 WriteCabinetState=shell32
---with-librarypath
+--with-library-path
 ILLoadFromStreamEx=windows.storage.dll
 --with-setlasterror
 PathResolve

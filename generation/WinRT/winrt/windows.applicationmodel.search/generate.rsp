@@ -19,18 +19,13 @@ ABI::Windows::ApplicationModel::Search::IID_ISearchQueryLinguisticDetailsFactory
 ABI::Windows::ApplicationModel::Search::IID_ISearchSuggestionCollection
 ABI::Windows::ApplicationModel::Search::IID_ISearchSuggestionsRequest
 ABI::Windows::ApplicationModel::Search::IID_ISearchSuggestionsRequestDeferral
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Search::SearchPane *, ABI::Windows::ApplicationModel::Search::SearchPaneQueryChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Search::SearchPane *, ABI::Windows::ApplicationModel::Search::SearchPaneQuerySubmittedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Search::SearchPane *, ABI::Windows::ApplicationModel::Search::SearchPaneResultSuggestionChosenEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Search::SearchPane *, ABI::Windows::ApplicationModel::Search::SearchPaneSuggestionsRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Search::SearchPane *, ABI::Windows::ApplicationModel::Search::SearchPaneVisibilityChangedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.search.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

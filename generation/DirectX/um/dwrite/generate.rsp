@@ -9,7 +9,7 @@ MAKE_DWRITE_HR
 MAKE_DWRITE_HR_ERR
 --file
 um-dwrite.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -22,7 +22,7 @@ C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/dwrite.h
 --with-attribute
 DWRITE_FONT_SIMULATIONS=Flags
 DWRITE_SCRIPT_SHAPES=Flags
---with-librarypath
+--with-library-path
 DWriteCreateFactory=dwrite
 --with-type
 DWRITE_FONT_FEATURE_TAG=uint

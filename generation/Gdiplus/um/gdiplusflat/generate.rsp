@@ -6,7 +6,7 @@ GdipFontCollectionEnumerate
 GdipSetImageAttributesICMMode
 --file
 um-gdiplusflat.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus
@@ -16,5 +16,5 @@ TerraFX.Interop.Gdiplus
 ../../../../tests/Interop/Windows/Gdiplus/um/gdiplusflat
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/gdiplusflat.h
---with-librarypath
+--with-library-path
 *=gdiplus

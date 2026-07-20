@@ -36,7 +36,7 @@ UrlUnescapeInPlace
 wnsprintf
 --file
 um-Shlwapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -50,7 +50,7 @@ C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/Shlwapi.h
 GetProcessReference=SupportedOSPlatform("windows6.2")
 SetProcessReference=SupportedOSPlatform("windows6.2")
 SHGetAssocKeys=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 AssocCreate=shlwapi
 AssocGetPerceivedType=shlwapi
 AssocIsDangerous=shlwapi
@@ -570,10 +570,10 @@ wnsprintfW=shlwapi
 wvnsprintf=shlwapi
 wvnsprintfA=shlwapi
 wvnsprintfW=shlwapi
---with-librarypath
+--with-library-path
 GetProcessReference=api-ms-win-shcore-thread-l1-1-0
 SetProcessReference=api-ms-win-shcore-thread-l1-1-0
---with-librarypath
+--with-library-path
 SHGetAssocKeys=windows.storage
 --with-setlasterror
 PathCanonicalize

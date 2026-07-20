@@ -7,7 +7,7 @@ HID_IN_CTL_CODE
 HID_OUT_CTL_CODE
 --file
 shared-hidclass.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

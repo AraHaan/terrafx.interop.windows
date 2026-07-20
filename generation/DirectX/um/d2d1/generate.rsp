@@ -1,11 +1,8 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-D2D1CreateFactory<Factory>(D2D1_FACTORY_TYPE, Factory **):HRESULT nothrow
-D2D1CreateFactory<Factory>(D2D1_FACTORY_TYPE, const D2D1_FACTORY_OPTIONS &, Factory **):HRESULT nothrow
 --file
 um-d2d1.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -23,7 +20,7 @@ D2D1_PATH_SEGMENT=Flags
 D2D1_PRESENT_OPTIONS=Flags
 D2D1_RENDER_TARGET_USAGE=Flags
 D2D1_WINDOW_STATE=Flags
---with-librarypath
+--with-library-path
 D2D1CreateFactory=d2d1
 D2D1InvertMatrix=d2d1
 D2D1IsMatrixInvertible=d2d1

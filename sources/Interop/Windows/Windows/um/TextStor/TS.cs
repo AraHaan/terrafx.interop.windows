@@ -97,6 +97,9 @@ public static partial class TS
     [NativeTypeName("#define TS_SD_EMBEDDEDHANDWRITINGVIEW_VISIBLE ( 0x100 )")]
     public const int TS_SD_EMBEDDEDHANDWRITINGVIEW_VISIBLE = (0x100);
 
+    [NativeTypeName("#define TS_SD_DISABLEWRITINGSUGGESTIONS ( 0x200 )")]
+    public const int TS_SD_DISABLEWRITINGSUGGESTIONS = (0x200);
+
     [NativeTypeName("#define TS_SS_DISJOINTSEL ( 0x1 )")]
     public const int TS_SS_DISJOINTSEL = (0x1);
 
@@ -117,6 +120,9 @@ public static partial class TS
 
     [NativeTypeName("#define TS_SS_UWPCONTROL ( 0x40 )")]
     public const int TS_SS_UWPCONTROL = (0x40);
+
+    [NativeTypeName("#define TS_SS_MULTILINE ( 0x80 )")]
+    public const int TS_SS_MULTILINE = (0x80);
 
     [NativeTypeName("#define TS_SD_MASKALL ( ( TS_SD_READONLY | TS_SD_LOADING )  )")]
     public const int TS_SD_MASKALL = (((0x1) | (0x2)));

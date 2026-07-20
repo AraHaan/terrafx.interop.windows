@@ -1,7 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::IEventHandler<IInspectable *>
 ABI::Windows::System::Power::IID_IBackgroundEnergyManagerStatics
 ABI::Windows::System::Power::IID_IForegroundEnergyManagerStatics
 ABI::Windows::System::Power::IID_IPowerManagerStatics
@@ -11,7 +10,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.system.power.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

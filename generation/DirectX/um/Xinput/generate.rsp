@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-Xinput.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -12,7 +12,7 @@ TerraFX.Interop.DirectX
 ../../../../tests/Interop/Windows/DirectX/um/Xinput
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/Xinput.h
---with-librarypath
+--with-library-path
 XInputEnable=xinput1_4
 XInputGetAudioDeviceIds=xinput1_4
 XInputGetBatteryInformation=xinput1_4
@@ -20,5 +20,5 @@ XInputGetCapabilities=xinput1_4
 XInputGetKeystroke=xinput1_4
 XInputGetState=xinput1_4
 XInputSetState=xinput1_4
---with-librarypath
+--with-library-path
 XInputGetDSoundAudioDeviceGuids=xinput9_1_0

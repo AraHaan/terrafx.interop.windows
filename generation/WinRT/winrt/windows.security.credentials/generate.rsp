@@ -1,15 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Security::Credentials::PasswordCredential *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Security::Credentials::PasswordCredential *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Credentials::PasswordCredential *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Credentials::KeyCredentialAttestationResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Credentials::KeyCredentialOperationResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Credentials::KeyCredentialRetrievalResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Credentials::KeyCredentialAttestationResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Credentials::KeyCredentialOperationResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Credentials::KeyCredentialRetrievalResult *>
 ABI::Windows::Security::Credentials::IID_IAttestationChallengeHandler
 ABI::Windows::Security::Credentials::IID_ICredentialFactory
 ABI::Windows::Security::Credentials::IID_IKeyCredential
@@ -38,7 +29,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.security.credentials.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

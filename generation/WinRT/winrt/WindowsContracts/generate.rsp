@@ -4,7 +4,7 @@
 CHECK_NS_PREFIX_STATE
 --file
 winrt-WindowsContracts.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

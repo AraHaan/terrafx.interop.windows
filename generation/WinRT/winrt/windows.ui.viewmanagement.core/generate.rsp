@@ -1,19 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::ViewManagement::Core::CoreInputViewOcclusion *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::ViewManagement::Core::CoreInputViewOcclusion *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::UI::ViewManagement::Core::CoreInputViewOcclusion *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::UI::ViewManagement::Core::UISettingsController *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::UI::ViewManagement::Core::UISettingsController *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreFrameworkInputView *, ABI::Windows::UI::ViewManagement::Core::CoreFrameworkInputViewAnimationStartingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreFrameworkInputView *, ABI::Windows::UI::ViewManagement::Core::CoreFrameworkInputViewOcclusionsChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreInputView *, ABI::Windows::UI::ViewManagement::Core::CoreInputViewAnimationStartingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreInputView *, ABI::Windows::UI::ViewManagement::Core::CoreInputViewHidingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreInputView *, ABI::Windows::UI::ViewManagement::Core::CoreInputViewOcclusionsChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreInputView *, ABI::Windows::UI::ViewManagement::Core::CoreInputViewShowingEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreInputView *, ABI::Windows::UI::ViewManagement::Core::CoreInputViewTransferringXYFocusEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::UI::ViewManagement::Core::CoreInputView *, IInspectable *>
 ABI::Windows::UI::ViewManagement::Core::IID_ICoreFrameworkInputView
 ABI::Windows::UI::ViewManagement::Core::IID_ICoreFrameworkInputViewAnimationStartingEventArgs
 ABI::Windows::UI::ViewManagement::Core::IID_ICoreFrameworkInputViewOcclusionsChangedEventArgs
@@ -39,7 +26,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.ui.viewmanagement.core.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

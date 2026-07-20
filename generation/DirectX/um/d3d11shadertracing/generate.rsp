@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-d3d11shadertracing.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -30,5 +30,5 @@ D3D11_VERTEX_SHADER_TRACE_DESC=SupportedOSPlatform("windows6.2")
 D3DDisassemble11Trace=SupportedOSPlatform("windows6.2")
 ID3D11ShaderTrace=SupportedOSPlatform("windows6.2")
 ID3D11ShaderTraceFactory=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 D3DDisassemble11Trace=d3dcompiler_47

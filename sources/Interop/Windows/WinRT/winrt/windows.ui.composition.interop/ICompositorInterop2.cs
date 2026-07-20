@@ -58,7 +58,7 @@ public unsafe partial struct ICompositorInterop2 : ICompositorInterop2.Interface
     /// <include file='ICompositorInterop2.xml' path='doc/member[@name="ICompositorInterop2.CreateCompositionTexture"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(4)]
-    public HRESULT CreateCompositionTexture(IUnknown* d3dTexture, ICompositionTexture** compositionTexture)
+    public HRESULT CreateCompositionTexture(IUnknown* d3dTexture, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionTexture **")] ICompositionTexture** compositionTexture)
     {
         return ((delegate* unmanaged[MemberFunction]<ICompositorInterop2*, IUnknown*, ICompositionTexture**, int>)(lpVtbl[4]))((ICompositorInterop2*)Unsafe.AsPointer(ref this), d3dTexture, compositionTexture);
     }
@@ -69,7 +69,7 @@ public unsafe partial struct ICompositorInterop2 : ICompositorInterop2.Interface
         HRESULT CheckCompositionTextureSupport(IUnknown* renderingDevice, BOOL* supportsCompositionTextures);
 
         [VtblIndex(4)]
-        HRESULT CreateCompositionTexture(IUnknown* d3dTexture, ICompositionTexture** compositionTexture);
+        HRESULT CreateCompositionTexture(IUnknown* d3dTexture, [NativeTypeName("ABI::Windows::UI::Composition::ICompositionTexture **")] ICompositionTexture** compositionTexture);
     }
 
     public partial struct Vtbl<TSelf>

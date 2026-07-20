@@ -2,13 +2,9 @@
 @../../../remap.rsp
 --exclude
 Gdiplus.Metafile
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusmetafile.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

@@ -48,7 +48,7 @@ public unsafe partial struct Levels
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const LevelsParams *")] LevelsParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::LevelsParams *")] LevelsParams* parameters)
     {
         uint size = 12;
 

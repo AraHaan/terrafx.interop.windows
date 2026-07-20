@@ -4,7 +4,7 @@
 DoMsCtfMonitor(DWORD, HANDLE):BOOL
 --file
 um-MsCtfMonitorApi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,6 +14,6 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/MsCtfMonitorApi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/MsCtfMonitorApi.h
---with-librarypath
+--with-library-path
 InitLocalMsCtfMonitor=msctfmonitor
 UninitLocalMsCtfMonitor=msctfmonitor

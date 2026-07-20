@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-MDMRegistration.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -29,7 +29,7 @@ REGISTRATION_INFORMATION_CLASS=SupportedOSPlatform("windows6.3")
 SetDeviceManagementConfigInfo=SupportedOSPlatform("windows10.0.19043.0")
 SetManagedExternally=SupportedOSPlatform("windows6.3")
 UnregisterDeviceWithManagement=SupportedOSPlatform("windows6.3")
---with-librarypath
+--with-library-path
 DiscoverManagementService=mdmregistration
 DiscoverManagementServiceEx=mdmregistration
 GetDeviceManagementConfigInfo=mdmregistration

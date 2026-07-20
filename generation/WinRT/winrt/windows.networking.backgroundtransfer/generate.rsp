@@ -1,41 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferContentPart *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferFileRange>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::WebErrorStatus>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferContentPart *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferFileRange>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::WebErrorStatus>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Foundation::Uri *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferFileRange>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::WebErrorStatus>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferFileRange>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::WebErrorStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::BackgroundTransfer::UnconstrainedTransferRequestResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::BackgroundTransfer::UnconstrainedTransferRequestResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::IAsyncOperationProgressHandler<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *, ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::IAsyncOperationProgressHandler<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *, ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::IAsyncOperationWithProgress<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *, ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::IAsyncOperationWithProgress<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *, ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *, ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *>
-ABI::Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<ABI::Windows::Networking::BackgroundTransfer::UploadOperation *, ABI::Windows::Networking::BackgroundTransfer::UploadOperation *>
-ABI::Windows::Foundation::IReference<ABI::Windows::Web::WebErrorStatus>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Networking::BackgroundTransfer::DownloadOperation *, ABI::Windows::Networking::BackgroundTransfer::BackgroundTransferRangesDownloadedEventArgs *>
 ABI::Windows::Networking::BackgroundTransfer::IID_IBackgroundDownloader
 ABI::Windows::Networking::BackgroundTransfer::IID_IBackgroundDownloader2
 ABI::Windows::Networking::BackgroundTransfer::IID_IBackgroundDownloader3
@@ -81,7 +46,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.networking.backgroundtransfer.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

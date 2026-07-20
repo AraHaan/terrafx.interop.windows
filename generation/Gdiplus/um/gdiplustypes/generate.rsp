@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --exclude
 Gdiplus.PathData.PathData(const PathData &):void
-Gdiplus.PathData.Dispose():void
+Gdiplus.PathData.~PathData():void
 Gdiplus.Rect.Clone():Rect *
 Gdiplus.Rect.Intersect(const Rect &):BOOL
 Gdiplus.RectF.Clone():RectF *
@@ -15,7 +15,7 @@ operator=
 operator==
 --file
 um-gdiplustypes.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

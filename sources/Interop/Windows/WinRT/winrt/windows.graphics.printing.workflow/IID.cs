@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 
 namespace TerraFX.Interop.Windows;
 
-public static partial class IID
+public static unsafe partial class IID
 {
     public static ref readonly Guid IID_IPrintWorkflowBackgroundSession
     {
@@ -677,6 +677,30 @@ public static partial class IID
                 0xA8,
                 0x87,
                 0x1B
+            ];
+
+            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
+            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
+        }
+    }
+
+    public static ref readonly Guid IID_IPrintWorkflowPrinterJob3
+    {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        get
+        {
+            ReadOnlySpan<byte> data = [
+                0xEC, 0xEE, 0xC8, 0xF0,
+                0xAC, 0x66,
+                0x14, 0x5E,
+                0x89,
+                0x06,
+                0x0D,
+                0xE6,
+                0x10,
+                0x76,
+                0x93,
+                0x68
             ];
 
             Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());

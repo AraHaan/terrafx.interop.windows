@@ -90,9 +90,9 @@ public unsafe partial struct IAdaptiveMediaSourceCorrelatedTimes : IAdaptiveMedi
     /// <include file='IAdaptiveMediaSourceCorrelatedTimes.xml' path='doc/member[@name="IAdaptiveMediaSourceCorrelatedTimes.get_ProgramDateTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(8)]
-    public HRESULT get_ProgramDateTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_ProgramDateTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAdaptiveMediaSourceCorrelatedTimes*, IReference<DateTime>**, int>)(lpVtbl[8]))((IAdaptiveMediaSourceCorrelatedTimes*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAdaptiveMediaSourceCorrelatedTimes*, IReference<WinRTDateTime>**, int>)(lpVtbl[8]))((IAdaptiveMediaSourceCorrelatedTimes*)Unsafe.AsPointer(ref this), value);
     }
 
     public interface Interface : IInspectable.Interface
@@ -104,7 +104,7 @@ public unsafe partial struct IAdaptiveMediaSourceCorrelatedTimes : IAdaptiveMedi
         HRESULT get_PresentationTimeStamp([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CTimeSpan_t **")] IReference<TimeSpan>** value);
 
         [VtblIndex(8)]
-        HRESULT get_ProgramDateTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_ProgramDateTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
     }
 
     public partial struct Vtbl<TSelf>
@@ -135,6 +135,6 @@ public unsafe partial struct IAdaptiveMediaSourceCorrelatedTimes : IAdaptiveMedi
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<TimeSpan>**, int> get_PresentationTimeStamp;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_ProgramDateTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_ProgramDateTime;
     }
 }

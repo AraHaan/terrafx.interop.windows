@@ -8,7 +8,7 @@ XAPOASSERT_NO_OUTPUT
 __assume
 --file
 um-xapobase.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

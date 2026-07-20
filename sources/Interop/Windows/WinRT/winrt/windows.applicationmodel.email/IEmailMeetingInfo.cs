@@ -106,17 +106,17 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.get_AppointmentOriginalStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<DateTime>**, int>)(lpVtbl[10]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.put_AppointmentOriginalStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT put_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<DateTime>*, int>)(lpVtbl[11]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<WinRTDateTime>*, int>)(lpVtbl[11]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.get_Duration"]/*' />
@@ -186,17 +186,17 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.get_ProposedStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(20)]
-    public HRESULT get_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** proposedStartTime)
+    public HRESULT get_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** proposedStartTime)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<DateTime>**, int>)(lpVtbl[20]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), proposedStartTime);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<WinRTDateTime>**, int>)(lpVtbl[20]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), proposedStartTime);
     }
 
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.put_ProposedStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(21)]
-    public HRESULT put_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* proposedStartTime)
+    public HRESULT put_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* proposedStartTime)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<DateTime>*, int>)(lpVtbl[21]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), proposedStartTime);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<WinRTDateTime>*, int>)(lpVtbl[21]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), proposedStartTime);
     }
 
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.get_ProposedDuration"]/*' />
@@ -218,17 +218,17 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.get_RecurrenceStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(24)]
-    public HRESULT get_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<DateTime>**, int>)(lpVtbl[24]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<WinRTDateTime>**, int>)(lpVtbl[24]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.put_RecurrenceStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(25)]
-    public HRESULT put_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<DateTime>*, int>)(lpVtbl[25]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IEmailMeetingInfo*, IReference<WinRTDateTime>*, int>)(lpVtbl[25]))((IEmailMeetingInfo*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IEmailMeetingInfo.xml' path='doc/member[@name="IEmailMeetingInfo.get_Recurrence"]/*' />
@@ -294,10 +294,10 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
         HRESULT put_AppointmentRoamingId(HSTRING value);
 
         [VtblIndex(10)]
-        HRESULT get_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
-        HRESULT put_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_AppointmentOriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(12)]
         HRESULT get_Duration([NativeTypeName("ABI::Windows::Foundation::TimeSpan *")] TimeSpan* value);
@@ -324,10 +324,10 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
         HRESULT put_Location(HSTRING value);
 
         [VtblIndex(20)]
-        HRESULT get_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** proposedStartTime);
+        HRESULT get_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** proposedStartTime);
 
         [VtblIndex(21)]
-        HRESULT put_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* proposedStartTime);
+        HRESULT put_ProposedStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* proposedStartTime);
 
         [VtblIndex(22)]
         HRESULT get_ProposedDuration([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CTimeSpan_t **")] IReference<TimeSpan>** duration);
@@ -336,10 +336,10 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
         HRESULT put_ProposedDuration([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CTimeSpan_t *")] IReference<TimeSpan>* duration);
 
         [VtblIndex(24)]
-        HRESULT get_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(25)]
-        HRESULT put_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_RecurrenceStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(26)]
         HRESULT get_Recurrence([NativeTypeName("ABI::Windows::ApplicationModel::Appointments::IAppointmentRecurrence **")] IAppointmentRecurrence** value);
@@ -394,10 +394,10 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, int> put_AppointmentRoamingId;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_AppointmentOriginalStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_AppointmentOriginalStartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_AppointmentOriginalStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_AppointmentOriginalStartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::TimeSpan *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, TimeSpan*, int> get_Duration;
@@ -424,10 +424,10 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, int> put_Location;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_ProposedStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_ProposedStartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_ProposedStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_ProposedStartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CTimeSpan_t **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<TimeSpan>**, int> get_ProposedDuration;
@@ -436,10 +436,10 @@ public unsafe partial struct IEmailMeetingInfo : IEmailMeetingInfo.Interface, IN
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<TimeSpan>*, int> put_ProposedDuration;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_RecurrenceStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_RecurrenceStartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_RecurrenceStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_RecurrenceStartTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::Appointments::IAppointmentRecurrence **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IAppointmentRecurrence**, int> get_Recurrence;

@@ -12,7 +12,7 @@ SIZEOF_TCPTABLE_OWNER_MODULE
 SIZEOF_TCPTABLE_OWNER_PID
 --file
 shared-tcpmib.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

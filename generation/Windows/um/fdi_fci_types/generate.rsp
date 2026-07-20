@@ -9,7 +9,7 @@ TCOMPfromLZXWindow
 TCOMPfromTypeLevelMemory
 --file
 um-fdi_fci_types.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

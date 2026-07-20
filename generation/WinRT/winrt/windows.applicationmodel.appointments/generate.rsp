@@ -34,35 +34,6 @@ ABI::Windows::ApplicationModel::Appointments::IID_IAppointmentStoreChangeTracker
 ABI::Windows::ApplicationModel::Appointments::IID_IAppointmentStoreChangeTracker2
 ABI::Windows::ApplicationModel::Appointments::IID_IAppointmentStoreNotificationTriggerDetails
 ABI::Windows::ApplicationModel::Appointments::IID_IFindAppointmentsOptions
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Appointments::Appointment *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Appointments::AppointmentException *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Appointments::AppointmentInvitee *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Appointments::AppointmentStoreChange *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Appointments::Appointment *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Appointments::AppointmentException *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Appointments::AppointmentInvitee *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Appointments::AppointmentStoreChange *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::Appointments::AppointmentInvitee *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::Appointment *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentException *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentInvitee *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentStoreChange *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Appointments::Appointment *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Appointments::AppointmentCalendar *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Appointments::AppointmentConflictResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Appointments::AppointmentStore *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::Appointment *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentException *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentStoreChange *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Appointments::Appointment *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Appointments::AppointmentCalendar *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Appointments::AppointmentConflictResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Appointments::AppointmentStore *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::Appointment *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentException *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Appointments::AppointmentStoreChange *> *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Appointments::AppointmentCalendarSyncManager *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Appointments::AppointmentStore *, ABI::Windows::ApplicationModel::Appointments::AppointmentStoreChangedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
@@ -70,7 +41,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.appointments.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

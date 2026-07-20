@@ -148,18 +148,18 @@ public unsafe partial struct IWalletTransaction : IWalletTransaction.Interface, 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(14)]
     [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT get_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletTransaction*, IReference<DateTime>**, int>)(lpVtbl[14]))((IWalletTransaction*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletTransaction*, IReference<WinRTDateTime>**, int>)(lpVtbl[14]))((IWalletTransaction*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletTransaction.xml' path='doc/member[@name="IWalletTransaction.put_TransactionDate"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(15)]
     [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
-    public HRESULT put_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IWalletTransaction*, IReference<DateTime>*, int>)(lpVtbl[15]))((IWalletTransaction*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IWalletTransaction*, IReference<WinRTDateTime>*, int>)(lpVtbl[15]))((IWalletTransaction*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IWalletTransaction.xml' path='doc/member[@name="IWalletTransaction.get_IsLaunchable"]/*' />
@@ -216,11 +216,11 @@ public unsafe partial struct IWalletTransaction : IWalletTransaction.Interface, 
 
         [VtblIndex(14)]
         [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT get_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(15)]
         [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        HRESULT put_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_TransactionDate([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(16)]
         [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
@@ -286,11 +286,11 @@ public unsafe partial struct IWalletTransaction : IWalletTransaction.Interface, 
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
         [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_TransactionDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_TransactionDate;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
         [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_TransactionDate;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_TransactionDate;
 
         [NativeTypeName("HRESULT (boolean *) __attribute__((stdcall))")]
         [Obsolete("IWalletTransaction is deprecated and might not work on all platforms. For more info, see MSDN.")]

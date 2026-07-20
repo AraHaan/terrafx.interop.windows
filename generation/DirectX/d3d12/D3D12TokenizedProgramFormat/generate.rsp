@@ -115,7 +115,7 @@ ENCODE_D3D12_SB_OPERAND_NON_UNIFORM
 ENCODE_IMMEDIATE_D3D10_SB_ADDRESS_OFFSET
 --file
 d3d12-D3D12TokenizedProgramFormat.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

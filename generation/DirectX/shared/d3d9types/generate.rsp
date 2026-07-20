@@ -25,7 +25,7 @@ _D3DCOLORVALUE
 _D3DMATRIX
 --file
 shared-d3d9types.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

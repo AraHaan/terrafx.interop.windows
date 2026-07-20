@@ -4,7 +4,7 @@
 DWRITE_PAINT_FEATURE_LEVEL
 --file
 um-d2d1_3.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -33,5 +33,5 @@ ID2D1GdiMetafile1=SupportedOSPlatform("windows10.0")
 ID2D1GdiMetafileSink1=SupportedOSPlatform("windows10.0")
 ID2D1GradientMesh=SupportedOSPlatform("windows6.3")
 ID2D1ImageSource=SupportedOSPlatform("windows10.0")
---with-librarypath
+--with-library-path
 D2D1GetGradientMeshInteriorPointsFromCoonsPatch=d2d1

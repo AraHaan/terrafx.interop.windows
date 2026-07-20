@@ -1,10 +1,10 @@
 @../../../settings.rsp
 @../../../remap.rsp
---exclude
-IUnknown.QueryInterface<Q>(Q **):HRESULT
+--with-base
+IUnknown=INativeGuid
 --file
 um-Unknwnbase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/Unknwnbase
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/Unknwnbase.h
---with-librarypath
+--with-library-path
 IUnknown_AddRef_Proxy=rpcrt4
 IUnknown_QueryInterface_Proxy=rpcrt4
 IUnknown_Release_Proxy=rpcrt4

@@ -106,35 +106,6 @@ ABI::Windows::ApplicationModel::Background::IID_ITimeTriggerFactory
 ABI::Windows::ApplicationModel::Background::IID_IToastNotificationActionTriggerFactory
 ABI::Windows::ApplicationModel::Background::IID_IToastNotificationHistoryChangedTriggerFactory
 ABI::Windows::ApplicationModel::Background::IID_IUserNotificationChangedTriggerFactory
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<GUID, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistration *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<GUID, ABI::Windows::ApplicationModel::Background::IBackgroundTaskRegistration *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistrationGroup *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::StorageLibrary *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<GUID, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistration *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<GUID, ABI::Windows::ApplicationModel::Background::IBackgroundTaskRegistration *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistrationGroup *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::StorageLibrary *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<_GUID, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistration *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<_GUID, ABI::Windows::ApplicationModel::Background::IBackgroundTaskRegistration *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistrationGroup *>
-ABI::Windows::Foundation::Collections::IMapView<_GUID, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistration *>
-ABI::Windows::Foundation::Collections::IMapView<_GUID, ABI::Windows::ApplicationModel::Background::IBackgroundTaskRegistration *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistrationGroup *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::AlarmAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::ApplicationTriggerResult>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::BackgroundAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::DeviceConnectionChangeTrigger *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::DeviceTriggerResult>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::GattServiceProviderTriggerResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Background::MediaProcessingTriggerResult>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::AlarmAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::ApplicationTriggerResult>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::BackgroundAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::DeviceConnectionChangeTrigger *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::DeviceTriggerResult>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::GattServiceProviderTriggerResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Background::MediaProcessingTriggerResult>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Background::BackgroundTaskRegistrationGroup *, ABI::Windows::ApplicationModel::Activation::BackgroundActivatedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_APPLICATIONMODEL_ACTIVATION_ACTIVATEDEVENTSCONTRACT_VERSION
@@ -160,7 +131,7 @@ WINDOWS_STORAGE_PROVIDER_CLOUDFILESCONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.background.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

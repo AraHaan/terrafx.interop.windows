@@ -4,7 +4,7 @@
 IDDEInitializer
 --file
 um-WindowsStorageCOM.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

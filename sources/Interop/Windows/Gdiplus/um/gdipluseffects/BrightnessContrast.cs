@@ -48,7 +48,7 @@ public unsafe partial struct BrightnessContrast
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const BrightnessContrastParams *")] BrightnessContrastParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::BrightnessContrastParams *")] BrightnessContrastParams* parameters)
     {
         uint size = 8;
 

@@ -57,74 +57,6 @@ ABI::Windows::ApplicationModel::Email::IID_IEmailRecipientResolutionResult
 ABI::Windows::ApplicationModel::Email::IID_IEmailRecipientResolutionResult2
 ABI::Windows::ApplicationModel::Email::IID_IEmailStore
 ABI::Windows::ApplicationModel::Email::IID_IEmailStoreNotificationTriggerDetails
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailAttachment *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailCertificateValidationStatus>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailConversation *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailFolder *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailMailboxAction *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailMailboxChange *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailMessage *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailRecipient *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::ApplicationModel::Email::EmailRecipientResolutionResult *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailAttachment *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailCertificateValidationStatus>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailConversation *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailFolder *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailMailboxAction *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailMailboxChange *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailMessage *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailRecipient *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::ApplicationModel::Email::EmailRecipientResolutionResult *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::Email::EmailAttachment *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::Email::EmailMailboxAction *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::ApplicationModel::Email::EmailRecipient *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailAttachment *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailCertificateValidationStatus>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailConversation *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailFolder *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMailboxAction *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMailboxChange *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMessage *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailRecipient *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailRecipientResolutionResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailConversation *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailConversationBatch *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailFolder *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailItemCounts *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMailbox *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMailboxAutoReplySettings *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMailboxCreateFolderResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMailboxDeleteFolderStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMailboxEmptyFolderStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMessage *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailMessageBatch *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::ApplicationModel::Email::EmailStore *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailFolder *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMailboxChange *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMessage *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailRecipientResolutionResult *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<enum ABI::Windows::ApplicationModel::Email::EmailCertificateValidationStatus> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailConversation *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailConversationBatch *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailFolder *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailItemCounts *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMailbox *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMailboxAutoReplySettings *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMailboxCreateFolderResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMailboxDeleteFolderStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMailboxEmptyFolderStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMessage *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailMessageBatch *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::ApplicationModel::Email::EmailStore *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailFolder *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMailboxChange *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailMessage *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::ApplicationModel::Email::EmailRecipientResolutionResult *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<enum ABI::Windows::ApplicationModel::Email::EmailCertificateValidationStatus> *>
-ABI::Windows::Foundation::IReference<ABI::Windows::ApplicationModel::Email::EmailMailboxSmimeEncryptionAlgorithm>
-ABI::Windows::Foundation::IReference<ABI::Windows::ApplicationModel::Email::EmailMailboxSmimeSigningAlgorithm>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Email::EmailMailbox *, ABI::Windows::ApplicationModel::Email::EmailMailboxChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::ApplicationModel::Email::EmailMailboxSyncManager *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
@@ -132,7 +64,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.applicationmodel.email.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

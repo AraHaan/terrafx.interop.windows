@@ -27,7 +27,7 @@ public unsafe partial struct GdiplusStartupInputEx
         StartupParameters = startupParameters;
     }
 
-    public GdiplusStartupInputEx([NativeTypeName("Gdiplus::GdiplusStartupInputEx::Version")] Version gdiplusVersion, [Optional] int startupParameters, [NativeTypeName("Gdiplus::DebugEventProc")] [Optional] delegate* unmanaged<DebugEventLevel, sbyte*, void> debugEventCallback, [Optional] BOOL suppressBackgroundThread, [Optional] BOOL suppressExternalCodecs)
+    public GdiplusStartupInputEx([NativeTypeName("Gdiplus::Version")] Version gdiplusVersion, [Optional] int startupParameters, [NativeTypeName("Gdiplus::DebugEventProc")] [Optional] delegate* unmanaged<DebugEventLevel, sbyte*, void> debugEventCallback, [Optional] BOOL suppressBackgroundThread, [Optional] BOOL suppressExternalCodecs)
     {
         Base.GdiplusVersion = (uint)(gdiplusVersion);
         Base.DebugEventCallback = debugEventCallback;

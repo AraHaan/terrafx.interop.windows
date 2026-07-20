@@ -8,7 +8,7 @@ WsCountOf
 WsOffsetOf
 --file
 um-WebServices.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -24,7 +24,7 @@ WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING=SupportedOSPlatform("windows6.2")
 WS_NETPIPE_URL=SupportedOSPlatform("windows6.2")
 WS_SECURE_PROTOCOL=Flags
 WS_TRANSFER_MODE=Flags
---with-librarypath
+--with-library-path
 WsAbandonCall=webservices
 WsAbandonMessage=webservices
 WsAbortChannel=webservices

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-sysinfoapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -21,7 +21,7 @@ GetVersionEx=Obsolete
 InstallELAMCertificateInfo=SupportedOSPlatform("windows6.3")
 IsUserCetAvailableInEnvironment=SupportedOSPlatform("windows10.0.19043.0")
 SetSystemTimeAdjustmentPrecise=SupportedOSPlatform("windows10.0")
---with-librarypath
+--with-library-path
 DnsHostnameToComputerNameExW=kernel32
 EnumSystemFirmwareTables=kernel32
 GetComputerNameEx=kernel32
@@ -70,7 +70,7 @@ SetLocalTime=kernel32
 SetSystemTime=kernel32
 SetSystemTimeAdjustment=kernel32
 VerSetConditionMask=kernel32
---with-librarypath
+--with-library-path
 GetDeveloperDriveEnablementState=kernelbase
 GetIntegratedDisplaySize=kernelbase
 GetOsManufacturingMode=kernelbase

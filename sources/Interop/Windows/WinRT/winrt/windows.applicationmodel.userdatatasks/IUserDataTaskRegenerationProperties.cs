@@ -106,17 +106,17 @@ public unsafe partial struct IUserDataTaskRegenerationProperties : IUserDataTask
     /// <include file='IUserDataTaskRegenerationProperties.xml' path='doc/member[@name="IUserDataTaskRegenerationProperties.get_Until"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTaskRegenerationProperties*, IReference<DateTime>**, int>)(lpVtbl[10]))((IUserDataTaskRegenerationProperties*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTaskRegenerationProperties*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IUserDataTaskRegenerationProperties*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTaskRegenerationProperties.xml' path='doc/member[@name="IUserDataTaskRegenerationProperties.put_Until"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IUserDataTaskRegenerationProperties*, IReference<DateTime>*, int>)(lpVtbl[11]))((IUserDataTaskRegenerationProperties*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IUserDataTaskRegenerationProperties*, IReference<WinRTDateTime>*, int>)(lpVtbl[11]))((IUserDataTaskRegenerationProperties*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IUserDataTaskRegenerationProperties.xml' path='doc/member[@name="IUserDataTaskRegenerationProperties.get_Interval"]/*' />
@@ -150,10 +150,10 @@ public unsafe partial struct IUserDataTaskRegenerationProperties : IUserDataTask
         HRESULT put_Occurrences([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_int_t *")] IReference<int>* value);
 
         [VtblIndex(10)]
-        HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
-        HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(12)]
         HRESULT get_Interval([NativeTypeName("INT32 *")] int* value);
@@ -196,10 +196,10 @@ public unsafe partial struct IUserDataTaskRegenerationProperties : IUserDataTask
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<int>*, int> put_Occurrences;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Until;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Until;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_Until;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_Until;
 
         [NativeTypeName("HRESULT (INT32 *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, int*, int> get_Interval;

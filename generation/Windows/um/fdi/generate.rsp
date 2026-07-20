@@ -14,7 +14,7 @@ _A_EXEC
 _A_NAME_IS_UTF
 --file
 um-fdi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -24,7 +24,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/fid
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/fdi.h
---with-librarypath
+--with-library-path
 FDICopy=cabinet
 FDICreate=cabinet
 FDIDestroy=cabinet

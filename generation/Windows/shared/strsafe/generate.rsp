@@ -53,7 +53,7 @@ S_OK
 UnalignedStringLengthWorkerW
 --file
 shared-strsafe.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

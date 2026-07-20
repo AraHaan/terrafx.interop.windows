@@ -7,7 +7,7 @@ XAudio2CreateReverb(IUnknown **, UINT32):HRESULT
 XAudio2CreateVolumeMeter(IUnknown **, UINT32):HRESULT
 --file
 um-xaudio2fx.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -17,7 +17,7 @@ TerraFX.Interop.DirectX
 ../../../../tests/Interop/Windows/DirectX/um/xaudio2fx
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/xaudio2fx.h
---with-librarypath
+--with-library-path
 CreateAudioReverb=xaudio2_9
 CreateAudioVolumeMeter=xaudio2_9
 XAudio2CreateReverb=xaudio2_9

@@ -23,7 +23,7 @@ public unsafe partial struct GpSizeF
         Width = Height = 0.0f;
     }
 
-    public GpSizeF([NativeTypeName("const SizeF &")] GpSizeF* size)
+    public GpSizeF([NativeTypeName("const Gdiplus::SizeF &")] GpSizeF* size)
     {
         Width = size->Width;
         Height = size->Height;
@@ -35,7 +35,7 @@ public unsafe partial struct GpSizeF
         Height = height;
     }
 
-    public readonly BOOL Equals([NativeTypeName("const SizeF &")] GpSizeF* sz)
+    public readonly BOOL Equals([NativeTypeName("const Gdiplus::SizeF &")] GpSizeF* sz)
     {
         return ((Width == sz->Width) && (Height == sz->Height)) ? 1 : 0;
     }

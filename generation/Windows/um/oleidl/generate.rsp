@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-oleidl.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

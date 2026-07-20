@@ -1,31 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Provider::IStorageProviderUICommand *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Provider::StorageProviderFileTypeInfo *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Provider::StorageProviderItemProperty *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Provider::StorageProviderItemPropertyDefinition *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Provider::StorageProviderKnownFolderEntry *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::Provider::StorageProviderSyncRootInfo *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Provider::IStorageProviderUICommand *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Provider::StorageProviderFileTypeInfo *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Provider::StorageProviderItemProperty *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Provider::StorageProviderItemPropertyDefinition *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Provider::StorageProviderKnownFolderEntry *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::Provider::StorageProviderSyncRootInfo *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Storage::Provider::IStorageProviderUICommand *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Storage::Provider::StorageProviderFileTypeInfo *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Storage::Provider::StorageProviderItemPropertyDefinition *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Storage::Provider::StorageProviderKnownFolderEntry *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Provider::IStorageProviderUICommand *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Provider::StorageProviderFileTypeInfo *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Provider::StorageProviderItemPropertyDefinition *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Provider::StorageProviderKnownFolderEntry *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::Provider::StorageProviderSyncRootInfo *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::Provider::CachedFileUpdaterUI *, ABI::Windows::Storage::Provider::FileUpdateRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::Provider::CachedFileUpdaterUI *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::Provider::IStorageProviderKnownFolderSyncInfoSource *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::Provider::IStorageProviderStatusUISource *, IInspectable *>
 ABI::Windows::Storage::Provider::IID_ICachedFileUpdaterStatics
 ABI::Windows::Storage::Provider::IID_ICachedFileUpdaterUI
 ABI::Windows::Storage::Provider::IID_ICachedFileUpdaterUI2
@@ -73,7 +48,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.storage.provider.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

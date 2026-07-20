@@ -10,22 +10,13 @@ ABI::Windows::Data::Json::IID_IJsonObjectWithDefaultValues
 ABI::Windows::Data::Json::IID_IJsonValue
 ABI::Windows::Data::Json::IID_IJsonValueStatics
 ABI::Windows::Data::Json::IID_IJsonValueStatics2
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Data::Json::IJsonValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Data::Json::IJsonValue *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Data::Json::IJsonValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Data::Json::IJsonValue *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Data::Json::IJsonValue *>
-ABI::Windows::Foundation::Collections::IMap<HSTRING__ *, ABI::Windows::Data::Json::IJsonValue *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Data::Json::IJsonValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Data::Json::IJsonValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Json::IJsonValue *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.data.json.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

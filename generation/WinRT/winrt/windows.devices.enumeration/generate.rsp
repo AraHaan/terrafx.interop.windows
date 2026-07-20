@@ -40,36 +40,6 @@ ABI::Windows::Devices::Enumeration::IID_IDeviceWatcherEvent
 ABI::Windows::Devices::Enumeration::IID_IDeviceWatcherTriggerDetails
 ABI::Windows::Devices::Enumeration::IID_IEnclosureLocation
 ABI::Windows::Devices::Enumeration::IID_IEnclosureLocation2
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Enumeration::DeviceClass>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Enumeration::DeviceInformation *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Enumeration::DeviceWatcherEvent *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Enumeration::DeviceWatcherEventKind>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Enumeration::DeviceClass>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Enumeration::DeviceInformation *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Enumeration::DeviceWatcherEvent *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Enumeration::DeviceWatcherEventKind>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Devices::Enumeration::DeviceClass>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Enumeration::DeviceClass>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Enumeration::DeviceInformation *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Enumeration::DeviceWatcherEvent *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Enumeration::DeviceInformation *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Enumeration::DeviceInformationCollection *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Enumeration::DevicePairingResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Enumeration::DeviceThumbnail *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Devices::Enumeration::DeviceUnpairingResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Enumeration::DeviceInformation *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Enumeration::DeviceInformationCollection *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Enumeration::DevicePairingResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Enumeration::DeviceThumbnail *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Devices::Enumeration::DeviceUnpairingResult *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DeviceAccessInformation *, ABI::Windows::Devices::Enumeration::DeviceAccessChangedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DeviceInformationCustomPairing *, ABI::Windows::Devices::Enumeration::DevicePairingRequestedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DevicePicker *, ABI::Windows::Devices::Enumeration::DeviceDisconnectButtonClickedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DevicePicker *, ABI::Windows::Devices::Enumeration::DeviceSelectedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DevicePicker *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DeviceWatcher *, ABI::Windows::Devices::Enumeration::DeviceInformation *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DeviceWatcher *, ABI::Windows::Devices::Enumeration::DeviceInformationUpdate *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Devices::Enumeration::DeviceWatcher *, IInspectable *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_APPLICATIONMODEL_BACKGROUND_BACKGROUNDALARMAPPLICATIONCONTRACT_VERSION
@@ -77,7 +47,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.enumeration.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

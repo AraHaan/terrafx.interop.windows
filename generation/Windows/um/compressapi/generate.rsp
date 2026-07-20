@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-compressapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -27,7 +27,7 @@ ResetCompressor=SupportedOSPlatform("windows6.2")
 ResetDecompressor=SupportedOSPlatform("windows6.2")
 SetCompressorInformation=SupportedOSPlatform("windows6.2")
 SetDecompressorInformation=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 CloseCompressor=cabinet
 CloseDecompressor=cabinet
 Compress=cabinet

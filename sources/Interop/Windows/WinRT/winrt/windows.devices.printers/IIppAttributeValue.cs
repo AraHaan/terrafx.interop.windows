@@ -114,9 +114,9 @@ public unsafe partial struct IIppAttributeValue : IIppAttributeValue.Interface, 
     /// <include file='IIppAttributeValue.xml' path='doc/member[@name="IIppAttributeValue.GetDateTimeArray"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT GetDateTimeArray([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CFoundation__CDateTime_t **")] IVector<DateTime>** result)
+    public HRESULT GetDateTimeArray([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CFoundation__CDateTime_t **")] IVector<WinRTDateTime>** result)
     {
-        return ((delegate* unmanaged[MemberFunction]<IIppAttributeValue*, IVector<DateTime>**, int>)(lpVtbl[11]))((IIppAttributeValue*)Unsafe.AsPointer(ref this), result);
+        return ((delegate* unmanaged[MemberFunction]<IIppAttributeValue*, IVector<WinRTDateTime>**, int>)(lpVtbl[11]))((IIppAttributeValue*)Unsafe.AsPointer(ref this), result);
     }
 
     /// <include file='IIppAttributeValue.xml' path='doc/member[@name="IIppAttributeValue.GetResolutionArray"]/*' />
@@ -241,7 +241,7 @@ public unsafe partial struct IIppAttributeValue : IIppAttributeValue.Interface, 
         HRESULT GetOctetStringArray([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CStorage__CStreams__CIBuffer_t **")] IVector<Pointer<IBuffer>>** result);
 
         [VtblIndex(11)]
-        HRESULT GetDateTimeArray([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CFoundation__CDateTime_t **")] IVector<DateTime>** result);
+        HRESULT GetDateTimeArray([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CFoundation__CDateTime_t **")] IVector<WinRTDateTime>** result);
 
         [VtblIndex(12)]
         HRESULT GetResolutionArray([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CIppResolution_t **")] IVector<Pointer<IIppResolution>>** result);
@@ -320,7 +320,7 @@ public unsafe partial struct IIppAttributeValue : IIppAttributeValue.Interface, 
         public delegate* unmanaged[MemberFunction]<TSelf*, IVector<Pointer<IBuffer>>**, int> GetOctetStringArray;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IVector<DateTime>**, int> GetDateTimeArray;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IVector<WinRTDateTime>**, int> GetDateTimeArray;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::Collections::__FIVector_1_Windows__CDevices__CPrinters__CIppResolution_t **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IVector<Pointer<IIppResolution>>**, int> GetResolutionArray;

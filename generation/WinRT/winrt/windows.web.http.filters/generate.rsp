@@ -1,7 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Web::Http::Filters::HttpBaseProtocolFilter *, ABI::Windows::Web::Http::Filters::HttpServerCustomValidationRequestedEventArgs *>
 ABI::Windows::Web::Http::Filters::IID_IHttpBaseProtocolFilter
 ABI::Windows::Web::Http::Filters::IID_IHttpBaseProtocolFilter2
 ABI::Windows::Web::Http::Filters::IID_IHttpBaseProtocolFilter3
@@ -19,7 +18,7 @@ WINDOWS_NETWORKING_SOCKETS_CONTROLCHANNELTRIGGERCONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.web.http.filters.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

@@ -61,7 +61,7 @@ _InterlockedOr
 _InterlockedXor
 --file
 um-WinBase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -104,7 +104,7 @@ SetFirmwareEnvironmentVariableEx=SupportedOSPlatform("windows6.2")
 SetFirmwareEnvironmentVariableExA=SupportedOSPlatform("windows6.2")
 SetFirmwareEnvironmentVariableExW=SupportedOSPlatform("windows6.2")
 SetHandleCount=SupportedOSPlatform("windows10.0.19043.0")
---with-librarypath
+--with-library-path
 AccessCheckAndAuditAlarm=advapi32
 AccessCheckAndAuditAlarmA=advapi32
 AccessCheckAndAuditAlarmW=advapi32
@@ -217,7 +217,7 @@ SetFileSecurity=advapi32
 SetFileSecurityA=advapi32
 SetFileSecurityW=advapi32
 WriteEncryptedFileRaw=advapi32
---with-librarypath
+--with-library-path
 ActivateActCtx=kernel32
 AddAtom=kernel32
 AddAtomA=kernel32
@@ -771,7 +771,7 @@ _llseek=kernel32
 _lopen=kernel32
 _lread=kernel32
 _lwrite=kernel32
---with-librarypath
+--with-library-path
 GetCommPorts=kernelbase
 OpenCommPort=kernelbase
 RaiseCustomSystemEventTrigger=kernelbase

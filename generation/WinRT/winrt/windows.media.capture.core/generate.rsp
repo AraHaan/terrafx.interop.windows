@@ -1,8 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Core::VariablePhotoSequenceCapture *, ABI::Windows::Media::Capture::Core::VariablePhotoCapturedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Capture::Core::VariablePhotoSequenceCapture *, IInspectable *>
 ABI::Windows::Media::Capture::Core::IID_IVariablePhotoCapturedEventArgs
 ABI::Windows::Media::Capture::Core::IID_IVariablePhotoSequenceCapture
 ABI::Windows::Media::Capture::Core::IID_IVariablePhotoSequenceCapture2
@@ -17,7 +15,7 @@ WINDOWS_MEDIA_CAPTURE_CAMERACAPTUREUICONTRACT_VERSION
 WINDOWS_MEDIA_CAPTURE_GAMEBARCONTRACT_VERSION
 --file
 winrt-windows.media.capture.core.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

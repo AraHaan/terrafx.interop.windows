@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-projectedfslib.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -67,5 +67,5 @@ PRJ_UPDATE_FAILURE_CAUSES=SupportedOSPlatform("windows10.0.17763.0")
 PRJ_UPDATE_TYPES=Flags
 PRJ_UPDATE_TYPES=SupportedOSPlatform("windows10.0.17763.0")
 PRJ_VIRTUALIZATION_INSTANCE_INFO=SupportedOSPlatform("windows10.0.17763.0")
---with-librarypath
+--with-library-path
 *=projectedfslib

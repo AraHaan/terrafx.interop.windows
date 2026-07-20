@@ -1,37 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Storage::ApplicationDataContainer *> *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Storage::StorageLibraryChange *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Storage::ApplicationDataContainer *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Storage::StorageLibraryChange *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Storage::ApplicationDataContainer *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Storage::ApplicationDataContainer *>
-ABI::Windows::Foundation::Collections::IObservableVector<ABI::Windows::Storage::StorageFolder *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::StorageLibraryChange *>
-ABI::Windows::Foundation::Collections::VectorChangedEventHandler<ABI::Windows::Storage::StorageFolder *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVector<HSTRING> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::StorageLibraryChange *> *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::ApplicationData *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::FileProperties::BasicProperties *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::FileProperties::StorageItemThumbnail *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::IStorageItem *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::KnownFoldersAccessStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::Provider::FileUpdateStatus>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::StorageFolder *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Storage::StorageLibrary *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVector<HSTRING> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Storage::StorageLibraryChange *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::ApplicationData *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::FileProperties::BasicProperties *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::FileProperties::StorageItemThumbnail *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::IStorageItem *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::KnownFoldersAccessStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::Provider::FileUpdateStatus>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::StorageFolder *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Storage::StorageLibrary *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::ApplicationData *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Storage::StorageLibrary *, IInspectable *>
 ABI::Windows::Storage::IID_IAppDataPaths
 ABI::Windows::Storage::IID_IAppDataPathsStatics
 ABI::Windows::Storage::IID_IApplicationData
@@ -108,7 +77,7 @@ WINDOWS_STORAGE_PROVIDER_CLOUDFILESCONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.storage.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

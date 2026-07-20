@@ -1,55 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpChallengeHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpConnectionOptionHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpContentCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpContentCodingWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpCookiePairHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpExpectationHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpLanguageRangeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpMediaTypeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpNameValueHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpProductInfoHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::Headers::HttpTransferCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Web::Http::HttpMethod *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpChallengeHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpConnectionOptionHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpContentCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpContentCodingWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpCookiePairHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpExpectationHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpLanguageRangeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpMediaTypeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpNameValueHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpProductInfoHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::Headers::HttpTransferCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Web::Http::HttpMethod *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Globalization::Language *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpChallengeHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpConnectionOptionHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpContentCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpContentCodingWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpCookiePairHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpExpectationHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpLanguageRangeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpMediaTypeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpNameValueHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpProductInfoHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::Headers::HttpTransferCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::Web::Http::HttpMethod *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpChallengeHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpConnectionOptionHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpContentCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpContentCodingWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpCookiePairHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpExpectationHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpLanguageRangeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpMediaTypeWithQualityHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpNameValueHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpProductInfoHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::Headers::HttpTransferCodingHeaderValue *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Web::Http::HttpMethod *>
 ABI::Windows::Web::Http::Headers::IID_IHttpCacheDirectiveHeaderValueCollection
 ABI::Windows::Web::Http::Headers::IID_IHttpChallengeHeaderValue
 ABI::Windows::Web::Http::Headers::IID_IHttpChallengeHeaderValueCollection
@@ -123,7 +74,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_GLOBALIZATION_GLOBALIZATIONJAPANESEPHONETICANALYZERCONTRACT_VERSION
 --file
 winrt-windows.web.http.headers.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

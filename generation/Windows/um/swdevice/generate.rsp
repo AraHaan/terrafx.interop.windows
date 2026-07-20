@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-swdevice.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -23,7 +23,7 @@ SwDevicePropertySet=SupportedOSPlatform("windows6.2")
 SwDeviceSetLifetime=SupportedOSPlatform("windows6.3")
 SwMemFree=SupportedOSPlatform("windows6.2")
 SW_DEVICE_CREATE_CALLBACK=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 SwDeviceClose=cfgmgr32
 SwDeviceCreate=cfgmgr32
 SwDeviceGetLifetime=cfgmgr32

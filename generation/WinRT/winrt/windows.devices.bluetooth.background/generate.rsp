@@ -13,16 +13,6 @@ ABI::Windows::Devices::Bluetooth::Background::IID_IGattServiceProviderTriggerDet
 ABI::Windows::Devices::Bluetooth::Background::IID_IRfcommConnectionTriggerDetails
 ABI::Windows::Devices::Bluetooth::Background::IID_IRfcommInboundConnectionInformation
 ABI::Windows::Devices::Bluetooth::Background::IID_IRfcommOutboundConnectionInformation
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Bluetooth::Advertisement::BluetoothLEAdvertisementReceivedEventArgs *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Devices::Bluetooth::GenericAttributeProfile::GattValueChangedEventArgs *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Devices::Bluetooth::Background::GattServiceProviderConnection *> *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Bluetooth::Advertisement::BluetoothLEAdvertisementReceivedEventArgs *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Devices::Bluetooth::GenericAttributeProfile::GattValueChangedEventArgs *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING, ABI::Windows::Devices::Bluetooth::Background::GattServiceProviderConnection *> *>
-ABI::Windows::Foundation::Collections::IKeyValuePair<HSTRING__ *, ABI::Windows::Devices::Bluetooth::Background::GattServiceProviderConnection *>
-ABI::Windows::Foundation::Collections::IMapView<HSTRING__ *, ABI::Windows::Devices::Bluetooth::Background::GattServiceProviderConnection *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Bluetooth::Advertisement::BluetoothLEAdvertisementReceivedEventArgs *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Devices::Bluetooth::GenericAttributeProfile::GattValueChangedEventArgs *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
@@ -30,7 +20,7 @@ WINDOWS_NETWORKING_SOCKETS_CONTROLCHANNELTRIGGERCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.devices.bluetooth.background.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

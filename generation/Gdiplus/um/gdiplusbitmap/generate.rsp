@@ -3,13 +3,9 @@
 --exclude
 Gdiplus.Bitmap
 Gdiplus.Image
-operator new
-operator new[]
-operator delete
-operator delete[]
 --file
 um-gdiplusbitmap.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

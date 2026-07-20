@@ -146,9 +146,9 @@ public unsafe partial struct IAppInstallerInfo2 : IAppInstallerInfo2.Interface, 
     /// <include file='IAppInstallerInfo2.xml' path='doc/member[@name="IAppInstallerInfo2.get_PausedUntil"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(15)]
-    public HRESULT get_PausedUntil([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_PausedUntil([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppInstallerInfo2*, IReference<DateTime>**, int>)(lpVtbl[15]))((IAppInstallerInfo2*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppInstallerInfo2*, IReference<WinRTDateTime>**, int>)(lpVtbl[15]))((IAppInstallerInfo2*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppInstallerInfo2.xml' path='doc/member[@name="IAppInstallerInfo2.get_UpdateUris"]/*' />
@@ -221,7 +221,7 @@ public unsafe partial struct IAppInstallerInfo2 : IAppInstallerInfo2.Interface, 
         HRESULT get_LastChecked([NativeTypeName("ABI::Windows::Foundation::DateTime *")] WinRTDateTime* value);
 
         [VtblIndex(15)]
-        HRESULT get_PausedUntil([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_PausedUntil([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(16)]
         HRESULT get_UpdateUris([NativeTypeName("ABI::Windows::Foundation::Collections::__FIVectorView_1_Windows__CFoundation__CUri_t **")] IVectorView<Pointer<IUri>>** value);
@@ -288,7 +288,7 @@ public unsafe partial struct IAppInstallerInfo2 : IAppInstallerInfo2.Interface, 
         public delegate* unmanaged[MemberFunction]<TSelf*, WinRTDateTime*, int> get_LastChecked;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_PausedUntil;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_PausedUntil;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::Collections::__FIVectorView_1_Windows__CFoundation__CUri_t **) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, IVectorView<Pointer<IUri>>**, int> get_UpdateUris;

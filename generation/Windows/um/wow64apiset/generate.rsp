@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-wow64apiset.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -22,13 +22,13 @@ IsWow64Process2=SupportedOSPlatform("windows10.0.16299.0")
 Wow64GetThreadContext=SupportedOSPlatform("windows10.0.18362.0")
 Wow64SetThreadContext=SupportedOSPlatform("windows10.0.18362.0")
 Wow64SetThreadDefaultGuestMachine=SupportedOSPlatform("windows10.0.22000.0")
---with-librarypath
+--with-library-path
 Wow64SetThreadDefaultGuestMachine=api-ms-win-core-wow64-l1-1-1
---with-librarypath
+--with-library-path
 GetSystemWow64Directory2=kernelbase
 GetSystemWow64Directory2A=kernelbase
 GetSystemWow64Directory2W=kernelbase
---with-librarypath
+--with-library-path
 GetSystemWow64Directory=kernel32
 GetSystemWow64DirectoryA=kernel32
 GetSystemWow64DirectoryW=kernel32

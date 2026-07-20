@@ -6,7 +6,7 @@ WVT_IS_CBSTRUCT_GT_MEMBEROFFSET
 WVT_OFFSETOF
 --file
 um-WinTrust.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -19,7 +19,7 @@ C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/WinTrust.h
 --with-attribute
 CRYPT_PROVIDER_SIGSTATE=SupportedOSPlatform("windows6.2")
 WINTRUST_SIGNATURE_SETTINGS=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 OpenPersonalTrustDBDialog=wintrust
 OpenPersonalTrustDBDialogEx=wintrust
 WintrustAddActionID=wintrust

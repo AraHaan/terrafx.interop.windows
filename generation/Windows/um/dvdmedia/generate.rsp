@@ -6,7 +6,7 @@ MPEG2_SEQUENCE_INFO
 SIZE_MPEG2VIDEOINFO
 --file
 um-dvdmedia.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

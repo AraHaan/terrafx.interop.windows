@@ -5,7 +5,7 @@ PMSIHANDLE
 _WIN32_MSI
 --file
 um-Msi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -15,7 +15,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/Msi
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/Msi.h
---with-librarypath
+--with-library-path
 MsiAdvertiseProduct=msi
 MsiAdvertiseProductA=msi
 MsiAdvertiseProductW=msi

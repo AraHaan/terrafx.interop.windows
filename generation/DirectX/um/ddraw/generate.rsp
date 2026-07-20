@@ -348,7 +348,7 @@ IDirectDraw_WaitForVerticalBlank
 MAKE_DDHRESULT
 --file
 um-ddraw.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -372,7 +372,7 @@ IDirectDrawSurface2=57805885-6EEC-11CF-9441-A82303C10E27
 IDirectDrawSurface3=DA044E00-69B2-11D0-A1D5-00AA00B8DFBB
 IDirectDrawSurface4=0B2B8630-AD35-11D0-8EA6-00609797EA5B
 IDirectDrawSurface7=06675A80-3B9B-11D2-B92F-00609797EA5B
---with-librarypath
+--with-library-path
 DirectDrawCreate=ddraw
 DirectDrawCreateClipper=ddraw
 DirectDrawCreateEx=ddraw

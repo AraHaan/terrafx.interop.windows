@@ -106,9 +106,9 @@ public unsafe partial struct IAppointment2 : IAppointment2.Interface, INativeGui
     /// <include file='IAppointment2.xml' path='doc/member[@name="IAppointment2.get_OriginalStartTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_OriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_OriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppointment2*, IReference<DateTime>**, int>)(lpVtbl[10]))((IAppointment2*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppointment2*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IAppointment2*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppointment2.xml' path='doc/member[@name="IAppointment2.get_IsResponseRequested"]/*' />
@@ -162,17 +162,17 @@ public unsafe partial struct IAppointment2 : IAppointment2.Interface, INativeGui
     /// <include file='IAppointment2.xml' path='doc/member[@name="IAppointment2.get_ReplyTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(17)]
-    public HRESULT get_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppointment2*, IReference<DateTime>**, int>)(lpVtbl[17]))((IAppointment2*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppointment2*, IReference<WinRTDateTime>**, int>)(lpVtbl[17]))((IAppointment2*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppointment2.xml' path='doc/member[@name="IAppointment2.put_ReplyTime"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(18)]
-    public HRESULT put_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppointment2*, IReference<DateTime>*, int>)(lpVtbl[18]))((IAppointment2*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppointment2*, IReference<WinRTDateTime>*, int>)(lpVtbl[18]))((IAppointment2*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppointment2.xml' path='doc/member[@name="IAppointment2.get_UserResponse"]/*' />
@@ -246,7 +246,7 @@ public unsafe partial struct IAppointment2 : IAppointment2.Interface, INativeGui
         HRESULT put_RoamingId(HSTRING value);
 
         [VtblIndex(10)]
-        HRESULT get_OriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_OriginalStartTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
         HRESULT get_IsResponseRequested([NativeTypeName("boolean *")] byte* value);
@@ -267,10 +267,10 @@ public unsafe partial struct IAppointment2 : IAppointment2.Interface, INativeGui
         HRESULT put_OnlineMeetingLink(HSTRING value);
 
         [VtblIndex(17)]
-        HRESULT get_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(18)]
-        HRESULT put_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_ReplyTime([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(19)]
         HRESULT get_UserResponse([NativeTypeName("ABI::Windows::ApplicationModel::Appointments::AppointmentParticipantResponse *")] AppointmentParticipantResponse* value);
@@ -328,7 +328,7 @@ public unsafe partial struct IAppointment2 : IAppointment2.Interface, INativeGui
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, int> put_RoamingId;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_OriginalStartTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_OriginalStartTime;
 
         [NativeTypeName("HRESULT (boolean *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, byte*, int> get_IsResponseRequested;
@@ -349,10 +349,10 @@ public unsafe partial struct IAppointment2 : IAppointment2.Interface, INativeGui
         public delegate* unmanaged[MemberFunction]<TSelf*, HSTRING, int> put_OnlineMeetingLink;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_ReplyTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_ReplyTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_ReplyTime;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_ReplyTime;
 
         [NativeTypeName("HRESULT (ABI::Windows::ApplicationModel::Appointments::AppointmentParticipantResponse *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, AppointmentParticipantResponse*, int> get_UserResponse;

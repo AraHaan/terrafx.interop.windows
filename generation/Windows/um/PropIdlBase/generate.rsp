@@ -6,7 +6,7 @@ PROPSETHDR_OSVER_MINOR
 PROPSETHDR_OSVER_KIND
 --file
 um-PropIdlBase.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

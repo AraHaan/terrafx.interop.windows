@@ -6,7 +6,7 @@ WinHttpQueryAuthParams(HINTERNET, DWORD, LPVOID *):BOOL
 WINHTTP_INVALID_STATUS_CALLBACK
 --file
 um-winhttp.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -49,7 +49,7 @@ WINHTTP_WEB_SOCKET_BUFFER_TYPE=SupportedOSPlatform("windows6.2")
 WINHTTP_WEB_SOCKET_CLOSE_STATUS=SupportedOSPlatform("windows6.2")
 WINHTTP_WEB_SOCKET_OPERATION=SupportedOSPlatform("windows6.2")
 WINHTTP_WEB_SOCKET_STATUS=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 WinHttpAddRequestHeaders=winhttp
 WinHttpAddRequestHeadersEx=winhttp
 WinHttpCheckPlatform=winhttp

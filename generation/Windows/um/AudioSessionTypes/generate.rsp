@@ -4,7 +4,7 @@
 MIDL_SIZE_IS
 --file
 um-AudioSessionTypes.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

@@ -6,7 +6,7 @@ DEFINE_BINARY_MEDIATYPE_GUID
 FCC
 --file
 um-mfapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -69,7 +69,7 @@ unpackratio=SupportedOSPlatform("windows6.2")
 UnpackSize=SupportedOSPlatform("windows6.2")
 --with-guid
 MFASYNCRESULT=00000000-0000-0000-0000-000000000000
---with-librarypath
+--with-library-path
 MFAddPeriodicCallback=mfplat
 MFAllocateSerialWorkQueue=mfplat
 MFAllocateWorkQueue=mfplat
@@ -195,6 +195,6 @@ MFUnregisterPlatformFromMMCSS=mfplat
 MFUnwrapMediaType=mfplat
 MFValidateMediaTypeSize=mfplat
 MFWrapMediaType=mfplat
---with-librarypath
+--with-library-path
 MFCreateDXSurfaceBuffer=evr
 MFIsFormatYUV=evr

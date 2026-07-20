@@ -5,7 +5,7 @@ MFVideoNormalizedRect
 __MIDL___MIDL_itf_mfcaptureengine_0000_0000_0001
 --file
 um-mfcaptureengine.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

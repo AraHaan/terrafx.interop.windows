@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-InteractionContext.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -58,7 +58,7 @@ SetMouseWheelParameterInteractionContext=SupportedOSPlatform("windows6.2")
 SetPivotInteractionContext=SupportedOSPlatform("windows6.2")
 SetPropertyInteractionContext=SupportedOSPlatform("windows6.2")
 StopInteractionContext=SupportedOSPlatform("windows6.2")
---with-librarypath
+--with-library-path
 AddPointerInteractionContext=ninput
 BufferPointerPacketsInteractionContext=ninput
 CreateInteractionContext=ninput

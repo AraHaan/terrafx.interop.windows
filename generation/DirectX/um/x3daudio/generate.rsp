@@ -28,7 +28,7 @@ X3DAUDIO_API_
 um-x3daudio.h
 --include-directory
 ./
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX
@@ -38,7 +38,7 @@ TerraFX.Interop.DirectX
 ../../../../tests/Interop/Windows/DirectX/um/x3daudio
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/x3daudio.h
---with-librarypath
+--with-library-path
 *=X3DAudio1_7
 --with-using
 X3DAUDIO_EMITTER=System.Numerics

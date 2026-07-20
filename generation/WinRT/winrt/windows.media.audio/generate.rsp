@@ -1,39 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Media::Audio::AudioGraphConnection *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Media::Audio::EqualizerBand *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Media::Audio::AudioGraphConnection *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Media::Audio::EqualizerBand *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Media::Audio::AudioGraphConnection *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Media::Audio::EqualizerBand *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::AudioPlaybackConnectionOpenResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::CreateAudioDeviceInputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::CreateAudioDeviceOutputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::CreateAudioFileInputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::CreateAudioFileOutputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::CreateAudioGraphResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::CreateMediaSourceAudioInputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Audio::SetDefaultSpatialAudioFormatResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Media::Transcoding::TranscodeFailureReason>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::AudioPlaybackConnectionOpenResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::CreateAudioDeviceInputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::CreateAudioDeviceOutputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::CreateAudioFileInputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::CreateAudioFileOutputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::CreateAudioGraphResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::CreateMediaSourceAudioInputNodeResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Audio::SetDefaultSpatialAudioFormatResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Media::Transcoding::TranscodeFailureReason>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioFileInputNode *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioFrameInputNode *, ABI::Windows::Media::Audio::AudioFrameCompletedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioFrameInputNode *, ABI::Windows::Media::Audio::FrameInputNodeQuantumStartedEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioGraph *, ABI::Windows::Media::Audio::AudioGraphUnrecoverableErrorOccurredEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioGraph *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioPlaybackConnection *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::AudioStateMonitor *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::MediaSourceAudioInputNode *, IInspectable *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Media::Audio::SpatialAudioDeviceConfiguration *, IInspectable *>
 ABI::Windows::Media::Audio::IID_IAudioDeviceInputNode
 ABI::Windows::Media::Audio::IID_IAudioDeviceOutputNode
 ABI::Windows::Media::Audio::IID_IAudioEffectsPackConfiguration
@@ -114,7 +81,7 @@ WINDOWS_MEDIA_DEVICES_CALLCONTROLCONTRACT_VERSION
 WINDOWS_MEDIA_MEDIACONTROLCONTRACT_VERSION
 --file
 winrt-windows.media.audio.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

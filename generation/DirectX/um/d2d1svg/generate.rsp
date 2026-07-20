@@ -8,7 +8,7 @@ ID2D1SvgElement.GetAttributeValue(PCWSTR, ID2D1SvgPointCollection **):HRESULT no
 ID2D1SvgElement.GetAttributeValue(PCWSTR, ID2D1SvgStrokeDashArray **):HRESULT nothrow
 --file
 um-d2d1svg.h
---methodClassName
+--method-class-name
 DirectX
 --namespace
 TerraFX.Interop.DirectX

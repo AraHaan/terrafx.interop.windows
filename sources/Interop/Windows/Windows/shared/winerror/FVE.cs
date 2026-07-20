@@ -813,4 +813,7 @@ public static partial class FVE
 
     [NativeTypeName("#define FVE_E_MISSING_PROTECTORS _HRESULT_TYPEDEF_(0xC0310119L)")]
     public const int FVE_E_MISSING_PROTECTORS = unchecked((int)(0xC0310119));
+
+    [NativeTypeName("#define FVE_E_METHOD_MISMATCH _HRESULT_TYPEDEF_(0xC031011AL)")]
+    public const int FVE_E_METHOD_MISMATCH = unchecked((int)(0xC031011A));
 }

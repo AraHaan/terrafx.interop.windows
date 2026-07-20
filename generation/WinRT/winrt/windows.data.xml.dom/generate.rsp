@@ -24,18 +24,13 @@ ABI::Windows::Data::Xml::Dom::IID_IXmlNodeSelector
 ABI::Windows::Data::Xml::Dom::IID_IXmlNodeSerializer
 ABI::Windows::Data::Xml::Dom::IID_IXmlProcessingInstruction
 ABI::Windows::Data::Xml::Dom::IID_IXmlText
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Data::Xml::Dom::IXmlNode *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Data::Xml::Dom::IXmlNode *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Xml::Dom::IXmlNode *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Data::Xml::Dom::XmlDocument *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Data::Xml::Dom::XmlDocument *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.data.xml.dom.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

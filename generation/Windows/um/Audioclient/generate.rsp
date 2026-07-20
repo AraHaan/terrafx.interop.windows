@@ -5,7 +5,7 @@ AUDCLNT_ERR
 AUDCLNT_SUCCESS
 --file
 um-Audioclient.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

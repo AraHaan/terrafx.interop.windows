@@ -106,17 +106,17 @@ public unsafe partial struct IAppointmentRecurrence : IAppointmentRecurrence.Int
     /// <include file='IAppointmentRecurrence.xml' path='doc/member[@name="IAppointmentRecurrence.get_Until"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(10)]
-    public HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value)
+    public HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppointmentRecurrence*, IReference<DateTime>**, int>)(lpVtbl[10]))((IAppointmentRecurrence*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppointmentRecurrence*, IReference<WinRTDateTime>**, int>)(lpVtbl[10]))((IAppointmentRecurrence*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppointmentRecurrence.xml' path='doc/member[@name="IAppointmentRecurrence.put_Until"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(11)]
-    public HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value)
+    public HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value)
     {
-        return ((delegate* unmanaged[MemberFunction]<IAppointmentRecurrence*, IReference<DateTime>*, int>)(lpVtbl[11]))((IAppointmentRecurrence*)Unsafe.AsPointer(ref this), value);
+        return ((delegate* unmanaged[MemberFunction]<IAppointmentRecurrence*, IReference<WinRTDateTime>*, int>)(lpVtbl[11]))((IAppointmentRecurrence*)Unsafe.AsPointer(ref this), value);
     }
 
     /// <include file='IAppointmentRecurrence.xml' path='doc/member[@name="IAppointmentRecurrence.get_Interval"]/*' />
@@ -214,10 +214,10 @@ public unsafe partial struct IAppointmentRecurrence : IAppointmentRecurrence.Int
         HRESULT put_Occurrences([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_UINT32_t *")] IReference<uint>* value);
 
         [VtblIndex(10)]
-        HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<DateTime>** value);
+        HRESULT get_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **")] IReference<WinRTDateTime>** value);
 
         [VtblIndex(11)]
-        HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<DateTime>* value);
+        HRESULT put_Until([NativeTypeName("ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *")] IReference<WinRTDateTime>* value);
 
         [VtblIndex(12)]
         HRESULT get_Interval([NativeTypeName("UINT32 *")] uint* value);
@@ -284,10 +284,10 @@ public unsafe partial struct IAppointmentRecurrence : IAppointmentRecurrence.Int
         public delegate* unmanaged[MemberFunction]<TSelf*, IReference<uint>*, int> put_Occurrences;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t **) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>**, int> get_Until;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>**, int> get_Until;
 
         [NativeTypeName("HRESULT (ABI::Windows::Foundation::__FIReference_1_Windows__CFoundation__CDateTime_t *) __attribute__((stdcall))")]
-        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<DateTime>*, int> put_Until;
+        public delegate* unmanaged[MemberFunction]<TSelf*, IReference<WinRTDateTime>*, int> put_Until;
 
         [NativeTypeName("HRESULT (UINT32 *) __attribute__((stdcall))")]
         public delegate* unmanaged[MemberFunction]<TSelf*, uint*, int> get_Interval;

@@ -7,7 +7,7 @@ GDIP_WMF_RECORD_TO_EMFPLUS
 ObjectTypeIsValid
 --file
 um-gdiplusenums.h
---methodClassName
+--method-class-name
 Gdiplus
 --namespace
 TerraFX.Interop.Gdiplus

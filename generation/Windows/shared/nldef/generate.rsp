@@ -5,7 +5,7 @@ ANY_SIZE
 MAKE_ROUTE_PROTOCOL
 --file
 shared-nldef.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

@@ -50,7 +50,7 @@ public unsafe partial struct ICompositorDesktopInterop : ICompositorDesktopInter
     /// <include file='ICompositorDesktopInterop.xml' path='doc/member[@name="ICompositorDesktopInterop.CreateDesktopWindowTarget"]/*' />
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     [VtblIndex(3)]
-    public HRESULT CreateDesktopWindowTarget(HWND hwndTarget, BOOL isTopmost, IDesktopWindowTarget** result)
+    public HRESULT CreateDesktopWindowTarget(HWND hwndTarget, BOOL isTopmost, [NativeTypeName("ABI::Windows::UI::Composition::Desktop::IDesktopWindowTarget **")] IDesktopWindowTarget** result)
     {
         return ((delegate* unmanaged[MemberFunction]<ICompositorDesktopInterop*, HWND, BOOL, IDesktopWindowTarget**, int>)(lpVtbl[3]))((ICompositorDesktopInterop*)Unsafe.AsPointer(ref this), hwndTarget, isTopmost, result);
     }
@@ -66,7 +66,7 @@ public unsafe partial struct ICompositorDesktopInterop : ICompositorDesktopInter
     public interface Interface : IUnknown.Interface
     {
         [VtblIndex(3)]
-        HRESULT CreateDesktopWindowTarget(HWND hwndTarget, BOOL isTopmost, IDesktopWindowTarget** result);
+        HRESULT CreateDesktopWindowTarget(HWND hwndTarget, BOOL isTopmost, [NativeTypeName("ABI::Windows::UI::Composition::Desktop::IDesktopWindowTarget **")] IDesktopWindowTarget** result);
 
         [VtblIndex(4)]
         HRESULT EnsureOnThread([NativeTypeName("DWORD")] uint threadId);

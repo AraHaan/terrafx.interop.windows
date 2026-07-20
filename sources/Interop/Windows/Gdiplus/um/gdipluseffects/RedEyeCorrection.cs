@@ -49,7 +49,7 @@ public unsafe partial struct RedEyeCorrection
     }
 
     [return: NativeTypeName("Gdiplus::Status")]
-    public readonly GpStatus SetParameters([NativeTypeName("const RedEyeCorrectionParams *")] RedEyeCorrectionParams* parameters)
+    public readonly GpStatus SetParameters([NativeTypeName("const Gdiplus::RedEyeCorrectionParams *")] RedEyeCorrectionParams* parameters)
     {
         GpStatus status = InvalidParameter;
 

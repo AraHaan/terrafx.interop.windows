@@ -35,28 +35,4 @@ public static partial class IID
             return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
         }
     }
-
-    public static ref readonly Guid IID_ImageTranscode
-    {
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        get
-        {
-            ReadOnlySpan<byte> data = [
-                0x66, 0x51, 0xB7, 0x17,
-                0x8F, 0x92,
-                0x7D, 0x41,
-                0x96,
-                0x85,
-                0x64,
-                0xAA,
-                0x13,
-                0x55,
-                0x65,
-                0xC1
-            ];
-
-            Debug.Assert(data.Length == Unsafe.SizeOf<Guid>());
-            return ref Unsafe.As<byte, Guid>(ref MemoryMarshal.GetReference(data));
-        }
-    }
 }

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-jobapi2.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -17,7 +17,7 @@ FreeMemoryJobObject=SupportedOSPlatform("windows10.0")
 JOBOBJECT_IO_RATE_CONTROL_INFORMATION=SupportedOSPlatform("windows10.0")
 QueryIoRateControlInformationJobObject=SupportedOSPlatform("windows10.0")
 SetIoRateControlInformationJobObject=SupportedOSPlatform("windows10.0")
---with-librarypath
+--with-library-path
 AssignProcessToJobObject=kernel32
 CreateJobObject=kernel32
 CreateJobObjectA=kernel32

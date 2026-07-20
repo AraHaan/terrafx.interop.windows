@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 um-fileapi.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -31,7 +31,7 @@ GetTempPath2W=SupportedOSPlatform("windows10.0.19043.0")
 RemoveDirectory2=SupportedOSPlatform("windows10.0.26100.0")
 RemoveDirectory2A=SupportedOSPlatform("windows10.0.26100.0")
 RemoveDirectory2W=SupportedOSPlatform("windows10.0.26100.0")
---with-librarypath
+--with-library-path
 AreFileApisANSI=kernel32
 AreShortNamesEnabled=kernel32
 CompareFileTime=kernel32

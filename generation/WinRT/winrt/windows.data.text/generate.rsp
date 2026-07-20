@@ -22,27 +22,13 @@ ABI::Windows::Data::Text::IID_IWordSegment
 ABI::Windows::Data::Text::IID_IWordSegmentsTokenizingHandler
 ABI::Windows::Data::Text::IID_IWordsSegmenter
 ABI::Windows::Data::Text::IID_IWordsSegmenterFactory
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Data::Text::AlternateWordForm *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Data::Text::SelectableWordSegment *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Data::Text::TextPhoneme *>
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Data::Text::WordSegment *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Data::Text::AlternateWordForm *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Data::Text::SelectableWordSegment *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Data::Text::TextPhoneme *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Data::Text::WordSegment *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Text::AlternateWordForm *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Text::SelectableWordSegment *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Text::TextPhoneme *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Text::WordSegment *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Text::TextPhoneme *> *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Data::Text::TextPhoneme *> *>
 CHECK_NS_PREFIX_STATE
 DEPRECATEDENUMERATOR
 WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.data.text.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

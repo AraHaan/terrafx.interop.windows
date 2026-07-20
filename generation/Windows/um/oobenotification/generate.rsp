@@ -4,7 +4,7 @@
 OOBEComplete(PBOOL):BOOL
 --file
 um-oobenotification.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -14,7 +14,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/oobenotification
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/oobenotification.h
---with-librarypath
+--with-library-path
 isOOBEComplete=kernel32
 RegisterWaitUntilOOBECompleted=kernel32
 OOBEComplete=kernel32

@@ -2,7 +2,7 @@
 @../../../remap.rsp
 --file
 winrt-CoreWindow.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
@@ -12,6 +12,6 @@ TerraFX.Interop.WinRT
 ../../../../tests/Interop/Windows/WinRT/winrt/CoreWindow
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/winrt/CoreWindow.h
---with-librarypath
+--with-library-path
 CreateControlInput=windows.ui.dll
 CreateControlInputEx=windows.ui.dll

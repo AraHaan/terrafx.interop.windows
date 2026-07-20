@@ -1,17 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::Security::Authentication::Web::Core::WebTokenResponse *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::Security::Authentication::Web::Core::WebTokenResponse *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::Security::Authentication::Web::Core::WebTokenResponse *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Authentication::Web::Core::FindAllAccountsResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Authentication::Web::Core::WebTokenRequestResult *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::Security::Credentials::WebAccountProvider *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Authentication::Web::Core::FindAllAccountsResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Authentication::Web::Core::WebTokenRequestResult *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::Security::Credentials::WebAccountProvider *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Security::Authentication::Web::Core::WebAccountMonitor *, ABI::Windows::Security::Authentication::Web::Core::WebAccountEventArgs *>
-ABI::Windows::Foundation::ITypedEventHandler<ABI::Windows::Security::Authentication::Web::Core::WebAccountMonitor *, IInspectable *>
 ABI::Windows::Security::Authentication::Web::Core::IID_IFindAllAccountsResult
 ABI::Windows::Security::Authentication::Web::Core::IID_IWebAccountEventArgs
 ABI::Windows::Security::Authentication::Web::Core::IID_IWebAccountMonitor
@@ -42,7 +31,7 @@ WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION
 --file
 winrt-windows.security.authentication.web.core.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT

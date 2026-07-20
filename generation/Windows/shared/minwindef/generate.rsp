@@ -11,7 +11,7 @@ max
 min
 --file
 shared-minwindef.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows

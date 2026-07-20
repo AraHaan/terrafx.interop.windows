@@ -31,7 +31,7 @@ SHOpenPropSheetA
 SHRunControlPanel
 --file
 um-ShlObj.h
---methodClassName
+--method-class-name
 Windows
 --namespace
 TerraFX.Interop.Windows
@@ -41,7 +41,7 @@ TerraFX.Interop.Windows
 ../../../../tests/Interop/Windows/Windows/um/ShlObj
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.28000.0/um/ShlObj.h
---with-librarypath
+--with-library-path
 DriveType=shell32
 GetFileNameFromBrowse=shell32
 PathIsSlow=shell32
@@ -56,9 +56,9 @@ SHLoadOLE=shell32
 SHMultiFileProperties=shell32
 SHOpenPropSheet=shell32
 SHOpenPropSheetW=shell32
---with-librarypath
+--with-library-path
 PerUserInit=mydocs
---with-librarypath
+--with-library-path
 DoPrivacyDlg=shdocvw
 ImportPrivacySettings=shdocvw
 SoftwareUpdateMessageBox=shdocvw

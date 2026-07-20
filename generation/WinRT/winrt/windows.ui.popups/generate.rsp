@@ -1,12 +1,6 @@
 @../../../settings.rsp
 @../../../remap.rsp
 --exclude
-ABI::Windows::Foundation::Collections::IIterable<ABI::Windows::UI::Popups::IUICommand *>
-ABI::Windows::Foundation::Collections::IIterator<ABI::Windows::UI::Popups::IUICommand *>
-ABI::Windows::Foundation::Collections::IVector<ABI::Windows::UI::Popups::IUICommand *>
-ABI::Windows::Foundation::Collections::IVectorView<ABI::Windows::UI::Popups::IUICommand *>
-ABI::Windows::Foundation::IAsyncOperation<ABI::Windows::UI::Popups::IUICommand *>
-ABI::Windows::Foundation::IAsyncOperationCompletedHandler<ABI::Windows::UI::Popups::IUICommand *>
 ABI::Windows::UI::Popups::IID_IMessageDialog
 ABI::Windows::UI::Popups::IID_IMessageDialogFactory
 ABI::Windows::UI::Popups::IID_IPopupMenu
@@ -19,7 +13,7 @@ WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
 WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 --file
 winrt-windows.ui.popups.h
---methodClassName
+--method-class-name
 WinRT
 --namespace
 TerraFX.Interop.WinRT
